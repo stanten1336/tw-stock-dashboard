@@ -1,8 +1,8 @@
 {
- "built": "2026-10-30T01:30:40.260263+08:00",
+ "built": "2026-10-30T01:41:58.460849+08:00",
  "prediction": {
   "date": "2026-10-28",
-  "made": "2026-10-30 01:30",
+  "made": "2026-10-30 01:41",
   "close": 47035.58,
   "score": -4,
   "verdict": "偏空",
@@ -10,13 +10,13 @@
   "signals": [
    {
     "name": "台指期夜盤",
-    "val": "-0.42%（10/29 01:30）",
+    "val": "-0.38%（10/29 01:42）",
     "s": -1,
     "w": 2
    },
    {
     "name": "那斯達克期貨",
-    "val": "-1.56%（10/30 01:20）",
+    "val": "-1.49%（10/30 01:30）",
     "s": -1,
     "w": 1
    },
@@ -130,46 +130,46 @@
   {
    "key": "SPX",
    "name": "S&P 500",
-   "val": 7707.990234375,
-   "chg": -0.4647448235212459,
-   "chg_abs": -35.98974609375,
+   "val": 7704.06982421875,
+   "chg": -0.5153700855459076,
+   "chg_abs": -39.91015625,
    "date": "2026-10-29",
    "src": "Yahoo ^GSPC"
   },
   {
    "key": "NDX",
    "name": "Nasdaq",
-   "val": 26166.9375,
-   "chg": -1.4422383365960356,
-   "chg_abs": -382.912109375,
+   "val": 26151.01953125,
+   "chg": -1.5021933607645366,
+   "chg_abs": -398.830078125,
    "date": "2026-10-29",
    "src": "Yahoo ^IXIC"
   },
   {
    "key": "SOX",
    "name": "費半",
-   "val": 11501.5712890625,
-   "chg": -1.561354937842352,
-   "chg_abs": -182.4287109375,
+   "val": 11502.9892578125,
+   "chg": -1.5492189505948328,
+   "chg_abs": -181.0107421875,
    "date": "2026-10-29",
    "src": "Yahoo ^SOX"
   },
   {
    "key": "TSM",
    "name": "台積電 ADR",
-   "val": 431.69500732421875,
-   "chg": -1.7781170548479053,
-   "chg_abs": -7.81500244140625,
+   "val": 431.7099914550781,
+   "chg": -1.7747077739381556,
+   "chg_abs": -7.800018310546875,
    "date": "2026-10-29",
    "src": "Yahoo TSM"
   },
   {
    "key": "TXN",
    "name": "台指期夜盤",
-   "val": 46373.0,
-   "chg": -0.42,
-   "chg_abs": -196.0,
-   "date": "10/29 01:30",
+   "val": 46394.0,
+   "chg": -0.38,
+   "chg_abs": -175.0,
+   "date": "10/29 01:42",
    "src": "期交所 MIS（盤後時段）"
   },
   {
@@ -184,9 +184,9 @@
   {
    "key": "US10Y",
    "name": "美 10 年債",
-   "val": 5.000999927520752,
-   "chg": -0.87215357993643,
-   "chg_abs": -0.04400014877319336,
+   "val": 4.997000217437744,
+   "chg": -0.9514342543174292,
+   "chg_abs": -0.04799985885620117,
    "date": "2026-10-29",
    "src": "Yahoo ^TNX"
   },
@@ -241,7 +241,7 @@
    "note": "Yahoo ^VIX",
    "short": "16.5",
    "expl": "VIX：美股恐慌指數，用標普 500 選擇權價格推算市場預期未來 30 天的波動。低於 20 代表市場平靜；20～30 要留意，波動變大；高於 30 代表恐慌，常伴隨大跌，但極端高點常也是短線低點附近。VIX 大漲時台股隔日通常也會受壓。",
-   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:33.3%;background:#8CC7A6\"></i><i style=\"left:33.3%;width:33.3%;background:#E6C88A\"></i><i style=\"left:66.7%;width:33.3%;background:#E39A97\"></i><b style=\"left:21.7%\"></b><em style=\"left:33.3%\">20</em><em style=\"left:66.7%\">30</em></div>"
+   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:33.3%;background:#4BB462\"></i><i style=\"left:33.3%;width:33.3%;background:#F7DB88\"></i><i style=\"left:66.7%;width:33.3%;background:#D33439\"></i><b style=\"left:21.7%\"></b><em style=\"left:33.3%\">20</em><em style=\"left:66.7%\">30</em></div>"
   },
   {
    "name": "美國高收益債利差",
@@ -270,7 +270,7 @@
    "note": "上市、20 日均成交 ≥ 5,000 萬、未還原收盤近似",
    "short": "32%",
    "expl": "市場寬度：成交量夠大的股票中，站上自己 20 日均線的比例。寬度高於五成代表多數股票健康，適合做波段；低於四成就要小心，選股難度會變高，買錯的機率也比較大。",
-   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#E39A97\"></i><i style=\"left:37.5%;width:12.5%;background:#E6C88A\"></i><i style=\"left:50.0%;width:12.5%;background:#E6C88A\"></i><i style=\"left:62.5%;width:37.5%;background:#8CC7A6\"></i><b style=\"left:40.2%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
+   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#D33439\"></i><i style=\"left:37.5%;width:12.5%;background:#F7DB88\"></i><i style=\"left:50.0%;width:12.5%;background:#F7DB88\"></i><i style=\"left:62.5%;width:37.5%;background:#4BB462\"></i><b style=\"left:40.2%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
   },
   {
    "name": "0050 對季線／半年線",
