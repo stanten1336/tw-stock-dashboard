@@ -1,22 +1,22 @@
 {
- "built": "2026-10-29T21:27:19.003380+08:00",
+ "built": "2026-10-29T21:31:12.938237+08:00",
  "prediction": {
   "date": "2026-10-29",
-  "made": "2026-10-29 21:27",
+  "made": "2026-10-29 21:31",
   "close": 46368.33,
-  "score": -5,
+  "score": -3,
   "verdict": "偏空",
-  "conf": "高",
+  "conf": "中",
   "signals": [
    {
     "name": "台指期夜盤",
-    "val": "-0.30%（10/29 21:27）",
-    "s": -1,
+    "val": "-0.29%（10/29 21:31）",
+    "s": 0,
     "w": 2
    },
    {
     "name": "那斯達克期貨",
-    "val": "-0.97%（10/29 21:15）",
+    "val": "-0.98%（10/29 21:20）",
     "s": -1,
     "w": 1
    },
@@ -114,16 +114,16 @@
    }
   },
   {
-   "title": "德微財報／第3季稅後純益1.27億元 較去年同期翻倍成長 每股純益2.4元",
-   "url": "https://money.udn.com/money/story/11074/9845556",
-   "src": "經濟日報",
-   "ts": "2026-10-29T20:37:00+08:00",
+   "title": "〈瑞昱法說〉Q3純益年增2成EPS8.05元 前三季每股賺23.91元",
+   "url": "https://news.cnyes.com/news/id/6640888",
+   "src": "鉅亨網",
+   "ts": "2026-10-29T20:33:19+08:00",
    "cat": "財報",
    "dir": 1,
-   "key": "1.27億元",
+   "key": "EPS8.05元",
    "exp": {
     "lab": "預期不明",
-    "actual": "1.27億元",
+    "actual": "EPS8.05元",
     "exp": null,
     "prior": null,
     "held": false,
@@ -172,10 +172,10 @@
   {
    "key": "TXN",
    "name": "台指期夜盤",
-   "val": 46430.0,
-   "chg": -0.3,
-   "chg_abs": -139.0,
-   "date": "10/29 21:27",
+   "val": 46435.0,
+   "chg": -0.29,
+   "chg_abs": -134.0,
+   "date": "10/29 21:31",
    "src": "期交所 MIS（盤後時段）"
   },
   {
@@ -247,7 +247,7 @@
    "note": "Yahoo ^VIX",
    "short": "16.9",
    "expl": "VIX：美股恐慌指數，用標普 500 選擇權價格推算市場預期未來 30 天的波動。低於 20 代表市場平靜；20～30 要留意，波動變大；高於 30 代表恐慌，常伴隨大跌，但極端高點常也是短線低點附近。VIX 大漲時台股隔日通常也會受壓。",
-   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:33.3%;background:#30A46C\"></i><i style=\"left:33.3%;width:33.3%;background:#E2A336\"></i><i style=\"left:66.7%;width:33.3%;background:#E5484D\"></i><b style=\"left:23.0%\"></b><em style=\"left:33.3%\">20</em><em style=\"left:66.7%\">30</em></div>"
+   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:33.3%;background:#5E9C7A\"></i><i style=\"left:33.3%;width:33.3%;background:#C2A05A\"></i><i style=\"left:66.7%;width:33.3%;background:#B5615F\"></i><b style=\"left:23.0%\"></b><em style=\"left:33.3%\">20</em><em style=\"left:66.7%\">30</em></div>"
   },
   {
    "name": "美國高收益債利差",
@@ -276,7 +276,7 @@
    "note": "上市、20 日均成交 ≥ 5,000 萬、未還原收盤近似",
    "short": "32%",
    "expl": "市場寬度：成交量夠大的股票中，站上自己 20 日均線的比例。寬度高於五成代表多數股票健康，適合做波段；低於四成就要小心，選股難度會變高，買錯的機率也比較大。",
-   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#E5484D\"></i><i style=\"left:37.5%;width:12.5%;background:#E2A336\"></i><i style=\"left:50.0%;width:12.5%;background:#E2A336\"></i><i style=\"left:62.5%;width:37.5%;background:#30A46C\"></i><b style=\"left:40.2%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
+   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#B5615F\"></i><i style=\"left:37.5%;width:12.5%;background:#C2A05A\"></i><i style=\"left:50.0%;width:12.5%;background:#C2A05A\"></i><i style=\"left:62.5%;width:37.5%;background:#5E9C7A\"></i><b style=\"left:40.2%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
   },
   {
    "name": "0050 對季線／半年線",
