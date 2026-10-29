@@ -1,8 +1,8 @@
 {
- "built": "2026-10-29T21:53:12.546765+08:00",
+ "built": "2026-10-29T22:13:57.668974+08:00",
  "prediction": {
   "date": "2026-10-29",
-  "made": "2026-10-29 21:53",
+  "made": "2026-10-29 22:13",
   "close": 46368.33,
   "score": -5,
   "verdict": "偏空",
@@ -10,13 +10,13 @@
   "signals": [
    {
     "name": "台指期夜盤",
-    "val": "-0.58%（10/29 21:53）",
+    "val": "-0.42%（10/29 22:14）",
     "s": -1,
     "w": 2
    },
    {
     "name": "那斯達克期貨",
-    "val": "-1.51%（10/29 21:40）",
+    "val": "-1.24%（10/29 22:00）",
     "s": -1,
     "w": 1
    },
@@ -78,57 +78,57 @@
    }
   },
   {
-   "title": "〈國巨法說〉AI營收比重達2成 產能吃緊明年擴產10-15%",
-   "url": "https://news.cnyes.com/news/id/6640950",
-   "src": "鉅亨網",
-   "ts": "2026-10-29T20:15:01+08:00",
-   "cat": "財報",
-   "dir": 1,
-   "key": "10-15%",
+   "title": "歐洲央行決議維持利率2.5%不變",
+   "url": "https://money.udn.com/money/story/5599/9845687",
+   "src": "經濟日報",
+   "ts": "2026-10-29T22:09:16+08:00",
+   "cat": "央行",
+   "dir": 0,
+   "key": "2.5%",
    "exp": {
     "lab": "預期不明",
-    "actual": "10-15%",
+    "actual": "2.5%",
+    "exp": null,
+    "prior": null,
+    "held": true,
+    "dissent": null,
+    "impact": "利率不變 → 重點看聲明用語與異議票，觀察美債殖利率反應"
+   }
+  },
+  {
+   "title": "美第3季GDP擴張3.4%高於預期 9月核心通膨年增3.1%",
+   "url": "https://money.udn.com/money/story/5599/9845681",
+   "src": "經濟日報",
+   "ts": "2026-10-29T22:07:16+08:00",
+   "cat": "經濟數據",
+   "dir": -1,
+   "key": "3.4%",
+   "exp": {
+    "lab": "高於預期",
+    "actual": "3.4%",
     "exp": null,
     "prior": null,
     "held": false,
     "dissent": null,
-    "impact": "未提到市場預期 → 只看年增／季增方向與隔日股價反應"
+    "impact": "通膨高於預期 → 升息壓力、殖利率上升，對電子股評價不利"
    }
   },
   {
-   "title": "9銀行挺半導體通路龍頭 彰銀兆豐銀統籌大聯大旗下世平集團逾363億元聯貸案簽約",
-   "url": "https://news.cnyes.com/news/id/6640736",
-   "src": "鉅亨網",
-   "ts": "2026-10-29T19:16:02+08:00",
+   "title": "美股早盤／AI 疑慮再起 字母領跌 費半摔2% 邁威爾重挫12%",
+   "url": "https://money.udn.com/money/story/123398/9845688",
+   "src": "經濟日報",
+   "ts": "2026-10-29T22:09:18+08:00",
    "cat": "產業",
    "dir": 0,
-   "key": "363億元",
+   "key": "2%",
    "exp": {
-    "lab": "預期不明",
-    "actual": "363億元",
+    "lab": "低於預期",
+    "actual": "2%",
     "exp": null,
     "prior": null,
     "held": false,
     "dissent": null,
     "impact": "對台股影響有限"
-   }
-  },
-  {
-   "title": "威剛前3季賺贏成立25年獲利總和 每股純益達101.47元",
-   "url": "https://money.udn.com/money/story/11074/9845631",
-   "src": "經濟日報",
-   "ts": "2026-10-29T21:36:36+08:00",
-   "cat": "財報",
-   "dir": 0,
-   "key": "101.47元",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "101.47元",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "未提到市場預期 → 只看年增／季增方向與隔日股價反應"
    }
   }
  ],
@@ -172,18 +172,18 @@
   {
    "key": "TXN",
    "name": "台指期夜盤",
-   "val": 46300.0,
-   "chg": -0.58,
-   "chg_abs": -269.0,
-   "date": "10/29 21:53",
+   "val": 46375.0,
+   "chg": -0.42,
+   "chg_abs": -194.0,
+   "date": "10/29 22:14",
    "src": "期交所 MIS（盤後時段）"
   },
   {
    "key": "TWD",
    "name": "美元/台幣",
-   "val": 32.55699920654297,
-   "chg": 0.40554578448614986,
-   "chg_abs": 0.131500244140625,
+   "val": 32.54800033569336,
+   "chg": 0.377793333058829,
+   "chg_abs": 0.12250137329101562,
    "date": "2026-10-29",
    "src": "Yahoo TWD=X"
   },
@@ -247,7 +247,7 @@
    "note": "Yahoo ^VIX",
    "short": "16.9",
    "expl": "VIX：美股恐慌指數，用標普 500 選擇權價格推算市場預期未來 30 天的波動。低於 20 代表市場平靜；20～30 要留意，波動變大；高於 30 代表恐慌，常伴隨大跌，但極端高點常也是短線低點附近。VIX 大漲時台股隔日通常也會受壓。",
-   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:33.3%;background:#5E9C7A\"></i><i style=\"left:33.3%;width:33.3%;background:#C2A05A\"></i><i style=\"left:66.7%;width:33.3%;background:#B5615F\"></i><b style=\"left:23.0%\"></b><em style=\"left:33.3%\">20</em><em style=\"left:66.7%\">30</em></div>"
+   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:33.3%;background:#8CC7A6\"></i><i style=\"left:33.3%;width:33.3%;background:#E6C88A\"></i><i style=\"left:66.7%;width:33.3%;background:#E39A97\"></i><b style=\"left:23.0%\"></b><em style=\"left:33.3%\">20</em><em style=\"left:66.7%\">30</em></div>"
   },
   {
    "name": "美國高收益債利差",
@@ -276,7 +276,7 @@
    "note": "上市、20 日均成交 ≥ 5,000 萬、未還原收盤近似",
    "short": "32%",
    "expl": "市場寬度：成交量夠大的股票中，站上自己 20 日均線的比例。寬度高於五成代表多數股票健康，適合做波段；低於四成就要小心，選股難度會變高，買錯的機率也比較大。",
-   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#B5615F\"></i><i style=\"left:37.5%;width:12.5%;background:#C2A05A\"></i><i style=\"left:50.0%;width:12.5%;background:#C2A05A\"></i><i style=\"left:62.5%;width:37.5%;background:#5E9C7A\"></i><b style=\"left:40.2%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
+   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#E39A97\"></i><i style=\"left:37.5%;width:12.5%;background:#E6C88A\"></i><i style=\"left:50.0%;width:12.5%;background:#E6C88A\"></i><i style=\"left:62.5%;width:37.5%;background:#8CC7A6\"></i><b style=\"left:40.2%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
   },
   {
    "name": "0050 對季線／半年線",
