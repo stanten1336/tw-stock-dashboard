@@ -1,5 +1,5 @@
 {
- "built": "2026-10-30T13:19:58.320446+08:00",
+ "built": "2026-10-30T16:15:39.463614+08:00",
  "prediction": {
   "date": "2026-10-29",
   "made": "2026-10-30 06:13",
@@ -60,70 +60,70 @@
    }
   },
   {
-   "title": "日本央行宣布通膨率達成2%目標 維持利率1.25%不變",
-   "url": "https://money.udn.com/money/story/5599/9846834",
+   "title": "聯發科財報／前三季獲利763億元 EPS 47.94元",
+   "url": "https://money.udn.com/money/story/5710/9847265",
    "src": "經濟日報",
-   "ts": "2026-10-30T12:37:01+08:00",
-   "cat": "央行",
+   "ts": "2026-10-30T15:32:33+08:00",
+   "cat": "財報",
    "dir": 0,
-   "key": "2%",
+   "key": "EPS 47.94元",
    "exp": {
     "lab": "預期不明",
+    "actual": "EPS 47.94元",
+    "exp": null,
+    "prior": null,
+    "held": false,
+    "dissent": null,
+    "impact": "未提到市場預期 → 只看年增／季增方向與隔日股價反應"
+   }
+  },
+  {
+   "title": "美科技大廠財報不如預期 日經重挫逾2%",
+   "url": "https://money.udn.com/money/story/5599/9847239",
+   "src": "經濟日報",
+   "ts": "2026-10-30T15:21:30+08:00",
+   "cat": "財報",
+   "dir": -1,
+   "key": "2%",
+   "exp": {
+    "lab": "低於預期",
     "actual": "2%",
     "exp": null,
     "prior": null,
-    "held": true,
-    "dissent": null,
-    "impact": "利率不變 → 重點看聲明用語與異議票，觀察美債殖利率反應"
-   }
-  },
-  {
-   "title": "崇越單季EPS首破10元、獲利創高 台股重挫中逆勢漲逾3%",
-   "url": "https://money.udn.com/money/story/5710/9846406",
-   "src": "經濟日報",
-   "ts": "2026-10-30T10:16:01+08:00",
-   "cat": "財報",
-   "dir": 1,
-   "key": "3%",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "3%",
-    "exp": null,
-    "prior": null,
     "held": false,
     "dissent": null,
-    "impact": "未提到市場預期 → 只看年增／季增方向與隔日股價反應"
+    "impact": "財報不如預期 → 對該公司與同族群不利"
    }
   },
   {
-   "title": "〈財報〉亞馬遜Q3營收、獲利均遜色 自由現金流流出424億美元 盤後一度挫逾7%",
-   "url": "https://news.cnyes.com/news/id/6641170",
+   "title": "〈台股盤後〉美企AI疑雲攪局 收跌1156點摜破半年線 艱苦守住45K",
+   "url": "https://news.cnyes.com/news/id/6641797",
    "src": "鉅亨網",
-   "ts": "2026-10-30T06:40:03+08:00",
-   "cat": "財報",
-   "dir": 1,
-   "key": "7%",
+   "ts": "2026-10-30T14:12:40+08:00",
+   "cat": "產業",
+   "dir": -1,
+   "key": "1156點",
    "exp": {
     "lab": "預期不明",
-    "actual": "7%",
+    "actual": "1156點",
     "exp": null,
     "prior": null,
     "held": false,
     "dissent": null,
-    "impact": "未提到市場預期 → 只看年增／季增方向與隔日股價反應"
+    "impact": "對相關供應鏈偏空"
    }
   },
   {
-   "title": "輝達傳洽談替 Nscale 資料中心擔保 將完成10億美元入股 Naver",
-   "url": "https://money.udn.com/money/story/123398/9846932",
-   "src": "經濟日報",
-   "ts": "2026-10-30T13:10:48+08:00",
+   "title": "AI需求顯現 華通規劃連續3年每年資本支出皆維持200億元以上",
+   "url": "https://news.cnyes.com/news/id/6641724",
+   "src": "鉅亨網",
+   "ts": "2026-10-30T14:06:36+08:00",
    "cat": "產業",
    "dir": 0,
-   "key": "10億美元",
+   "key": "200億元",
    "exp": {
     "lab": "預期不明",
-    "actual": "10億美元",
+    "actual": "200億元",
     "exp": null,
     "prior": null,
     "held": false,
@@ -172,18 +172,18 @@
   {
    "key": "TXN",
    "name": "台指期夜盤",
-   "val": 45926.0,
-   "chg": -1.38,
-   "chg_abs": -643.0,
-   "date": "10/30 04:59",
+   "val": 45247.0,
+   "chg": -0.12,
+   "chg_abs": -53.0,
+   "date": "10/30 16:16",
    "src": "期交所 MIS（盤後時段）"
   },
   {
    "key": "TWD",
    "name": "美元/台幣",
-   "val": 32.62200164794922,
-   "chg": 0.7386655392411567,
-   "chg_abs": 0.23920059204101562,
+   "val": 32.47800064086914,
+   "chg": 0.29398193441196874,
+   "chg_abs": 0.0951995849609375,
    "date": "2026-10-30",
    "src": "Yahoo TWD=X"
   },
@@ -206,18 +206,14 @@
    "src": "Yahoo ^VIX"
   }
  ],
- "regime": "多頭・低波動",
- "five": "多頭",
- "date": "2026-10-29",
+ "regime": "震盪・低波動",
+ "five": "震盪",
+ "date": "2026-10-30",
  "sentiment": {
-  "value": 40.2,
+  "value": 47.8,
   "zone": "中性",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "last5": [
-   [
-    "2026-10-20",
-    45.2
-   ],
    [
     "2026-10-21",
     63.3
@@ -232,15 +228,21 @@
    ],
    [
     "2026-10-28",
-    29.9
+    30.1
    ],
    [
     "2026-10-29",
-    40.2
+    38.4
+   ],
+   [
+    "2026-10-30",
+    47.8
    ]
   ]
  },
- "fails": [],
+ "fails": [
+  "族群動能資料 20261030：法人買賣超尚未取得，排名停在前一日"
+ ],
  "lights": [
   {
    "name": "美國殖利率曲線 10年−2年",
@@ -300,23 +302,23 @@
   },
   {
    "name": "市場寬度（站上 20MA 比例）",
-   "val": "32%",
-   "lv": "yellow",
+   "val": "22%",
+   "lv": "red",
    "thr": "≥50% 綠；30～50% 黃；<30% 紅",
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "note": "上市、20 日均成交 ≥ 5,000 萬、未還原收盤近似",
-   "short": "32%",
+   "short": "22%",
    "expl": "市場寬度：成交量夠大的股票中，站上自己 20 日均線的比例。寬度高於五成代表多數股票健康，適合做波段；低於四成就要小心，選股難度會變高，買錯的機率也比較大。",
-   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#D33439\"></i><i style=\"left:37.5%;width:12.5%;background:#F7DB88\"></i><i style=\"left:50.0%;width:12.5%;background:#F7DB88\"></i><i style=\"left:62.5%;width:37.5%;background:#4BB462\"></i><b style=\"left:40.2%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
+   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#D33439\"></i><i style=\"left:37.5%;width:12.5%;background:#F7DB88\"></i><i style=\"left:50.0%;width:12.5%;background:#F7DB88\"></i><i style=\"left:62.5%;width:37.5%;background:#4BB462\"></i><b style=\"left:27.9%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
   },
   {
    "name": "0050 對季線／半年線",
-   "val": "收盤 107.25｜60MA 108.06｜120MA 104.91",
-   "lv": "yellow",
+   "val": "收盤 104.95｜60MA 108.10｜120MA 104.99",
+   "lv": "red",
    "thr": "兩條都在上 綠；只站上一條 黃；都跌破 紅",
-   "date": "2026-10-29",
+   "date": "2026-10-30",
    "note": "",
-   "short": "季↓ 半年↑"
+   "short": "季↓ 半年↓"
   }
  ]
 }
