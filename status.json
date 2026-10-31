@@ -1,5 +1,5 @@
 {
- "built": "2026-10-31T12:19:17.245742+08:00",
+ "built": "2026-10-31T12:41:44.015356+08:00",
  "prediction": {
   "date": "2026-10-30",
   "made": "2026-10-31 06:11",
@@ -78,6 +78,24 @@
    }
   },
   {
+   "title": "亞馬遜未來支出承諾飆至8836億美元 新增800億美元融資額度支援AI擴張",
+   "url": "https://news.cnyes.com/news/id/6642881",
+   "src": "鉅亨網",
+   "ts": "2026-10-31T12:20:03+08:00",
+   "cat": "產業",
+   "dir": 1,
+   "key": "8836億美元",
+   "exp": {
+    "lab": "預期不明",
+    "actual": "8836億美元",
+    "exp": null,
+    "prior": null,
+    "held": false,
+    "dissent": null,
+    "impact": "對相關供應鏈偏多"
+   }
+  },
+  {
    "title": "晶片股提前迎「黑色星期五」英特爾等11個股10月跌逾20%",
    "url": "https://news.cnyes.com/news/id/6642848",
    "src": "鉅亨網",
@@ -106,24 +124,6 @@
    "exp": {
     "lab": "預期不明",
     "actual": "8.08元",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "未提到市場預期 → 只看年增／季增方向與隔日股價反應"
-   }
-  },
-  {
-   "title": "大統益Q3獲利創高 EPS 3.32元",
-   "url": "https://money.udn.com/money/story/5710/9847759",
-   "src": "經濟日報",
-   "ts": "2026-10-30T23:49:17+08:00",
-   "cat": "財報",
-   "dir": 1,
-   "key": "EPS 3.32元",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "EPS 3.32元",
     "exp": null,
     "prior": null,
     "held": false,
@@ -210,7 +210,7 @@
  "five": "多頭",
  "date": "2026-10-29",
  "sentiment": {
-  "value": 50.7,
+  "value": 50.3,
   "zone": "中性",
   "date": "2026-10-30",
   "last5": [
@@ -236,7 +236,7 @@
    ],
    [
     "2026-10-30",
-    50.7
+    50.3
    ]
   ]
  },
