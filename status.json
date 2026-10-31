@@ -1,5 +1,5 @@
 {
- "built": "2026-10-31T21:02:37.241711+08:00",
+ "built": "2026-10-31T21:09:07.843708+08:00",
  "prediction": {
   "date": "2026-10-30",
   "made": "2026-10-31 06:11",
@@ -41,6 +41,24 @@
   ]
  },
  "news": [
+  {
+   "title": "聯準會發布 FOMC 利率決策聲明：利率區間 3.75%至4.00%",
+   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+   "src": "Federal Reserve（官方）",
+   "ts": "2026-10-29T02:00:00+08:00",
+   "cat": "央行",
+   "dir": 0,
+   "key": "3.75%至4.00%",
+   "exp": {
+    "lab": "符合預期",
+    "actual": "3.75%至4.00%",
+    "exp": null,
+    "prior": null,
+    "held": true,
+    "dissent": null,
+    "impact": "利率不變、符合預期 → 多已反映，影響有限；看聲明與異議票"
+   }
+  },
   {
    "title": "亞馬遜未來支出承諾飆至8836億美元 新增800億美元融資額度支援AI擴張",
    "url": "https://news.cnyes.com/news/id/6642881",
@@ -222,9 +240,7 @@
    ]
   ]
  },
- "fails": [
-  "Fed 新聞稿 RSS：HTTPError"
- ],
+ "fails": [],
  "lights": [
   {
    "name": "美國殖利率曲線 10年−2年",
