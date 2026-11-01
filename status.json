@@ -1,5 +1,5 @@
 {
- "built": "2026-10-31T21:09:07.843708+08:00",
+ "built": "2026-11-01T15:43:57.742081+08:00",
  "prediction": {
   "date": "2026-10-30",
   "made": "2026-10-31 06:11",
@@ -42,21 +42,39 @@
  },
  "news": [
   {
-   "title": "聯準會發布 FOMC 利率決策聲明：利率區間 3.75%至4.00%",
-   "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-   "src": "Federal Reserve（官方）",
-   "ts": "2026-10-29T02:00:00+08:00",
-   "cat": "央行",
-   "dir": 0,
-   "key": "3.75%至4.00%",
+   "title": "AI投資帶動南韓10月半導體出口年增259%，占總出口近半",
+   "url": "https://news.cnyes.com/news/id/6643270",
+   "src": "鉅亨網",
+   "ts": "2026-11-01T14:00:10+08:00",
+   "cat": "經濟數據",
+   "dir": 1,
+   "key": "259%",
    "exp": {
-    "lab": "符合預期",
-    "actual": "3.75%至4.00%",
+    "lab": "預期不明",
+    "actual": "259%",
     "exp": null,
     "prior": null,
-    "held": true,
+    "held": false,
     "dissent": null,
-    "impact": "利率不變、符合預期 → 多已反映，影響有限；看聲明與異議票"
+    "impact": "預期不明 → 看市場反應（費半、夜盤）判斷"
+   }
+  },
+  {
+   "title": "光寶科(2301-TW)上修資本支出至197億元，AI電源出貨仍看客戶供電進度",
+   "url": "https://news.cnyes.com/news/id/6643077",
+   "src": "鉅亨網",
+   "ts": "2026-10-31T23:00:07+08:00",
+   "cat": "產業",
+   "dir": 1,
+   "key": "197億元",
+   "exp": {
+    "lab": "預期不明",
+    "actual": "197億元",
+    "exp": null,
+    "prior": null,
+    "held": false,
+    "dissent": null,
+    "impact": "對相關供應鏈偏多"
    }
   },
   {
@@ -78,34 +96,16 @@
    }
   },
   {
-   "title": "晶片股提前迎「黑色星期五」英特爾等11個股10月跌逾20%",
-   "url": "https://news.cnyes.com/news/id/6642848",
-   "src": "鉅亨網",
-   "ts": "2026-10-31T11:30:05+08:00",
-   "cat": "產業",
-   "dir": -1,
-   "key": "20%",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "20%",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "對相關供應鏈偏空"
-   }
-  },
-  {
-   "title": "光寶科前三季獲利創高 每股賺8.08元",
-   "url": "https://money.udn.com/money/story/5710/9847769",
+   "title": "上市櫃公司獲利連年成長 台股明年發放上看5兆",
+   "url": "https://money.udn.com/money/story/5607/9849450",
    "src": "經濟日報",
-   "ts": "2026-10-30T23:55:19+08:00",
+   "ts": "2026-11-01T02:38:40+08:00",
    "cat": "財報",
    "dir": 1,
-   "key": "8.08元",
+   "key": "5兆",
    "exp": {
     "lab": "預期不明",
-    "actual": "8.08元",
+    "actual": "5兆",
     "exp": null,
     "prior": null,
     "held": false,
@@ -114,16 +114,16 @@
    }
   },
   {
-   "title": "大統益Q3獲利創高 EPS 3.32元",
-   "url": "https://money.udn.com/money/story/5710/9847759",
-   "src": "經濟日報",
-   "ts": "2026-10-30T23:49:17+08:00",
+   "title": "晶科控股毛利率回升至12.3%，太陽能出貨減、儲能接棒",
+   "url": "https://news.cnyes.com/news/id/6643076",
+   "src": "鉅亨網",
+   "ts": "2026-10-31T23:00:06+08:00",
    "cat": "財報",
-   "dir": 1,
-   "key": "EPS 3.32元",
+   "dir": -1,
+   "key": "12.3%",
    "exp": {
     "lab": "預期不明",
-    "actual": "EPS 3.32元",
+    "actual": "12.3%",
     "exp": null,
     "prior": null,
     "held": false,
@@ -210,7 +210,7 @@
  "five": "震盪",
  "date": "2026-10-30",
  "sentiment": {
-  "value": 46.0,
+  "value": 52.4,
   "zone": "中性",
   "date": "2026-10-30",
   "last5": [
@@ -232,11 +232,11 @@
    ],
    [
     "2026-10-29",
-    38.6
+    38.4
    ],
    [
     "2026-10-30",
-    46.0
+    52.4
    ]
   ]
  },
