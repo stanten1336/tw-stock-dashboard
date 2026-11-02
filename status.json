@@ -1,28 +1,28 @@
 {
- "built": "2026-11-01T23:48:14.138364+08:00",
+ "built": "2026-11-02T17:06:57.443361+08:00",
  "prediction": {
-  "date": "2026-10-30",
-  "made": "2026-10-31 06:11",
-  "close": 45211.83,
-  "score": -6,
+  "date": "2026-11-02",
+  "made": "2026-11-02 17:06",
+  "close": 44920.14,
+  "score": -2,
   "verdict": "偏空",
-  "conf": "高",
+  "conf": "中",
   "signals": [
    {
     "name": "台指期夜盤",
-    "val": "-1.91%（10/31 04:59）",
-    "s": -1,
+    "val": "-0.16%（11/02 17:07）",
+    "s": 0,
     "w": 2
    },
    {
     "name": "那斯達克期貨",
-    "val": "-3.45%（10/31 04:55）",
-    "s": -1,
+    "val": "+0.68%（11/02 16:55）",
+    "s": 1,
     "w": 1
    },
    {
     "name": "加權 vs 20 日線",
-    "val": "-5.3%",
+    "val": "-5.6%",
     "s": -1,
     "w": 1
    },
@@ -34,7 +34,7 @@
    },
    {
     "name": "外資當日",
-    "val": "-1,125 億",
+    "val": "-735 億",
     "s": -1,
     "w": 1
    }
@@ -42,70 +42,52 @@
  },
  "news": [
   {
-   "title": "AI投資帶動南韓10月半導體出口年增259%，占總出口近半",
-   "url": "https://news.cnyes.com/news/id/6643270",
+   "title": "〈台股盤後〉11月開門出師不利台積電疲軟 跌292點失守4萬5",
+   "url": "https://news.cnyes.com/news/id/6643843",
    "src": "鉅亨網",
-   "ts": "2026-11-01T14:00:10+08:00",
-   "cat": "經濟數據",
-   "dir": 1,
-   "key": "259%",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "259%",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "預期不明 → 看市場反應（費半、夜盤）判斷"
-   }
-  },
-  {
-   "title": "光寶科(2301-TW)上修資本支出至197億元，AI電源出貨仍看客戶供電進度",
-   "url": "https://news.cnyes.com/news/id/6643077",
-   "src": "鉅亨網",
-   "ts": "2026-10-31T23:00:07+08:00",
+   "ts": "2026-11-02T14:35:44+08:00",
    "cat": "產業",
-   "dir": 1,
-   "key": "197億元",
+   "dir": 0,
+   "key": "292點",
    "exp": {
     "lab": "預期不明",
-    "actual": "197億元",
+    "actual": "292點",
     "exp": null,
     "prior": null,
     "held": false,
     "dissent": null,
-    "impact": "對相關供應鏈偏多"
+    "impact": "對台股影響有限"
    }
   },
   {
-   "title": "亞馬遜未來支出承諾飆至8836億美元 新增800億美元融資額度支援AI擴張",
-   "url": "https://news.cnyes.com/news/id/6642881",
-   "src": "鉅亨網",
-   "ts": "2026-10-31T12:20:03+08:00",
-   "cat": "產業",
-   "dir": 1,
-   "key": "8836億美元",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "8836億美元",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "對相關供應鏈偏多"
-   }
-  },
-  {
-   "title": "上市櫃公司獲利連年成長 台股明年發放上看5兆",
-   "url": "https://money.udn.com/money/story/5607/9849450",
+   "title": "台積電跌40元 台股下跌291點失守45000點大關",
+   "url": "https://money.udn.com/money/story/5607/9852040",
    "src": "經濟日報",
-   "ts": "2026-11-01T02:38:40+08:00",
-   "cat": "財報",
-   "dir": 1,
-   "key": "5兆",
+   "ts": "2026-11-02T14:55:41+08:00",
+   "cat": "產業",
+   "dir": 0,
+   "key": "40元",
    "exp": {
     "lab": "預期不明",
-    "actual": "5兆",
+    "actual": "40元",
+    "exp": null,
+    "prior": null,
+    "held": false,
+    "dissent": null,
+    "impact": "對台股影響有限"
+   }
+  },
+  {
+   "title": "耐特11月19日掛牌 半導體 BBU 材料營收占比逾25%",
+   "url": "https://money.udn.com/money/story/11074/9852217",
+   "src": "經濟日報",
+   "ts": "2026-11-02T16:10:41+08:00",
+   "cat": "財報",
+   "dir": 0,
+   "key": "25%",
+   "exp": {
+    "lab": "預期不明",
+    "actual": "25%",
     "exp": null,
     "prior": null,
     "held": false,
@@ -114,16 +96,16 @@
    }
   },
   {
-   "title": "晶科控股毛利率回升至12.3%，太陽能出貨減、儲能接棒",
-   "url": "https://news.cnyes.com/news/id/6643076",
-   "src": "鉅亨網",
-   "ts": "2026-10-31T23:00:06+08:00",
+   "title": "華孚營收／10月4.96億元 雙率雙減",
+   "url": "https://money.udn.com/money/story/5710/9852161",
+   "src": "經濟日報",
+   "ts": "2026-11-02T15:45:33+08:00",
    "cat": "財報",
    "dir": -1,
-   "key": "12.3%",
+   "key": "4.96億元",
    "exp": {
     "lab": "預期不明",
-    "actual": "12.3%",
+    "actual": "4.96億元",
     "exp": null,
     "prior": null,
     "held": false,
@@ -172,19 +154,19 @@
   {
    "key": "TXN",
    "name": "台指期夜盤",
-   "val": 44433.0,
-   "chg": -1.91,
-   "chg_abs": -867.0,
-   "date": "10/31 04:59",
+   "val": 45154.0,
+   "chg": -0.16,
+   "chg_abs": -73.0,
+   "date": "11/02 17:07",
    "src": "期交所 MIS（盤後時段）"
   },
   {
    "key": "TWD",
    "name": "美元/台幣",
-   "val": 32.60499954223633,
-   "chg": 0.11699362918853318,
-   "chg_abs": 0.0381011962890625,
-   "date": "2026-11-01",
+   "val": 32.54800033569336,
+   "chg": -0.05802827783339959,
+   "chg_abs": -0.01889801025390625,
+   "date": "2026-11-02",
    "src": "Yahoo TWD=X"
   },
   {
@@ -208,35 +190,35 @@
  ],
  "regime": "震盪・低波動",
  "five": "震盪",
- "date": "2026-10-30",
+ "date": "2026-11-02",
  "sentiment": {
-  "value": 50.1,
+  "value": 56.3,
   "zone": "中性",
-  "date": "2026-10-30",
+  "date": "2026-11-02",
   "last5": [
    [
-    "2026-10-21",
-    61.0
-   ],
-   [
     "2026-10-22",
-    19.4
+    19.6
    ],
    [
     "2026-10-27",
-    28.7
+    28.8
    ],
    [
     "2026-10-28",
-    30.3
+    30.5
    ],
    [
     "2026-10-29",
-    38.4
+    38.8
    ],
    [
     "2026-10-30",
-    50.1
+    52.9
+   ],
+   [
+    "2026-11-02",
+    56.3
    ]
   ]
  },
@@ -303,25 +285,25 @@
    "val": "22%",
    "lv": "red",
    "thr": "≥50% 綠；30～50% 黃；<30% 紅",
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "note": "上市、20 日均成交 ≥ 5,000 萬、未還原收盤近似",
    "short": "22%",
    "expl": "市場寬度：成交量夠大的股票中，站上自己 20 日均線的比例。寬度高於五成代表多數股票健康，適合做波段；低於四成就要小心，選股難度會變高，買錯的機率也比較大。",
-   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#D33439\"></i><i style=\"left:37.5%;width:12.5%;background:#F7DB88\"></i><i style=\"left:50.0%;width:12.5%;background:#F7DB88\"></i><i style=\"left:62.5%;width:37.5%;background:#4BB462\"></i><b style=\"left:27.9%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
+   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#D33439\"></i><i style=\"left:37.5%;width:12.5%;background:#F7DB88\"></i><i style=\"left:50.0%;width:12.5%;background:#F7DB88\"></i><i style=\"left:62.5%;width:37.5%;background:#4BB462\"></i><b style=\"left:27.7%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
   },
   {
    "name": "0050 對季線／半年線",
-   "val": "收盤 104.95｜60MA 108.10｜120MA 104.99",
+   "val": "收盤 104.10｜60MA 108.13｜120MA 105.05",
    "lv": "red",
    "thr": "兩條都在上 綠；只站上一條 黃；都跌破 紅",
-   "date": "2026-10-30",
+   "date": "2026-11-02",
    "note": "",
    "short": "季↓ 半年↓"
   }
  ],
  "avoid": {
   "regime": "多頭震盪",
-  "regime_date": "2026-10-30",
+  "regime_date": "2026-11-02",
   "index_rebalance": false,
   "january": false,
   "bear_no_exdiv": false,
