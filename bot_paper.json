@@ -1,7 +1,7 @@
 {
  "name": "伊藤小助手紙上帳戶",
  "start": "2026-11-02",
- "updated": "2026-11-03",
+ "updated": "2026-11-02",
  "b0050_pct": -3.733,
  "rules": {
   "entry": {
@@ -31,8 +31,8 @@
      "entry_rule": "收盤",
      "entry_price": 104.1,
      "weight_pct": 65.0,
-     "last_price": 100.6,
-     "net_pct_if_sold": -3.73
+     "last_price": 104.1,
+     "net_pct_if_sold": -0.38
     }
    ],
    "closed": [],
