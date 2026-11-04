@@ -1,28 +1,28 @@
 {
- "built": "2026-11-04T06:09:42.427388+08:00",
+ "built": "2026-11-04T17:04:43.686665+08:00",
  "prediction": {
-  "date": "2026-11-03",
-  "made": "2026-11-04 06:09",
-  "close": 43307.54,
-  "score": 0,
+  "date": "2026-11-04",
+  "made": "2026-11-04 17:04",
+  "close": 42948.91,
+  "score": -1,
   "verdict": "中性",
   "conf": "低",
   "signals": [
    {
     "name": "台指期夜盤",
-    "val": "+0.98%（11/04 04:59）",
+    "val": "+1.01%（11/04 17:05）",
     "s": 1,
     "w": 2
    },
    {
     "name": "那斯達克期貨",
-    "val": "+1.03%（11/04 05:55）",
-    "s": 1,
+    "val": "+0.25%（11/04 16:55）",
+    "s": 0,
     "w": 1
    },
    {
     "name": "加權 vs 20 日線",
-    "val": "-8.5%",
+    "val": "-8.7%",
     "s": -1,
     "w": 1
    },
@@ -34,7 +34,7 @@
    },
    {
     "name": "外資當日",
-    "val": "-1,073 億",
+    "val": "-1,499 億",
     "s": -1,
     "w": 1
    }
@@ -42,10 +42,64 @@
  },
  "news": [
   {
-   "title": "美國選民投票之際 川普稱將停止對以色列40億美元援助",
-   "url": "https://money.udn.com/money/story/5599/9855681",
-   "src": "經濟日報",
-   "ts": "2026-11-04T03:12:32+08:00",
+   "title": "蘋果財報後跌2% 記憶體價格上漲侵蝕利潤率",
+   "url": "https://news.cnyes.com/news/id/6645808",
+   "src": "鉅亨網",
+   "ts": "2026-11-04T09:30:13+08:00",
+   "cat": "財報",
+   "dir": 0,
+   "key": "2%",
+   "exp": {
+    "lab": "高於預期",
+    "actual": "2%",
+    "exp": null,
+    "prior": "47.89%",
+    "held": false,
+    "dissent": null,
+    "impact": "財報優於預期 → 有利該公司與同族群"
+   }
+  },
+  {
+   "title": "AMD強勁財報重燃AI投資信心 資料中心營收暴增97%",
+   "url": "https://news.cnyes.com/news/id/6645948",
+   "src": "鉅亨網",
+   "ts": "2026-11-04T11:30:08+08:00",
+   "cat": "財報",
+   "dir": 1,
+   "key": "97%",
+   "exp": {
+    "lab": "高於預期",
+    "actual": "97%",
+    "exp": null,
+    "prior": null,
+    "held": false,
+    "dissent": null,
+    "impact": "財報優於預期 → 有利該公司與同族群"
+   }
+  },
+  {
+   "title": "Meta再發150億美元債券支應AI資料中心擴建",
+   "url": "https://news.cnyes.com/news/id/6645903",
+   "src": "鉅亨網",
+   "ts": "2026-11-04T08:30:05+08:00",
+   "cat": "產業",
+   "dir": 0,
+   "key": "150億美元",
+   "exp": {
+    "lab": "預期不明",
+    "actual": "150億美元",
+    "exp": null,
+    "prior": null,
+    "held": false,
+    "dissent": null,
+    "impact": "對台股影響有限"
+   }
+  },
+  {
+   "title": "川普宣布年底停止每年40億美元對以援助 美以現行協議仍至2028年、提前終止方式待釐清",
+   "url": "https://news.cnyes.com/news/id/6645870",
+   "src": "鉅亨網",
+   "ts": "2026-11-04T08:57:55+08:00",
    "cat": "政策",
    "dir": 0,
    "key": "40億美元",
@@ -60,75 +114,21 @@
    }
   },
   {
-   "title": "1分鐘看世界／美國 AGOA 免關稅待遇適用對象 剔除南非、盧安達",
-   "url": "https://money.udn.com/money/story/5599/9855425",
+   "title": "美期中選舉民主黨占上風衝擊AI股 日經一度暴跌逾3000點",
+   "url": "https://money.udn.com/money/story/5599/9857250",
    "src": "經濟日報",
-   "ts": "2026-11-04T02:01:55+08:00",
-   "cat": "政策",
-   "dir": -1,
-   "key": "1分",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "1分",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "對相關供應鏈偏空"
-   }
-  },
-  {
-   "title": "永擎上季 EPS 19.81 元 AI 伺服器需求成長、客戶擴大採購 挹注營運表現",
-   "url": "https://money.udn.com/money/story/5710/9855156",
-   "src": "經濟日報",
-   "ts": "2026-11-04T00:53:02+08:00",
-   "cat": "財報",
-   "dir": 1,
-   "key": "EPS 19.81 元",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "EPS 19.81 元",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "未提到市場預期 → 只看年增／季增方向與隔日股價反應"
-   }
-  },
-  {
-   "title": "〈財報〉AMD Q3超預期 資料中心營收近翻倍 盤後大漲8%",
-   "url": "https://news.cnyes.com/news/id/6645804",
-   "src": "鉅亨網",
-   "ts": "2026-11-04T06:04:12+08:00",
-   "cat": "財報",
-   "dir": 1,
-   "key": "8%",
-   "exp": {
-    "lab": "高於預期",
-    "actual": "8%",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "財報優於預期 → 有利該公司與同族群"
-   }
-  },
-  {
-   "title": "泰國擬明年調高進口電動車貨物稅至35% 以促進在地生產與供應鏈",
-   "url": "https://news.cnyes.com/news/id/6645038",
-   "src": "鉅亨網",
-   "ts": "2026-11-03T15:20:02+08:00",
-   "cat": "經濟數據",
+   "ts": "2026-11-04T16:12:39+08:00",
+   "cat": "產業",
    "dir": 0,
-   "key": "35%",
+   "key": "3000點",
    "exp": {
     "lab": "預期不明",
-    "actual": "35%",
+    "actual": "3000點",
     "exp": null,
     "prior": null,
     "held": false,
     "dissent": null,
-    "impact": "預期不明 → 看市場反應（費半、夜盤）判斷"
+    "impact": "對台股影響有限"
    }
   }
  ],
@@ -154,9 +154,9 @@
   {
    "key": "SOX",
    "name": "費半",
-   "val": 10600.396484375,
-   "chg": 2.6341761368202876,
-   "chg_abs": 272.06640625,
+   "val": 10600.400390625,
+   "chg": 2.634213957551901,
+   "chg_abs": 272.0703125,
    "date": "2026-11-03",
    "src": "Yahoo ^SOX"
   },
@@ -172,19 +172,19 @@
   {
    "key": "TXN",
    "name": "台指期夜盤",
-   "val": 43779.0,
-   "chg": 0.98,
-   "chg_abs": 426.0,
-   "date": "11/04 04:59",
+   "val": 43640.0,
+   "chg": 1.01,
+   "chg_abs": 437.0,
+   "date": "11/04 17:05",
    "src": "期交所 MIS（盤後時段）"
   },
   {
    "key": "TWD",
    "name": "美元/台幣",
-   "val": 32.79199981689453,
-   "chg": 0.569214275118135,
-   "chg_abs": 0.18560028076171875,
-   "date": "2026-11-03",
+   "val": 32.86399841308594,
+   "chg": 0.8559131668178344,
+   "chg_abs": 0.278900146484375,
+   "date": "2026-11-04",
    "src": "Yahoo TWD=X"
   },
   {
@@ -206,25 +206,21 @@
    "src": "Yahoo ^VIX"
   }
  ],
- "regime": "震盪・低波動",
+ "regime": "震盪・高波動",
  "five": "震盪",
- "date": "2026-11-02",
+ "date": "2026-11-04",
  "sentiment": {
-  "value": 29.7,
-  "zone": "偏空",
-  "date": "2026-11-03",
+  "value": 51.5,
+  "zone": "中性",
+  "date": "2026-11-04",
   "last5": [
-   [
-    "2026-10-27",
-    28.9
-   ],
    [
     "2026-10-28",
     30.9
    ],
    [
     "2026-10-29",
-    38.5
+    38.6
    ],
    [
     "2026-10-30",
@@ -236,7 +232,11 @@
    ],
    [
     "2026-11-03",
-    29.7
+    27.3
+   ],
+   [
+    "2026-11-04",
+    51.5
    ]
   ]
  },
@@ -303,25 +303,25 @@
    "val": "11%",
    "lv": "red",
    "thr": "≥50% 綠；30～50% 黃；<30% 紅",
-   "date": "2026-11-03",
+   "date": "2026-11-04",
    "note": "上市、20 日均成交 ≥ 5,000 萬、未還原收盤近似",
    "short": "11%",
    "expl": "市場寬度：成交量夠大的股票中，站上自己 20 日均線的比例。寬度高於五成代表多數股票健康，適合做波段；低於四成就要小心，選股難度會變高，買錯的機率也比較大。",
-   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#D33439\"></i><i style=\"left:37.5%;width:12.5%;background:#F7DB88\"></i><i style=\"left:50.0%;width:12.5%;background:#F7DB88\"></i><i style=\"left:62.5%;width:37.5%;background:#4BB462\"></i><b style=\"left:14.2%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
+   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#D33439\"></i><i style=\"left:37.5%;width:12.5%;background:#F7DB88\"></i><i style=\"left:50.0%;width:12.5%;background:#F7DB88\"></i><i style=\"left:62.5%;width:37.5%;background:#4BB462\"></i><b style=\"left:13.6%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
   },
   {
    "name": "0050 對季線／半年線",
-   "val": "收盤 104.10｜60MA 108.13｜120MA 105.05",
+   "val": "收盤 99.85｜60MA 108.12｜120MA 105.08",
    "lv": "red",
    "thr": "兩條都在上 綠；只站上一條 黃；都跌破 紅",
-   "date": "2026-11-02",
+   "date": "2026-11-04",
    "note": "",
    "short": "季↓ 半年↓"
   }
  ],
  "avoid": {
   "regime": "多頭震盪",
-  "regime_date": "2026-11-03",
+  "regime_date": "2026-11-04",
   "index_rebalance": false,
   "january": false,
   "bear_no_exdiv": false,
