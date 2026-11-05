@@ -1,0 +1,17 @@
+{
+  "name": "股票ＰＫ自主投資紙上帳戶",
+  "start": "2026-11-02",
+  "updated": "2026-11-05",
+  "strategy_version": "v1.1a（週一 11/09 起套用動能空頭修正）",
+  "initial_capital": 1000000,
+  "nav": 975625,
+  "nav_pct": -2.438,
+  "b0050_pct": -5.354,
+  "vs_0050_pp": 2.917,
+  "max_drawdown_pct": -2.438,
+  "cash": 226483,
+  "stock_mv": 664432,
+  "futures_unrealized": 25620,
+  "rules_url": "paper-pk.html",
+  "note": "扣手續費與證交稅後淨值；基準0050含息。11/06開盤尚有停損/減碼待成交。"
+}
