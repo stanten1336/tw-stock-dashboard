@@ -2,11 +2,11 @@
  "name": "創新高＋營收（提早進場・平均分配）紙上帳戶",
  "acct_id": "C",
  "start": "2026-11-04",
- "updated": "2026-11-04",
+ "updated": "2026-11-05",
  "state": "ok",
- "total_pct": -0.134,
- "b0050_pct": -2.052,
- "vs_0050_pp": 1.918,
+ "total_pct": -0.616,
+ "b0050_pct": -4.7,
+ "vs_0050_pp": 4.084,
  "cash_pct": 76.01,
  "open": [
   {
@@ -15,9 +15,9 @@
    "batch": "起跑",
    "entry_date": "2026-11-04",
    "entry_price": 13.65,
-   "weight_pct": 12.42,
-   "last_price": 14.15,
-   "net_pct_if_sold": 3.06
+   "weight_pct": 13.08,
+   "last_price": 14.9,
+   "net_pct_if_sold": 8.52
   },
   {
    "code": "1802",
@@ -25,9 +25,9 @@
    "batch": "起跑",
    "entry_date": "2026-11-04",
    "entry_price": 69.2,
-   "weight_pct": 11.55,
-   "last_price": 66.7,
-   "net_pct_if_sold": -4.18
+   "weight_pct": 10.4,
+   "last_price": 60.1,
+   "net_pct_if_sold": -13.66
   }
  ],
  "closed": [],
@@ -37,34 +37,24 @@
  "next_decision": "2026-11-10",
  "next_rev_month": "2026-10",
  "preview": {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "rev_month": "2026-09",
-  "n_pool": 5,
+  "n_pool": 3,
   "picks": [
-   {
-    "code": "6446",
-    "name": "藥華藥",
-    "yoy": 100.0
-   },
-   {
-    "code": "4526",
-    "name": "東台",
-    "yoy": 81.0
-   },
    {
     "code": "1416",
     "name": "廣豐",
     "yoy": 70.5
    },
    {
+    "code": "1477",
+    "name": "聚陽",
+    "yoy": 24.0
+   },
+   {
     "code": "2412",
     "name": "中華電",
     "yoy": 20.9
-   },
-   {
-    "code": "4562",
-    "name": "穎漢",
-    "yoy": 13.8
    }
   ]
  },
@@ -80,6 +70,11 @@
    "date": "2026-11-04",
    "C": -0.134,
    "b0050": -2.052
+  },
+  {
+   "date": "2026-11-05",
+   "C": -0.616,
+   "b0050": -4.7
   }
  ],
  "batches": [
