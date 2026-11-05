@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>股票ＰＫ自主投資｜紙上帳戶規則</title>
 <style>
-:root{--bg:#060a14;--bg2:#0b1224;--card:rgba(17,26,48,.62);--tx:#e6edf7;--sub:#8fa0bb;--bd:rgba(120,170,255,.16);--neon:#38bdf8;--neon2:#a78bfa;--good:#4BB462;--bad:#D33439;
- --mono:"JetBrains Mono","SF Mono","SFMono-Regular",Menlo,Consolas,"Noto Sans Mono CJK TC",monospace;
- --sans:"Inter","Noto Sans TC","Noto Sans CJK TC","PingFang TC","Microsoft JhengHei",-apple-system,"Segoe UI",sans-serif}
+:root{--bg:#060a14;--card:rgba(17,26,48,.62);--tx:#e6edf7;--sub:#8fa0bb;--bd:rgba(120,170,255,.16);--neon:#38bdf8;--neon2:#a78bfa;--good:#4BB462;--bad:#D33439;
+ --mono:"JetBrains Mono","SF Mono",Menlo,Consolas,"Noto Sans Mono CJK TC",monospace;
+ --sans:"Inter","Noto Sans TC","PingFang TC","Microsoft JhengHei",-apple-system,"Segoe UI",sans-serif}
 *{box-sizing:border-box}html{background:var(--bg)}
 body{margin:0;color:var(--tx);font-family:var(--sans);line-height:1.5;font-size:15px;min-height:100vh;
  background:radial-gradient(1200px 600px at 10% -10%,rgba(56,189,248,.16),transparent 60%),radial-gradient(900px 500px at 110% 10%,rgba(167,139,250,.14),transparent 60%),
@@ -18,48 +18,66 @@ header{display:flex;justify-content:space-between;align-items:flex-end;gap:10px;
 h1{font-size:22px;margin:0;letter-spacing:1px;font-weight:800;background:linear-gradient(90deg,#e0f2fe,var(--neon) 60%,var(--neon2));-webkit-background-clip:text;background-clip:text;color:transparent}
 h1 small{display:block;font-size:11px;letter-spacing:1.2px;color:var(--sub);-webkit-text-fill-color:var(--sub);font-weight:600;margin-top:4px}
 .back{font-size:13px;color:var(--sub);font-family:var(--mono)}
-.mono,.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.mono{font-family:var(--mono);font-variant-numeric:tabular-nums}
 section{background:var(--card);border:1px solid var(--bd);border-radius:18px;padding:16px 18px;margin:0 0 14px;
- -webkit-backdrop-filter:blur(14px) saturate(140%);backdrop-filter:blur(14px) saturate(140%);
- box-shadow:0 0 0 1px rgba(255,255,255,.03) inset}
+ -webkit-backdrop-filter:blur(14px) saturate(140%);backdrop-filter:blur(14px) saturate(140%)}
 h2{font-size:15px;margin:0 0 10px;letter-spacing:.5px;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-h2 .lbl{font-size:11px;color:var(--sub);font-weight:600;letter-spacing:.3px}
+h2 .lbl{font-size:11px;color:var(--sub);font-weight:600}
 .tag{display:inline-block;font-size:11px;font-family:var(--mono);padding:2px 8px;border-radius:999px;border:1px solid var(--bd);color:var(--neon);background:rgba(56,189,248,.08)}
 .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 @media(max-width:640px){.grid{grid-template-columns:1fr}}
 .stat{background:rgba(0,0,0,.22);border:1px solid var(--bd);border-radius:12px;padding:10px 12px}
 .stat .k{font-size:11px;color:var(--sub)} .stat .v{font-size:18px;font-weight:700;margin-top:2px}
-.good{color:var(--good)} .bad{color:var(--bad)} .muted{color:var(--sub)}
+.good{color:var(--good)} .bad{color:var(--bad)}
 ul{margin:6px 0 0;padding-left:1.15em} li{margin:4px 0}
 table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
 th,td{text-align:left;padding:7px 8px;border-bottom:1px solid rgba(120,170,255,.1);vertical-align:top}
 th{color:var(--sub);font-weight:600;font-size:11.5px}
 .hint{font-size:12.5px;color:var(--sub);margin-top:8px}
-details{margin-top:8px} summary{cursor:pointer;color:var(--neon);font-size:13px}
-code{font-family:var(--mono);font-size:12.5px;background:rgba(56,189,248,.1);padding:1px 5px;border-radius:4px}
 .pillrow{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 4px}
+code{font-family:var(--mono);font-size:12.5px;background:rgba(56,189,248,.1);padding:1px 5px;border-radius:4px}
 </style>
 </head>
 <body>
 <div class="wrap">
 <header>
-  <h1>股票ＰＫ自主投資<small>紙上帳戶規則｜與 Gemini 同規則比賽｜基準 0050 含息</small></h1>
-  <div class="back"><a href="./">← 台股觀測站</a><div class="mono" style="margin-top:4px;font-size:11px">規則版本 v1.1a · 資料到 2026-11-05</div></div>
+  <h1>股票ＰＫ自主投資<small>紙上帳戶（與網站其他紙上帳戶分開）｜基準 0050 含息｜對戰 Gemini 同規則</small></h1>
+  <div class="back"><a href="./">← 台股觀測站</a><div class="mono" style="margin-top:4px;font-size:11px">規則 v1.1a · 資料到 2026-11-05</div></div>
 </header>
 
 <section>
-  <h2>快照 <span class="lbl">收盤標記・待 11/06 開盤成交前</span></h2>
-  <div class="grid" id="snap">
-    <div class="stat"><div class="k">淨值報酬</div><div class="v num bad" id="navp">—</div></div>
-    <div class="stat"><div class="k">0050 含息</div><div class="v num bad" id="b0050">—</div></div>
-    <div class="stat"><div class="k">超額（百分點）</div><div class="v num good" id="xs">—</div></div>
-    <div class="stat"><div class="k">最大回撤</div><div class="v num bad" id="dd">—</div></div>
-  </div>
-  <p class="hint">起始本金 100 萬台幣（2026-11-02）；成交一律隔日開盤；手續費 0.1425%（無折扣、最低 20 元），賣出證交稅個股 0.3%／ETF 0.1%。金額細節不公開，此頁以規則為主；快照由 <code>paper_pk.json</code> 載入。</p>
+  <h2>說明</h2>
+  <p>本頁是助理「<b>股票ＰＫ自主投資</b>」的紙上帳戶規則與百分比績效，跟觀測站上伊藤／馬克羊等其他紙上系統分開，不是使用者的真實持股或交易。只顯示規則與百分比；不公開本金、部位金額、股數。</p>
 </section>
 
 <section>
-  <h2>原則與版本 <span class="lbl">先訂規則，再掃候選池</span></h2>
+  <h2>績效快照 <span class="lbl">收盤標記・11/06 開盤尚有停損／減碼待成交</span></h2>
+  <div class="grid">
+    <div class="stat"><div class="k">淨值報酬</div><div class="v mono bad">-2.44%</div></div>
+    <div class="stat"><div class="k">0050 含息</div><div class="v mono bad">-5.35%</div></div>
+    <div class="stat"><div class="k">超額</div><div class="v mono good">+2.92 pp</div></div>
+    <div class="stat"><div class="k">最大回撤</div><div class="v mono bad">-2.44%</div></div>
+  </div>
+  <p class="hint">現金約 23.2%、現股約 68.1%（匯率減碼後）；另有微台空單避險。起始 2026-11-02；成交一律隔日開盤；手續費 0.1425%（無折扣、最低 20 元），賣出證交稅個股 0.3%／ETF 0.1%。</p>
+  <div class="hw" style="overflow:auto;margin-top:8px">
+  <table>
+    <tr><th>代號</th><th>名稱</th><th>進場</th><th>權重%</th><th>損益%（扣賣出成本假設）</th></tr>
+    <tr><td class="mono">2330</td><td>台積電</td><td class="mono">11-03</td><td class="mono">14.69</td><td class="mono bad">-2.75</td></tr>
+    <tr><td class="mono">2885</td><td>元大金</td><td class="mono">11-03</td><td class="mono">7.07</td><td class="mono bad">-3.49</td></tr>
+    <tr><td class="mono">2615</td><td>萬海</td><td class="mono">11-03</td><td class="mono">6.90</td><td class="mono bad">-5.57</td></tr>
+    <tr><td class="mono">2603</td><td>長榮</td><td class="mono">11-03</td><td class="mono">6.82</td><td class="mono bad">-5.09</td></tr>
+    <tr><td class="mono">2609</td><td>陽明</td><td class="mono">11-03</td><td class="mono">6.80</td><td class="mono bad">-7.25</td></tr>
+    <tr><td class="mono">1709</td><td>和益</td><td class="mono">11-03</td><td class="mono">6.68</td><td class="mono bad">-1.65</td></tr>
+    <tr><td class="mono">6278</td><td>台表科</td><td class="mono">11-03</td><td class="mono">6.42</td><td class="mono bad">-18.02</td></tr>
+    <tr><td class="mono">6505</td><td>台塑化</td><td class="mono">11-03</td><td class="mono">6.36</td><td class="mono bad">-11.34</td></tr>
+    <tr><td class="mono">1815</td><td>富喬</td><td class="mono">11-03</td><td class="mono">6.35</td><td class="mono bad">-9.12</td></tr>
+  </table>
+  </div>
+  <p class="hint">台表科已觸發固定停損（−15%），預定 11/06 開盤賣出；融資維持率估跌破 160% 另觸發減碼與微台加空（最多 2 口）。</p>
+</section>
+
+<section>
+  <h2>原則與版本</h2>
   <div class="pillrow">
     <span class="tag">v1.0 · 11/02</span>
     <span class="tag">v1.1 · 11/04</span>
@@ -68,87 +86,53 @@ code{font-family:var(--mono);font-size:12.5px;background:rgba(56,189,248,.1);pad
   </div>
   <ul>
     <li><b>原則</b>：用規則找出答案，而不是用答案找出規則。同一天最新資料、同一套標準掃完整候選池。</li>
-    <li><b>節奏</b>：每週一重新選股（不每天換股，以降低交易成本）。每月底與 Gemini 對照淨值。</li>
-    <li><b>機器可讀</b>：完整結構化規則見 <a href="paper_pk_rules.json"><code>paper_pk_rules.json</code></a>。</li>
+    <li><b>節奏</b>：每週一重新選股（不每天換股）。每月底與 Gemini 對照淨值。</li>
+    <li>結構化規則：<a href="paper_pk_rules.json"><code>paper_pk_rules.json</code></a>；績效 JSON：<a href="paper_pk.json"><code>paper_pk.json</code></a>（皆百分比）。</li>
   </ul>
 </section>
 
 <section>
-  <h2>選股 v1.0 <span class="lbl">候選池 → 濾網 → 打分 → 組合</span></h2>
-  <p><b>候選池</b>：上市＋上櫃普通股，取 20 日平均成交值前 150 名。</p>
-  <p><b>濾網（全過才打分）</b></p>
-  <ul>
-    <li>F1 流動性：20 日均成交值 ≥ 2 億，近 60 日有收盤價</li>
-    <li>F2 基本面：近 3 月累計營收 YoY &gt; 0，且 0 &lt; PE ≤ 60</li>
-    <li>F3 趨勢：收盤 &gt; 60MA，或（收盤 &gt; 20MA 且 20MA 上彎）</li>
-  </ul>
-  <p><b>打分權重</b></p>
+  <h2>選股 v1.0</h2>
+  <p><b>候選池</b>：上市＋上櫃普通股，20 日平均成交值前 150 名。</p>
+  <p><b>濾網</b>：F1 流動性（20 日均成交值 ≥ 2 億）；F2 近 3 月營收 YoY &gt; 0 且 0 &lt; PE ≤ 60；F3 收盤 &gt; 60MA，或（收盤 &gt; 20MA 且 20MA 上彎）。</p>
   <table>
     <tr><th>因子</th><th>權重</th><th>說明</th></tr>
     <tr><td>動能 M</td><td class="mono">35%</td><td>多頭／盤整：rel20 與 rel60 平均；空頭見 v1.1a</td></tr>
-    <tr><td>籌碼 C</td><td class="mono">35%</td><td>外資／投信買賣超與連續天數、融資增減等五項排名平均</td></tr>
+    <tr><td>籌碼 C</td><td class="mono">35%</td><td>外資／投信買賣超與連續天數、融資增減等</td></tr>
     <tr><td>營收 G</td><td class="mono">20%</td><td>3 個月累計營收 YoY</td></tr>
     <tr><td>估值 V</td><td class="mono">10%</td><td>PE 越低分越高</td></tr>
   </table>
   <ul>
-    <li><b>台積電錨定</b>：通過 F1／F2 固定 25%，未過 F3 降 15%；不占前 8 名額。</li>
-    <li>其餘總分前 8；同產業最多 3 檔（含台積電）；非台積電等權、單檔上限 12%。</li>
+    <li>台積電錨定：通過 F1／F2 固定約 25% 權重，未過 F3 降約 15%；不占前 8 名額。</li>
+    <li>其餘總分前 8；同產業最多 3 檔；非台積電等權、單檔上限 12%。</li>
     <li>基礎持股：加權 &lt; 60MA → 80%；≥ 60MA → 95%（再受大盤風控往下調，最低 50%）。</li>
   </ul>
 </section>
 
 <section>
-  <h2>規則 v1.1 <span class="lbl">停損／移動停利／換股門檻</span></h2>
+  <h2>規則 v1.1／v1.1a／v1.1b</h2>
   <ul>
-    <li><b>固定停損</b>：收盤較成本跌超過 <span class="mono">15%</span> → 隔日開盤賣（不受換股門檻限制）。</li>
-    <li><b>移動停利</b>：曾較成本漲超過 <span class="mono">15%</span> 後啟動；之後自持有期間最高收盤回落超過 <span class="mono">12%</span> → 隔日開盤賣。</li>
-    <li><b>週一換股</b>（自 2026-11-09）：新標的分數須領先舊持股約 <span class="mono">15%</span> 以上才換；權重偏離超過 <span class="mono">3</span> 個百分點才調整。停損、停利、大盤減碼不受此限。</li>
+    <li><b>固定停損</b>：收盤較成本跌超過 15% → 隔日開盤賣。</li>
+    <li><b>移動停利</b>：曾較成本漲超過 15% 後啟動；自持有期間最高收盤回落超過 12% → 隔日開盤賣。</li>
+    <li><b>週一換股</b>（自 2026-11-09）：新標的分數須領先舊持股約 15% 才換；權重偏離超過 3 個百分點才調整。風控減碼不受此限。</li>
+    <li><b>v1.1a</b>：空頭（加權 &lt; MA60 且 MA60 低於 20 個交易日前）動能只用 rel60；多頭／盤整維持原算法。不採用整套盤勢切換權重。</li>
+    <li><b>v1.1b</b>：匯率減碼條件解除後，總持股目標回 80%，於週一依權重偏離 &gt;3pp 補回。</li>
   </ul>
+  <p class="hint">v1.1a 依據 2015–2026 週頻價格因子回測（有存活者偏差）。籌碼／營收／PE 未做盤勢驗證。</p>
 </section>
 
 <section>
-  <h2>規則 v1.1a <span class="lbl">空頭動能只用 rel60</span></h2>
-  <ul>
-    <li><b>盤勢</b>（換股日收盤判定）：加權 &gt; MA60 且 MA60 高於 20 個交易日前 → 多頭；加權 &lt; MA60 且 MA60 低於 20 個交易日前 → 空頭；其餘盤整。</li>
-    <li><b>空頭</b>：動能分數只用 rel60 排名（不再平均 rel20）。多頭／盤整維持原算法。其他權重不變。</li>
-    <li>不採用整套盤勢切換權重：籌碼／營收／本益比未做盤勢驗證；低波動與短期反轉回測無效。</li>
-  </ul>
-  <p class="hint">依據 2015/1–2026/10 週頻回測（610 週，價格因子，有存活者偏差）。20 日動能在空頭扣成本後偏弱，60 日動能較穩。</p>
-</section>
-
-<section>
-  <h2>大盤風控 <span class="lbl">曝險水位＋微台避險</span></h2>
+  <h2>大盤風控</h2>
   <table>
     <tr><th>指標</th><th>條件</th><th>動作</th></tr>
-    <tr><td>融資維持率（估）</td><td class="mono">≥170%</td><td>不調整</td></tr>
-    <tr><td></td><td class="mono">160–170%</td><td>禁止新增槓桿</td></tr>
+    <tr><td>融資維持率（估）</td><td class="mono">160–170%</td><td>禁止新增槓桿</td></tr>
     <tr><td></td><td class="mono">&lt;160%</td><td>總持股 −10pp，避險口數 +1</td></tr>
     <tr><td>新台幣＋外資</td><td>5 日貶 &gt;1% 或 20 日貶 &gt;3%，且外資 5 日賣超 &gt;1000 億</td><td>總持股 −10pp</td></tr>
   </table>
   <ul>
     <li><b>微台避險</b>：加權 &lt; 20MA 且外資 5 日賣超 &gt;1000 億 → 空 1 口；風控可再 +1，最多 2 口。多頭不開期貨多單，只回補空單／提高持股。</li>
-    <li><b>v1.1b 回復</b>：匯率減碼條件解除後，總持股目標回 80%，於週一依權重偏離 &gt;3pp 規則補回。</li>
-  </ul>
-</section>
-
-<section>
-  <h2>注意</h2>
-  <ul>
-    <li>此為紙上帳戶，非實盤；與觀測站其他紙上系統並列，規則各自獨立。</li>
-    <li>主頁 <code>index.html</code> 每日重編；本頁 <code>paper-pk.html</code> 為獨立檔，避免被蓋掉。</li>
-    <li>回測限制：存活者偏差；籌碼／營收／PE 未驗證盤勢切換。</li>
   </ul>
 </section>
 </div>
-<script>
-fetch('paper_pk.json').then(r=>r.json()).then(d=>{
-  const f=x=>(x>0?'+':'')+Number(x).toFixed(2)+'%';
-  const el=(id,v,cls)=>{const n=document.getElementById(id);n.textContent=v;if(cls)n.classList.add(cls)};
-  el('navp',f(d.nav_pct), d.nav_pct>=0?'good':'bad');
-  el('b0050',f(d.b0050_pct), d.b0050_pct>=0?'good':'bad');
-  el('xs', (d.vs_0050_pp>0?'+':'')+Number(d.vs_0050_pp).toFixed(2)+' pp', d.vs_0050_pp>=0?'good':'bad');
-  el('dd', f(d.max_drawdown_pct), 'bad');
-}).catch(()=>{});
-</script>
 </body>
 </html>
