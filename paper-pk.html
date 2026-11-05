@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>股票ＰＫ自主投資｜紙上帳戶規則</title>
 <style>
-:root{--bg:#060a14;--card:rgba(17,26,48,.62);--tx:#e6edf7;--sub:#8fa0bb;--bd:rgba(120,170,255,.16);--neon:#38bdf8;--neon2:#a78bfa;--good:#4BB462;--bad:#D33439;
+:root{--bg:#060a14;--card:rgba(17,26,48,.62);--tx:#e6edf7;--sub:#8fa0bb;--bd:rgba(120,170,255,.16);--neon:#38bdf8;--neon2:#a78bfa;--up:#D33439;--down:#4BB462;
  --mono:"JetBrains Mono","SF Mono",Menlo,Consolas,"Noto Sans Mono CJK TC",monospace;
  --sans:"Inter","Noto Sans TC","PingFang TC","Microsoft JhengHei",-apple-system,"Segoe UI",sans-serif}
 *{box-sizing:border-box}html{background:var(--bg)}
@@ -28,7 +28,7 @@ h2 .lbl{font-size:11px;color:var(--sub);font-weight:600}
 @media(max-width:640px){.grid{grid-template-columns:1fr}}
 .stat{background:rgba(0,0,0,.22);border:1px solid var(--bd);border-radius:12px;padding:10px 12px}
 .stat .k{font-size:11px;color:var(--sub)} .stat .v{font-size:18px;font-weight:700;margin-top:2px}
-.good{color:var(--good)} .bad{color:var(--bad)}
+.up{color:var(--up)} .down{color:var(--down)}
 ul{margin:6px 0 0;padding-left:1.15em} li{margin:4px 0}
 table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
 th,td{text-align:left;padding:7px 8px;border-bottom:1px solid rgba(120,170,255,.1);vertical-align:top}
@@ -51,29 +51,14 @@ code{font-family:var(--mono);font-size:12.5px;background:rgba(56,189,248,.1);pad
 </section>
 
 <section>
-  <h2>績效快照 <span class="lbl">收盤標記・11/06 開盤尚有停損／減碼待成交</span></h2>
+  <h2>總報酬率 <span class="lbl">自 2026-11-02 起・資料到 2026-11-05 收盤・下跌綠／上漲紅</span></h2>
   <div class="grid">
-    <div class="stat"><div class="k">淨值報酬</div><div class="v mono bad">-2.44%</div></div>
-    <div class="stat"><div class="k">0050 含息</div><div class="v mono bad">-5.35%</div></div>
-    <div class="stat"><div class="k">超額</div><div class="v mono good">+2.92 pp</div></div>
-    <div class="stat"><div class="k">最大回撤</div><div class="v mono bad">-2.44%</div></div>
+    <div class="stat"><div class="k">紙上帳戶總報酬率</div><div class="v mono down" style="font-size:28px">−2.44%</div></div>
+    <div class="stat"><div class="k">0050 含息總報酬</div><div class="v mono down" style="font-size:28px">−5.35%</div></div>
+    <div class="stat"><div class="k">超額報酬</div><div class="v mono up">+2.92 個百分點</div></div>
+    <div class="stat"><div class="k">最大回撤</div><div class="v mono down">−2.44%</div></div>
   </div>
-  <p class="hint">現金約 23.2%、現股約 68.1%（匯率減碼後）；另有微台空單避險。起始 2026-11-02；成交一律隔日開盤；手續費 0.1425%（無折扣、最低 20 元），賣出證交稅個股 0.3%／ETF 0.1%。</p>
-  <div class="hw" style="overflow:auto;margin-top:8px">
-  <table>
-    <tr><th>代號</th><th>名稱</th><th>進場</th><th>權重%</th><th>損益%（扣賣出成本假設）</th></tr>
-    <tr><td class="mono">2330</td><td>台積電</td><td class="mono">11-03</td><td class="mono">14.69</td><td class="mono bad">-2.75</td></tr>
-    <tr><td class="mono">2885</td><td>元大金</td><td class="mono">11-03</td><td class="mono">7.07</td><td class="mono bad">-3.49</td></tr>
-    <tr><td class="mono">2615</td><td>萬海</td><td class="mono">11-03</td><td class="mono">6.90</td><td class="mono bad">-5.57</td></tr>
-    <tr><td class="mono">2603</td><td>長榮</td><td class="mono">11-03</td><td class="mono">6.82</td><td class="mono bad">-5.09</td></tr>
-    <tr><td class="mono">2609</td><td>陽明</td><td class="mono">11-03</td><td class="mono">6.80</td><td class="mono bad">-7.25</td></tr>
-    <tr><td class="mono">1709</td><td>和益</td><td class="mono">11-03</td><td class="mono">6.68</td><td class="mono bad">-1.65</td></tr>
-    <tr><td class="mono">6278</td><td>台表科</td><td class="mono">11-03</td><td class="mono">6.42</td><td class="mono bad">-18.02</td></tr>
-    <tr><td class="mono">6505</td><td>台塑化</td><td class="mono">11-03</td><td class="mono">6.36</td><td class="mono bad">-11.34</td></tr>
-    <tr><td class="mono">1815</td><td>富喬</td><td class="mono">11-03</td><td class="mono">6.35</td><td class="mono bad">-9.12</td></tr>
-  </table>
-  </div>
-  <p class="hint">台表科已觸發固定停損（−15%），預定 11/06 開盤賣出；融資維持率估跌破 160% 另觸發減碼與微台加空（最多 2 口）。</p>
+  <p class="hint">扣手續費與證交稅後；成交隔日開盤。11/06 開盤尚有停損／減碼／微台加空待成交，會再更新本頁百分比。</p>
 </section>
 
 <section>
