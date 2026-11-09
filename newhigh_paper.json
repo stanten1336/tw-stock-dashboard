@@ -2,11 +2,11 @@
  "name": "創新高＋營收（提早進場・平均分配）紙上帳戶",
  "acct_id": "C",
  "start": "2026-11-04",
- "updated": "2026-11-06",
+ "updated": "2026-11-09",
  "state": "ok",
- "total_pct": 0.255,
- "b0050_pct": -9.262,
- "vs_0050_pp": 9.517,
+ "total_pct": 2.635,
+ "b0050_pct": -4.406,
+ "vs_0050_pp": 7.041,
  "cash_pct": 76.01,
  "open": [
   {
@@ -15,9 +15,9 @@
    "batch": "起跑",
    "entry_date": "2026-11-04",
    "entry_price": 13.65,
-   "weight_pct": 14.35,
-   "last_price": 16.35,
-   "net_pct_if_sold": 19.08
+   "weight_pct": 15.76,
+   "last_price": 17.95,
+   "net_pct_if_sold": 30.73
   },
   {
    "code": "1802",
@@ -25,9 +25,9 @@
    "batch": "起跑",
    "entry_date": "2026-11-04",
    "entry_price": 69.2,
-   "weight_pct": 10.01,
-   "last_price": 57.8,
-   "net_pct_if_sold": -16.96
+   "weight_pct": 10.99,
+   "last_price": 63.5,
+   "net_pct_if_sold": -8.77
   }
  ],
  "closed": [],
@@ -37,7 +37,7 @@
  "next_decision": "2026-11-10",
  "next_rev_month": "2026-10",
  "preview": {
-  "date": "2026-11-06",
+  "date": "2026-11-09",
   "rev_month": "2026-09",
   "n_pool": 4,
   "picks": [
@@ -52,14 +52,14 @@
     "yoy": 70.5
    },
    {
-    "code": "2412",
-    "name": "中華電",
-    "yoy": 20.9
+    "code": "6589",
+    "name": "台康生技",
+    "yoy": 43.2
    },
    {
-    "code": "6782",
-    "name": "視陽",
-    "yoy": 14.9
+    "code": "1477",
+    "name": "聚陽",
+    "yoy": 24.0
    }
   ]
  },
@@ -85,6 +85,11 @@
    "date": "2026-11-06",
    "C": 0.255,
    "b0050": -9.262
+  },
+  {
+   "date": "2026-11-09",
+   "C": 2.635,
+   "b0050": -4.406
   }
  ],
  "batches": [
