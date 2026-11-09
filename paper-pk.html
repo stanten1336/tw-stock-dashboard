@@ -42,7 +42,7 @@ code{font-family:var(--mono);font-size:12.5px;background:rgba(56,189,248,.1);pad
 <div class="wrap">
 <header>
   <h1>股票ＰＫ自主投資<small>紙上帳戶（與網站其他紙上帳戶分開）｜基準 0050 含息｜對戰 Gemini 同規則</small></h1>
-  <div class="back"><a href="./">← 台股觀測站</a><div class="mono" style="margin-top:4px;font-size:11px">規則 v1.1a · 資料到 2026-11-06</div></div>
+  <div class="back"><a href="./">← 台股觀測站</a><div class="mono" style="margin-top:4px;font-size:11px">規則 v1.1c · 資料到 2026-11-09</div></div>
 </header>
 
 <section>
@@ -51,14 +51,14 @@ code{font-family:var(--mono);font-size:12.5px;background:rgba(56,189,248,.1);pad
 </section>
 
 <section>
-  <h2>總報酬率 <span class="lbl">自 2026-11-02 起・資料到 2026-11-06 收盤・下跌綠／上漲紅</span></h2>
+  <h2>總報酬率 <span class="lbl">自 2026-11-02 起・資料到 2026-11-09 收盤・下跌綠／上漲紅</span></h2>
   <div class="grid">
-    <div class="stat"><div class="k">紙上帳戶總報酬率</div><div class="v mono down" style="font-size:28px">−4.42%</div></div>
-    <div class="stat"><div class="k">0050 含息總報酬</div><div class="v mono down" style="font-size:28px">−9.88%</div></div>
-    <div class="stat"><div class="k">超額報酬</div><div class="v mono up">+5.46 個百分點</div></div>
-    <div class="stat"><div class="k">最大回撤</div><div class="v mono down">−4.42%</div></div>
+    <div class="stat"><div class="k">紙上帳戶總報酬率</div><div class="v mono down" style="font-size:28px">−6.11%</div></div>
+    <div class="stat"><div class="k">0050 含息總報酬</div><div class="v mono down" style="font-size:28px">−5.06%</div></div>
+    <div class="stat"><div class="k">超額報酬</div><div class="v mono down">−1.05 個百分點</div></div>
+    <div class="stat"><div class="k">最大回撤</div><div class="v mono down">−6.11%</div></div>
   </div>
-  <p class="hint">扣手續費與證交稅後；成交隔日開盤。11/06 台表科停損與融資維持率減碼／微台加空已成交；現股約 58%、微台空 2 口；無新 pending。</p>
+  <p class="hint">扣手續費與證交稅後；成交隔日開盤。11/09 加權反彈 +4.94%，微台空 2 口拖累，超額轉負。融資維持率估回升至 162%：11/10 開盤回補 1 口微台；週一選股和益出池→換中華電。現股約 61%。</p>
 </section>
 
 <section>
@@ -95,13 +95,14 @@ code{font-family:var(--mono);font-size:12.5px;background:rgba(56,189,248,.1);pad
 </section>
 
 <section>
-  <h2>規則 v1.1／v1.1a／v1.1b</h2>
+  <h2>規則 v1.1／v1.1a／v1.1b／v1.1c</h2>
   <ul>
     <li><b>固定停損</b>：收盤較成本跌超過 15% → 隔日開盤賣。</li>
     <li><b>移動停利</b>：曾較成本漲超過 15% 後啟動；自持有期間最高收盤回落超過 12% → 隔日開盤賣。</li>
     <li><b>週一換股</b>（自 2026-11-09）：新標的分數須領先舊持股約 15% 才換；權重偏離超過 3 個百分點才調整。風控減碼不受此限。</li>
     <li><b>v1.1a</b>：空頭（加權 &lt; MA60 且 MA60 低於 20 個交易日前）動能只用 rel60；多頭／盤整維持原算法。不採用整套盤勢切換權重。</li>
     <li><b>v1.1b</b>：匯率減碼條件解除後，總持股目標回 80%，於週一依權重偏離 &gt;3pp 補回。</li>
+    <li><b>v1.1c</b>（自 2026-11-16）：融資維持率回升 ≥160% 且週一仍成立，收回該列的 −10pp，依權重偏離 &gt;3pp 補回。</li>
   </ul>
   <p class="hint">v1.1a 依據 2015–2026 週頻價格因子回測（有存活者偏差）。籌碼／營收／PE 未做盤勢驗證。</p>
 </section>

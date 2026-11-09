@@ -1,55 +1,60 @@
 {
-  "name": "股票ＰＫ自主投資紙上帳戶",
-  "agent": "股票ＰＫ自主投資",
-  "start": "2026-11-02",
-  "updated": "2026-11-05",
-  "strategy_version": "v1.1a",
-  "principle": "用規則找出答案，而不是用答案找出規則",
-  "benchmark": "0050 含息總報酬（同日起、配息再投入）",
-  "fills": "隔日開盤價",
-  "cost": {
-    "commission_pct": 0.1425,
-    "commission_min_twd": 20,
-    "commission_discount": false,
-    "tax_stock_pct": 0.3,
-    "tax_etf_pct": 0.1
+ "name": "股票ＰＫ自主投資紙上帳戶",
+ "agent": "股票ＰＫ自主投資",
+ "start": "2026-11-02",
+ "updated": "2026-11-09",
+ "strategy_version": "v1.1c",
+ "principle": "用規則找出答案，而不是用答案找出規則",
+ "benchmark": "0050 含息總報酬（同日起、配息再投入）",
+ "fills": "隔日開盤價",
+ "cost": {
+  "commission_pct": 0.1425,
+  "commission_min_twd": 20,
+  "commission_discount": false,
+  "tax_stock_pct": 0.3,
+  "tax_etf_pct": 0.1
+ },
+ "scoring": {
+  "momentum_pct": 35,
+  "chips_pct": 35,
+  "revenue_pct": 20,
+  "pe_pct": 10,
+  "bear_momentum": "只用 rel60（v1.1a，自 2026-11-09 週一）"
+ },
+ "versions": {
+  "v1.0": {
+   "effective": "2026-11-02",
+   "summary": "選股＋大盤曝險／微台避險"
   },
-  "scoring": {
-    "momentum_pct": 35,
-    "chips_pct": 35,
-    "revenue_pct": 20,
-    "pe_pct": 10,
-    "bear_momentum": "只用 rel60（v1.1a，自 2026-11-09 週一）"
+  "v1.1": {
+   "effective_from_close": "2026-11-04",
+   "monday_swap_from": "2026-11-09",
+   "hard_stop_pct": -15,
+   "trailing_arm_gain_pct": 15,
+   "trailing_giveback_pct": 12,
+   "swap_score_lead_pct": 15,
+   "rebalance_weight_band_pp": 3
   },
-  "versions": {
-    "v1.0": {
-      "effective": "2026-11-02",
-      "summary": "選股＋大盤曝險／微台避險"
-    },
-    "v1.1": {
-      "effective_from_close": "2026-11-04",
-      "monday_swap_from": "2026-11-09",
-      "hard_stop_pct": -15,
-      "trailing_arm_gain_pct": 15,
-      "trailing_giveback_pct": 12,
-      "swap_score_lead_pct": 15,
-      "rebalance_weight_band_pp": 3
-    },
-    "v1.1a": {
-      "effective_monday": "2026-11-09",
-      "regime": "加權 vs MA60，且 MA60 斜率對照 20 個交易日前",
-      "bear_momentum": "score_M 只用 rel60"
-    },
-    "v1.1b": {
-      "summary": "匯率＋外資賣超減碼解除後，總持股目標回 80%，週一依權重偏離 >3pp 補回"
-    }
+  "v1.1a": {
+   "effective_monday": "2026-11-09",
+   "regime": "加權 vs MA60，且 MA60 斜率對照 20 個交易日前",
+   "bear_momentum": "score_M 只用 rel60"
   },
-  "market_risk": {
-    "fx_foreign_cut": "新台幣 5 日貶>1% 或 20 日貶>3%，且外資 5 日賣超>1000 億 → 總持股 −10pp",
-    "margin_cut": "融資維持率估 <160% → 總持股 −10pp、避險 +1 口",
-    "tmf_hedge": "加權<20MA 且外資 5 日賣超>1000 億 → 空 1 口微台；最多 2 口；多頭不加期貨多單",
-    "equity_floor_pct": 50
+  "v1.1b": {
+   "summary": "匯率＋外資賣超減碼解除後，總持股目標回 80%，週一依權重偏離 >3pp 補回"
   },
-  "disclosure": "只公開規則與百分比績效；不含本金、部位金額、股數。與網站其他紙上帳戶分開。",
-  "limitations": "盤勢回測僅價格因子、有存活者偏差；籌碼／營收／PE 未做盤勢切換驗證"
+  "v1.1c": {
+   "decided": "2026-11-09",
+   "effective_monday": "2026-11-16",
+   "summary": "大盤融資維持率估回升≥160%且週一仍成立→收回融資列−10pp，週一依權重偏離>3pp補回；當天看過結果才補，故延後一週生效"
+  }
+ },
+ "market_risk": {
+  "fx_foreign_cut": "新台幣 5 日貶>1% 或 20 日貶>3%，且外資 5 日賣超>1000 億 → 總持股 −10pp",
+  "margin_cut": "融資維持率估 <160% → 總持股 −10pp、避險 +1 口",
+  "tmf_hedge": "加權<20MA 且外資 5 日賣超>1000 億 → 空 1 口微台；最多 2 口；多頭不加期貨多單",
+  "equity_floor_pct": 50
+ },
+ "disclosure": "只公開規則與百分比績效；不含本金、部位金額、股數。與網站其他紙上帳戶分開。",
+ "limitations": "盤勢回測僅價格因子、有存活者偏差；籌碼／營收／PE 未做盤勢切換驗證"
 }

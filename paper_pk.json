@@ -1,15 +1,15 @@
 {
  "name": "股票ＰＫ自主投資紙上帳戶",
  "start": "2026-11-02",
- "updated": "2026-11-06",
+ "updated": "2026-11-09",
  "state": "ok",
- "strategy_version": "v1.1a",
- "total_pct": -4.421,
- "b0050_pct": -9.884,
- "vs_0050_pp": 5.463,
- "max_drawdown_pct": -4.421,
- "cash_pct": 27.12,
- "stock_weight_pct": 58.23,
+ "strategy_version": "v1.1c",
+ "total_pct": -6.113,
+ "b0050_pct": -5.062,
+ "vs_0050_pp": -1.051,
+ "max_drawdown_pct": -6.113,
+ "cash_pct": 23.72,
+ "stock_weight_pct": 61.37,
  "hedge_tmf_short": 2,
  "open": [
   {
@@ -17,72 +17,72 @@
    "name": "台積電",
    "entry_date": "2026-11-03",
    "entry_price": 2303.28,
-   "weight_pct": 14.3,
-   "last_price": 2135,
-   "net_pct_if_sold": -7.31
+   "weight_pct": 15.24,
+   "last_price": 2235,
+   "net_pct_if_sold": -2.96
   },
   {
    "code": "2603",
    "name": "長榮",
    "entry_date": "2026-11-03",
    "entry_price": 272.89,
-   "weight_pct": 6.29,
-   "last_price": 246.5,
-   "net_pct_if_sold": -9.67
+   "weight_pct": 6.38,
+   "last_price": 245.5,
+   "net_pct_if_sold": -10.04
   },
   {
    "code": "1815",
    "name": "富喬",
    "entry_date": "2026-11-03",
    "entry_price": 133.69,
-   "weight_pct": 6.27,
-   "last_price": 117.5,
-   "net_pct_if_sold": -12.11
+   "weight_pct": 7.01,
+   "last_price": 129,
+   "net_pct_if_sold": -3.51
   },
   {
    "code": "2609",
    "name": "陽明",
    "entry_date": "2026-11-03",
    "entry_price": 64.69,
-   "weight_pct": 6.28,
-   "last_price": 57.1,
-   "net_pct_if_sold": -11.73
+   "weight_pct": 6.44,
+   "last_price": 57.5,
+   "net_pct_if_sold": -11.11
   },
   {
    "code": "2615",
    "name": "萬海",
    "entry_date": "2026-11-03",
    "entry_price": 119.67,
-   "weight_pct": 6.29,
-   "last_price": 107.5,
-   "net_pct_if_sold": -10.17
+   "weight_pct": 6.37,
+   "last_price": 107,
+   "net_pct_if_sold": -10.59
   },
   {
    "code": "1709",
    "name": "和益",
    "entry_date": "2026-11-03",
    "entry_price": 46.57,
-   "weight_pct": 6.07,
-   "last_price": 42.1,
-   "net_pct_if_sold": -9.6
+   "weight_pct": 6.53,
+   "last_price": 44.45,
+   "net_pct_if_sold": -4.55
   },
   {
    "code": "2885",
    "name": "元大金",
    "entry_date": "2026-11-03",
    "entry_price": 71.6,
-   "weight_pct": 6.4,
-   "last_price": 66.9,
-   "net_pct_if_sold": -6.56
+   "weight_pct": 6.76,
+   "last_price": 69.4,
+   "net_pct_if_sold": -3.07
   },
   {
    "code": "6505",
    "name": "台塑化",
    "entry_date": "2026-11-03",
    "entry_price": 99.14,
-   "weight_pct": 6.33,
-   "last_price": 85.7,
-   "net_pct_if_sold": -13.56
+   "weight_pct": 6.65,
+   "last_price": 88.4,
+   "net_pct_if_sold": -10.83
   }
  ],
  "closed": [
@@ -107,7 +107,8 @@
   "regime_v1_1a": "空頭（加權<MA60且MA60低於20日前）動能只用rel60；多頭／盤整維持原算法。自2026-11-09週一適用",
   "cost": "手續費0.1425%（無折扣、最低20元）＋證交稅個股0.3%／ETF0.1%；成交一律隔日開盤價",
   "hedge": "加權<20MA且外資5日賣超>1000億→空1口微台；融資維持率估<160%再+1口（最多2）。多頭不加期貨多單，只回補空單／提高持股",
-  "nav": "淨值＝持股收盤清算（扣賣出成本假設）＋現金＋期貨浮盈；對照＝同期0050含息總報酬"
+  "nav": "淨值＝持股收盤清算（扣賣出成本假設）＋現金＋期貨浮盈；對照＝同期0050含息總報酬",
+  "v1_1c": "融資維持率估回升≥160%且週一仍成立→收回融資列−10pp，依權重偏離>3pp補回；自2026-11-16適用"
  },
  "nav": [
   {
@@ -134,7 +135,12 @@
    "date": "2026-11-06",
    "PK": -4.421,
    "b0050": -9.884
+  },
+  {
+   "date": "2026-11-09",
+   "PK": -6.113,
+   "b0050": -5.062
   }
  ],
- "note": "只顯示百分比與權重%；假想本金與股數不公開。此為「股票ＰＫ自主投資」助理的紙上帳戶，與網站其他紙上帳戶分開，不是使用者的真實交易。11/06大盤-4.51%，融資維持率估151.92%，避險微台空2口維持。"
+ "note": "只顯示百分比與權重%；假想本金與股數不公開。此為「股票ＰＫ自主投資」助理的紙上帳戶，與網站其他紙上帳戶分開，不是使用者的真實交易。11/09加權+4.94%，微台空2口拖累；融資維持率估162.45%回升，11/10開盤回補1口；和益出池換中華電(11/10開盤)。"
 }
