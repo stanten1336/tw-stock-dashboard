@@ -2,11 +2,11 @@
  "name": "創新高＋營收（提早進場・平均分配）紙上帳戶",
  "acct_id": "C",
  "start": "2026-11-04",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "state": "ok",
- "total_pct": 2.635,
- "b0050_pct": -4.406,
- "vs_0050_pp": 7.041,
+ "total_pct": 4.071,
+ "b0050_pct": -2.199,
+ "vs_0050_pp": 6.27,
  "cash_pct": 76.01,
  "open": [
   {
@@ -15,9 +15,9 @@
    "batch": "起跑",
    "entry_date": "2026-11-04",
    "entry_price": 13.65,
-   "weight_pct": 15.76,
-   "last_price": 17.95,
-   "net_pct_if_sold": 30.73
+   "weight_pct": 16.11,
+   "last_price": 18.35,
+   "net_pct_if_sold": 33.65
   },
   {
    "code": "1802",
@@ -25,9 +25,9 @@
    "batch": "起跑",
    "entry_date": "2026-11-04",
    "entry_price": 69.2,
-   "weight_pct": 10.99,
-   "last_price": 63.5,
-   "net_pct_if_sold": -8.77
+   "weight_pct": 12.08,
+   "last_price": 69.8,
+   "net_pct_if_sold": 0.28
   }
  ],
  "closed": [],
@@ -37,29 +37,39 @@
  "next_decision": "2026-11-10",
  "next_rev_month": "2026-10",
  "preview": {
-  "date": "2026-11-09",
-  "rev_month": "2026-09",
-  "n_pool": 4,
+  "date": "2026-11-10",
+  "rev_month": "2026-10",
+  "n_pool": 6,
   "picks": [
    {
-    "code": "6446",
-    "name": "藥華藥",
-    "yoy": 100.0
+    "code": "2465",
+    "name": "麗臺",
+    "yoy": 340.6
+   },
+   {
+    "code": "6782",
+    "name": "視陽",
+    "yoy": 60.0
+   },
+   {
+    "code": "1802",
+    "name": "台玻",
+    "yoy": 56.5
    },
    {
     "code": "1416",
     "name": "廣豐",
-    "yoy": 70.5
+    "yoy": 45.5
    },
    {
-    "code": "6589",
-    "name": "台康生技",
-    "yoy": 43.2
+    "code": "4426",
+    "name": "利勤",
+    "yoy": 36.0
    },
    {
-    "code": "1477",
-    "name": "聚陽",
-    "yoy": 24.0
+    "code": "2468",
+    "name": "華經",
+    "yoy": 20.0
    }
   ]
  },
@@ -90,6 +100,11 @@
    "date": "2026-11-09",
    "C": 2.635,
    "b0050": -4.406
+  },
+  {
+   "date": "2026-11-10",
+   "C": 4.071,
+   "b0050": -2.199
   }
  ],
  "batches": [

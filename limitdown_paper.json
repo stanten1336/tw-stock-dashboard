@@ -1,54 +1,95 @@
 {
  "name": "連續跌停開板紙上帳戶",
  "start": "2026-11-06",
- "updated": "2026-11-09",
+ "updated": "2026-11-10",
  "state": "ok",
- "total_pct": 0.0,
- "b0050_pct": 7.921,
- "vs_0050_pp": -7.921,
- "cash_pct": 100.0,
- "open": [],
+ "total_pct": -0.629,
+ "b0050_pct": 10.413,
+ "vs_0050_pp": -11.042,
+ "cash_pct": 50.13,
+ "open": [
+  {
+   "code": "4720",
+   "name": "德淵",
+   "signal_date": "2026-11-09",
+   "entry_date": "2026-11-10",
+   "entry_price": 27.5,
+   "weight_pct": 9.89,
+   "last_price": 27.25,
+   "net_pct_if_sold": -1.49,
+   "days_held": 1,
+   "days_left": 19
+  },
+  {
+   "code": "6213",
+   "name": "聯茂",
+   "signal_date": "2026-11-09",
+   "entry_date": "2026-11-10",
+   "entry_price": 546.0,
+   "weight_pct": 9.61,
+   "last_price": 528.0,
+   "net_pct_if_sold": -3.86,
+   "days_held": 1,
+   "days_left": 19
+  },
+  {
+   "code": "8046",
+   "name": "南電",
+   "signal_date": "2026-11-09",
+   "entry_date": "2026-11-10",
+   "entry_price": 985.0,
+   "weight_pct": 10.15,
+   "last_price": 1005.0,
+   "net_pct_if_sold": 1.43,
+   "days_held": 1,
+   "days_left": 19
+  },
+  {
+   "code": "2328",
+   "name": "廣宇",
+   "signal_date": "2026-11-09",
+   "entry_date": "2026-11-10",
+   "entry_price": 48.2,
+   "weight_pct": 9.72,
+   "last_price": 46.95,
+   "net_pct_if_sold": -3.16,
+   "days_held": 1,
+   "days_left": 19
+  },
+  {
+   "code": "3450",
+   "name": "聯鈞",
+   "signal_date": "2026-11-09",
+   "entry_date": "2026-11-10",
+   "entry_price": 364.5,
+   "weight_pct": 10.09,
+   "last_price": 369.5,
+   "net_pct_if_sold": 0.78,
+   "days_held": 1,
+   "days_left": 19
+  }
+ ],
  "closed": [],
  "n_closed": 0,
  "win_rate_pct": null,
  "avg_net_pct": null,
  "watch": {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "list": [
    {
-    "code": "4720",
-    "name": "德淵",
-    "n_ld": 2
-   },
-   {
-    "code": "6213",
-    "name": "聯茂",
-    "n_ld": 2
-   },
-   {
-    "code": "8046",
-    "name": "南電",
-    "n_ld": 2
-   },
-   {
-    "code": "2328",
-    "name": "廣宇",
-    "n_ld": 2
-   },
-   {
-    "code": "3450",
-    "name": "聯鈞",
-    "n_ld": 2
+    "code": "3605",
+    "name": "宏致",
+    "n_ld": 3
    }
   ],
   "mkt": {
-   "r20_pct": -16.03,
-   "close": 97.45,
-   "ma60": 107.6783,
+   "r20_pct": -13.27,
+   "close": 99.7,
+   "ma60": 107.5967,
    "and_ok": true,
    "ok": true,
    "why": null,
-   "data_asof": "2026-11-09"
+   "data_asof": "2026-11-10"
   },
   "base_n": null
  },
@@ -69,6 +110,11 @@
    "date": "2026-11-09",
    "pct": 0.0,
    "b0050": 7.921
+  },
+  {
+   "date": "2026-11-10",
+   "pct": -0.629,
+   "b0050": 10.413
   }
  ],
  "skipped": [],
@@ -76,56 +122,97 @@
  "crash_and": {
   "name": "大盤急跌＋跌停開板紙上帳戶",
   "start": "2026-11-06",
-  "updated": "2026-11-09",
+  "updated": "2026-11-10",
   "state": "ok",
-  "total_pct": 0.0,
-  "b0050_pct": 1.49,
-  "vs_0050_pp": -1.49,
-  "cash_pct": 100.0,
-  "open": [],
+  "total_pct": -0.629,
+  "b0050_pct": 3.833,
+  "vs_0050_pp": -4.462,
+  "cash_pct": 50.13,
+  "open": [
+   {
+    "code": "4720",
+    "name": "德淵",
+    "signal_date": "2026-11-09",
+    "entry_date": "2026-11-10",
+    "entry_price": 27.5,
+    "weight_pct": 9.89,
+    "last_price": 27.25,
+    "net_pct_if_sold": -1.49,
+    "days_held": 1,
+    "days_left": 19
+   },
+   {
+    "code": "6213",
+    "name": "聯茂",
+    "signal_date": "2026-11-09",
+    "entry_date": "2026-11-10",
+    "entry_price": 546.0,
+    "weight_pct": 9.61,
+    "last_price": 528.0,
+    "net_pct_if_sold": -3.86,
+    "days_held": 1,
+    "days_left": 19
+   },
+   {
+    "code": "8046",
+    "name": "南電",
+    "signal_date": "2026-11-09",
+    "entry_date": "2026-11-10",
+    "entry_price": 985.0,
+    "weight_pct": 10.15,
+    "last_price": 1005.0,
+    "net_pct_if_sold": 1.43,
+    "days_held": 1,
+    "days_left": 19
+   },
+   {
+    "code": "2328",
+    "name": "廣宇",
+    "signal_date": "2026-11-09",
+    "entry_date": "2026-11-10",
+    "entry_price": 48.2,
+    "weight_pct": 9.72,
+    "last_price": 46.95,
+    "net_pct_if_sold": -3.16,
+    "days_held": 1,
+    "days_left": 19
+   },
+   {
+    "code": "3450",
+    "name": "聯鈞",
+    "signal_date": "2026-11-09",
+    "entry_date": "2026-11-10",
+    "entry_price": 364.5,
+    "weight_pct": 10.09,
+    "last_price": 369.5,
+    "net_pct_if_sold": 0.78,
+    "days_held": 1,
+    "days_left": 19
+   }
+  ],
   "closed": [],
   "n_closed": 0,
   "win_rate_pct": null,
   "avg_net_pct": null,
   "watch": {
-   "date": "2026-11-09",
+   "date": "2026-11-10",
    "list": [
     {
-     "code": "4720",
-     "name": "德淵",
-     "n_ld": 2
-    },
-    {
-     "code": "6213",
-     "name": "聯茂",
-     "n_ld": 2
-    },
-    {
-     "code": "8046",
-     "name": "南電",
-     "n_ld": 2
-    },
-    {
-     "code": "2328",
-     "name": "廣宇",
-     "n_ld": 2
-    },
-    {
-     "code": "3450",
-     "name": "聯鈞",
-     "n_ld": 2
+     "code": "3605",
+     "name": "宏致",
+     "n_ld": 3
     }
    ],
    "mkt": {
-    "r20_pct": -16.03,
-    "close": 97.45,
-    "ma60": 107.6783,
+    "r20_pct": -13.27,
+    "close": 99.7,
+    "ma60": 107.5967,
     "and_ok": true,
     "ok": true,
     "why": null,
-    "data_asof": "2026-11-09"
+    "data_asof": "2026-11-10"
    },
-   "base_n": 5
+   "base_n": 1
   },
   "rules": {
    "entry": "⑧ 優先 AND＝開板 ×（0050 近 20 交易日報酬 ≤−5% 且收盤 <60MA）；其餘進出場／部位／成本同「連續跌停開板」。2026-11-06 盤後建立，最早 2026-11-09 開盤可執行；只用 ≥2026-11-06 訊號，不回填更早。",
@@ -139,6 +226,11 @@
     "date": "2026-11-09",
     "pct": 0.0,
     "b0050": 1.49
+   },
+   {
+    "date": "2026-11-10",
+    "pct": -0.629,
+    "b0050": 3.833
    }
   ],
   "skipped": [],
