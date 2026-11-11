@@ -2,44 +2,84 @@
  "name": "創新高＋營收（提早進場・平均分配）紙上帳戶",
  "acct_id": "C",
  "start": "2026-11-04",
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "state": "ok",
- "total_pct": 4.071,
- "b0050_pct": -2.199,
- "vs_0050_pp": 6.27,
- "cash_pct": 76.01,
+ "total_pct": 5.874,
+ "b0050_pct": 1.234,
+ "vs_0050_pp": 4.64,
+ "cash_pct": 29.77,
  "open": [
   {
    "code": "1416",
    "name": "廣豐",
-   "batch": "起跑",
+   "batch": "2026-10營收",
    "entry_date": "2026-11-04",
    "entry_price": 13.65,
-   "weight_pct": 16.11,
-   "last_price": 18.35,
-   "net_pct_if_sold": 33.65
+   "weight_pct": 12.79,
+   "last_price": 20.15,
+   "net_pct_if_sold": 46.76
   },
   {
    "code": "1802",
    "name": "台玻",
-   "batch": "起跑",
+   "batch": "2026-10營收",
    "entry_date": "2026-11-04",
    "entry_price": 69.2,
-   "weight_pct": 12.08,
-   "last_price": 69.8,
-   "net_pct_if_sold": 0.28
+   "weight_pct": 13.69,
+   "last_price": 76.7,
+   "net_pct_if_sold": 10.19
+  },
+  {
+   "code": "2465",
+   "name": "麗臺",
+   "batch": "2026-10營收",
+   "entry_date": "2026-11-11",
+   "entry_price": 149.5,
+   "weight_pct": 12.65,
+   "last_price": 149.5,
+   "net_pct_if_sold": -0.58
+  },
+  {
+   "code": "6782",
+   "name": "視陽",
+   "batch": "2026-10營收",
+   "entry_date": "2026-11-11",
+   "entry_price": 296.0,
+   "weight_pct": 12.06,
+   "last_price": 282.5,
+   "net_pct_if_sold": -5.12
+  },
+  {
+   "code": "4426",
+   "name": "利勤",
+   "batch": "2026-10營收",
+   "entry_date": "2026-11-11",
+   "entry_price": 9.17,
+   "weight_pct": 12.15,
+   "last_price": 8.8,
+   "net_pct_if_sold": -4.6
+  },
+  {
+   "code": "2468",
+   "name": "華經",
+   "batch": "2026-10營收",
+   "entry_date": "2026-11-11",
+   "entry_price": 66.0,
+   "weight_pct": 13.1,
+   "last_price": 68.3,
+   "net_pct_if_sold": 2.88
   }
  ],
  "closed": [],
  "n_closed": 0,
  "win_rate_pct": null,
  "avg_net_pct": null,
- "next_decision": "2026-11-10",
- "next_rev_month": "2026-10",
+ "next_decision": "2026-12-10",
+ "next_rev_month": "2026-11",
  "preview": {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "rev_month": "2026-10",
-  "n_pool": 6,
+  "n_pool": 10,
   "picks": [
    {
     "code": "2465",
@@ -47,9 +87,24 @@
     "yoy": 340.6
    },
    {
-    "code": "6782",
-    "name": "視陽",
-    "yoy": 60.0
+    "code": "6589",
+    "name": "台康生技",
+    "yoy": 287.9
+   },
+   {
+    "code": "2034",
+    "name": "允強",
+    "yoy": 99.8
+   },
+   {
+    "code": "3029",
+    "name": "零壹",
+    "yoy": 91.1
+   },
+   {
+    "code": "6108",
+    "name": "競國",
+    "yoy": 86.7
    },
    {
     "code": "1802",
@@ -57,14 +112,19 @@
     "yoy": 56.5
    },
    {
+    "code": "9933",
+    "name": "中鼎",
+    "yoy": 53.9
+   },
+   {
     "code": "1416",
     "name": "廣豐",
     "yoy": 45.5
    },
    {
-    "code": "4426",
-    "name": "利勤",
-    "yoy": 36.0
+    "code": "2355",
+    "name": "敬鵬",
+    "yoy": 33.0
    },
    {
     "code": "2468",
@@ -105,6 +165,11 @@
    "date": "2026-11-10",
    "C": 4.071,
    "b0050": -2.199
+  },
+  {
+   "date": "2026-11-11",
+   "C": 5.874,
+   "b0050": 1.234
   }
  ],
  "batches": [
@@ -114,6 +179,13 @@
    "label": "起跑",
    "rev_month": "2026-09",
    "n": 2
+  },
+  {
+   "entry": "2026-11-11",
+   "decision": "2026-11-10",
+   "label": "2026-10營收",
+   "rev_month": "2026-10",
+   "n": 6
   }
  ],
  "skipped": [],

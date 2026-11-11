@@ -1,8 +1,8 @@
 {
  "name": "伊藤小助手紙上帳戶",
  "start": "2026-11-02",
- "updated": "2026-11-10",
- "b0050_pct": -4.595,
+ "updated": "2026-11-11",
+ "b0050_pct": -1.246,
  "rules": {
   "entry": {
    "③⭐": "③⭐ 月營收＋毛利率（60 日漲幅前 5）：進場日收盤買，開盤跳空 ≥5% 改開盤買",
@@ -18,8 +18,8 @@
   "A": {
    "name": "A：0050 核心＋衛星",
    "desc": "0050 65%（11/02 收盤買進抱著）＋衛星每檔 5%（最多 5 檔、共 25%）＋現金 10%",
-   "total_pct": -2.987,
-   "vs_0050_pp": 1.608,
+   "total_pct": -0.906,
+   "vs_0050_pp": 0.34,
    "open": [
     {
      "acct": "A",
@@ -31,45 +31,273 @@
      "entry_rule": "收盤",
      "entry_price": 104.1,
      "weight_pct": 65.0,
-     "last_price": 99.7,
-     "net_pct_if_sold": -4.59
+     "last_price": 103.2,
+     "net_pct_if_sold": -1.25
+    },
+    {
+     "acct": "A",
+     "code": "6672",
+     "name": "騰輝電子-KY",
+     "rule": "③⭐",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "收盤",
+     "entry_price": 525.0,
+     "weight_pct": 4.99,
+     "last_price": 525.0,
+     "net_pct_if_sold": -0.58
+    },
+    {
+     "acct": "A",
+     "code": "1416",
+     "name": "廣豐",
+     "rule": "③⭐",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "開盤（跳空 +8.7% ≥5%）",
+     "entry_price": 19.95,
+     "weight_pct": 5.0,
+     "last_price": 20.15,
+     "net_pct_if_sold": 0.41
+    },
+    {
+     "acct": "A",
+     "code": "9933",
+     "name": "中鼎",
+     "rule": "③⭐",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "收盤",
+     "entry_price": 51.5,
+     "weight_pct": 5.0,
+     "last_price": 51.5,
+     "net_pct_if_sold": -0.58
+    },
+    {
+     "acct": "A",
+     "code": "1802",
+     "name": "台玻",
+     "rule": "③⭐",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "收盤",
+     "entry_price": 76.7,
+     "weight_pct": 4.99,
+     "last_price": 76.7,
+     "net_pct_if_sold": -0.58
+    },
+    {
+     "acct": "A",
+     "code": "1326",
+     "name": "台化",
+     "rule": "③⭐",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "收盤",
+     "entry_price": 73.5,
+     "weight_pct": 5.0,
+     "last_price": 73.5,
+     "net_pct_if_sold": -0.58
     }
    ],
    "closed": [],
    "n_closed": 0,
    "win_rate_pct": null,
    "avg_net_pct": null,
-   "cash_pct": 35.0
+   "cash_pct": 10.02
   },
   "B": {
    "name": "B：只做訊號",
    "desc": "不放 0050；每檔 10%（最多 10 檔），沒用到的現金閒置",
-   "total_pct": 0.0,
-   "vs_0050_pp": 4.595,
-   "open": [],
+   "total_pct": -0.192,
+   "vs_0050_pp": 1.054,
+   "open": [
+    {
+     "acct": "B",
+     "code": "6672",
+     "name": "騰輝電子-KY",
+     "rule": "③⭐",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "收盤",
+     "entry_price": 525.0,
+     "weight_pct": 9.99,
+     "last_price": 525.0,
+     "net_pct_if_sold": -0.58
+    },
+    {
+     "acct": "B",
+     "code": "1416",
+     "name": "廣豐",
+     "rule": "③⭐",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "開盤（跳空 +8.7% ≥5%）",
+     "entry_price": 19.95,
+     "weight_pct": 10.0,
+     "last_price": 20.15,
+     "net_pct_if_sold": 0.41
+    },
+    {
+     "acct": "B",
+     "code": "9933",
+     "name": "中鼎",
+     "rule": "③⭐",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "收盤",
+     "entry_price": 51.5,
+     "weight_pct": 9.99,
+     "last_price": 51.5,
+     "net_pct_if_sold": -0.58
+    },
+    {
+     "acct": "B",
+     "code": "1802",
+     "name": "台玻",
+     "rule": "③⭐",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "收盤",
+     "entry_price": 76.7,
+     "weight_pct": 9.99,
+     "last_price": 76.7,
+     "net_pct_if_sold": -0.58
+    },
+    {
+     "acct": "B",
+     "code": "1326",
+     "name": "台化",
+     "rule": "③⭐",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "收盤",
+     "entry_price": 73.5,
+     "weight_pct": 10.0,
+     "last_price": 73.5,
+     "net_pct_if_sold": -0.58
+    }
+   ],
    "closed": [],
    "n_closed": 0,
    "win_rate_pct": null,
    "avg_net_pct": null,
-   "cash_pct": 100.0
+   "cash_pct": 50.03
   },
   "C": {
    "name": "創新高＋營收（換股日進場・每檔 10%）",
    "desc": "FinLab「創新高＋營收」：每月營收公布後（10 日起第一個交易日收盤）選上市股中 20 日新高＋近 3 月營收創 12 個月新高＋YoY>10%＋RSI>50＋均量>300 張，YoY 前 10 檔；隔天開盤買、下個月換股日開盤換；每檔 10%、最多 10 檔、其餘現金；對照 0050 從 11/03 收盤起",
    "start": "2026-11-03",
-   "total_pct": 0.0,
-   "b0050_pct": -1.276,
-   "vs_0050_pp": 1.276,
-   "open": [],
+   "total_pct": 0.055,
+   "b0050_pct": 2.19,
+   "vs_0050_pp": -2.135,
+   "open": [
+    {
+     "acct": "C",
+     "code": "2465",
+     "name": "麗臺",
+     "rule": "創新高＋營收",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "開盤",
+     "entry_price": 149.5,
+     "weight_pct": 9.99,
+     "rank": 1,
+     "yoy_pct": 340.58,
+     "last_price": 149.5,
+     "net_pct_if_sold": -0.58,
+     "cur_weight_pct": 9.92
+    },
+    {
+     "acct": "C",
+     "code": "6782",
+     "name": "視陽",
+     "rule": "創新高＋營收",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "開盤",
+     "entry_price": 296.0,
+     "weight_pct": 9.99,
+     "rank": 2,
+     "yoy_pct": 59.96,
+     "last_price": 282.5,
+     "net_pct_if_sold": -5.12,
+     "cur_weight_pct": 9.47
+    },
+    {
+     "acct": "C",
+     "code": "1802",
+     "name": "台玻",
+     "rule": "創新高＋營收",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "開盤",
+     "entry_price": 70.9,
+     "weight_pct": 10.0,
+     "rank": 3,
+     "yoy_pct": 56.49,
+     "last_price": 76.7,
+     "net_pct_if_sold": 7.55,
+     "cur_weight_pct": 10.75
+    },
+    {
+     "acct": "C",
+     "code": "1416",
+     "name": "廣豐",
+     "rule": "創新高＋營收",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "開盤",
+     "entry_price": 19.95,
+     "weight_pct": 10.0,
+     "rank": 4,
+     "yoy_pct": 45.46,
+     "last_price": 20.15,
+     "net_pct_if_sold": 0.41,
+     "cur_weight_pct": 10.03
+    },
+    {
+     "acct": "C",
+     "code": "4426",
+     "name": "利勤",
+     "rule": "創新高＋營收",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "開盤",
+     "entry_price": 9.17,
+     "weight_pct": 10.0,
+     "rank": 5,
+     "yoy_pct": 35.97,
+     "last_price": 8.8,
+     "net_pct_if_sold": -4.6,
+     "cur_weight_pct": 9.53
+    },
+    {
+     "acct": "C",
+     "code": "2468",
+     "name": "華經",
+     "rule": "創新高＋營收",
+     "batch": "2026-10營收",
+     "entry_date": "2026-11-11",
+     "entry_rule": "開盤",
+     "entry_price": 66.0,
+     "weight_pct": 9.99,
+     "rank": 6,
+     "yoy_pct": 20.0,
+     "last_price": 68.3,
+     "net_pct_if_sold": 2.88,
+     "cur_weight_pct": 10.28
+    }
+   ],
    "closed": [],
    "n_closed": 0,
    "win_rate_pct": null,
    "avg_net_pct": null,
-   "cash_pct": 100.0,
+   "cash_pct": 40.01,
    "next_batch": {
-    "month": "2026-10",
-    "ten": "2026-11-10",
-    "dec": "2026-11-10"
+    "month": "2026-11",
+    "ten": "2026-12-10",
+    "dec": null
    },
    "note": "FinLab 規則的紙上測試（回測每筆超 0050 約 +2.0%、前後兩段都正，但不是送分題）；對照是 0050 從 2026-11-03 收盤起"
   }
@@ -128,9 +356,32 @@
    "b0050": -4.595,
    "C": 0.0,
    "b0050_C": -1.276
+  },
+  {
+   "date": "2026-11-11",
+   "A": -0.906,
+   "B": -0.192,
+   "b0050": -1.246,
+   "C": 0.055,
+   "b0050_C": 2.19
   }
  ],
  "skipped": [],
- "batches": [],
+ "batches": [
+  {
+   "rule": "③⭐",
+   "batch": "2026-10營收",
+   "entry": "2026-11-11",
+   "n": 5
+  },
+  {
+   "rule": "創新高＋營收",
+   "batch": "2026-10營收",
+   "entry": "2026-11-11",
+   "n": 6,
+   "decision": "2026-11-10",
+   "n_qualified": 6
+  }
+ ],
  "note": "只顯示百分比；假想本金與股數不公開。只照網站自己的規則，不是使用者的交易。"
 }
