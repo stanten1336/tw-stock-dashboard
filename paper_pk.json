@@ -1,15 +1,15 @@
 {
  "name": "股票ＰＫ自主投資紙上帳戶",
  "start": "2026-11-02",
- "updated": "2026-11-10",
+ "updated": "2026-11-11",
  "state": "ok",
  "strategy_version": "v1.1c",
- "total_pct": -7.551,
- "b0050_pct": -2.87,
- "vs_0050_pp": -4.681,
+ "total_pct": -7.229,
+ "b0050_pct": 0.54,
+ "vs_0050_pp": -7.769,
  "max_drawdown_pct": -7.551,
- "cash_pct": 24.72,
- "stock_weight_pct": 62.39,
+ "cash_pct": 24.63,
+ "stock_weight_pct": 64.13,
  "hedge_tmf_short": 1,
  "open": [
   {
@@ -17,72 +17,72 @@
    "name": "台積電",
    "entry_date": "2026-11-03",
    "entry_price": 2303.28,
-   "weight_pct": 15.82,
-   "last_price": 2285.0,
-   "net_pct_if_sold": -0.79
+   "weight_pct": 16.52,
+   "last_price": 2395.0,
+   "net_pct_if_sold": 3.98
   },
   {
    "code": "2603",
    "name": "長榮",
    "entry_date": "2026-11-03",
    "entry_price": 272.89,
-   "weight_pct": 6.74,
-   "last_price": 255.5,
-   "net_pct_if_sold": -6.37
+   "weight_pct": 6.77,
+   "last_price": 257.5,
+   "net_pct_if_sold": -5.64
   },
   {
    "code": "1815",
    "name": "富喬",
    "entry_date": "2026-11-03",
    "entry_price": 133.69,
-   "weight_pct": 7.06,
-   "last_price": 128.0,
-   "net_pct_if_sold": -4.26
+   "weight_pct": 7.72,
+   "last_price": 140.5,
+   "net_pct_if_sold": 5.09
   },
   {
    "code": "2609",
    "name": "陽明",
    "entry_date": "2026-11-03",
    "entry_price": 64.69,
-   "weight_pct": 6.62,
-   "last_price": 58.2,
-   "net_pct_if_sold": -10.04
+   "weight_pct": 6.7,
+   "last_price": 59.1,
+   "net_pct_if_sold": -8.64
   },
   {
    "code": "2615",
    "name": "萬海",
    "entry_date": "2026-11-03",
    "entry_price": 119.67,
-   "weight_pct": 6.74,
-   "last_price": 111.5,
-   "net_pct_if_sold": -6.83
+   "weight_pct": 6.69,
+   "last_price": 111.0,
+   "net_pct_if_sold": -7.24
   },
   {
    "code": "2885",
    "name": "元大金",
    "entry_date": "2026-11-03",
    "entry_price": 71.6,
-   "weight_pct": 6.83,
-   "last_price": 69.1,
-   "net_pct_if_sold": -3.49
+   "weight_pct": 7.01,
+   "last_price": 71.2,
+   "net_pct_if_sold": -0.56
   },
   {
    "code": "6505",
    "name": "台塑化",
    "entry_date": "2026-11-03",
    "entry_price": 99.14,
-   "weight_pct": 6.84,
-   "last_price": 89.6,
-   "net_pct_if_sold": -9.62
+   "weight_pct": 6.94,
+   "last_price": 91.2,
+   "net_pct_if_sold": -8.01
   },
   {
    "code": "2412",
    "name": "中華電",
    "entry_date": "2026-11-10",
    "entry_price": 156.72,
-   "weight_pct": 5.73,
-   "last_price": 159.5,
-   "net_pct_if_sold": 1.77
+   "weight_pct": 5.76,
+   "last_price": 161.0,
+   "net_pct_if_sold": 2.73
   }
  ],
  "closed": [
