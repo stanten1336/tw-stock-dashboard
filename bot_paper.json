@@ -1,8 +1,8 @@
 {
  "name": "伊藤小助手紙上帳戶",
  "start": "2026-11-02",
- "updated": "2026-11-12",
- "b0050_pct": -3.399,
+ "updated": "2026-11-13",
+ "b0050_pct": -1.915,
  "rules": {
   "entry": {
    "③⭐": "③⭐ 月營收＋毛利率（60 日漲幅前 5）：進場日收盤買，開盤跳空 ≥5% 改開盤買",
@@ -18,8 +18,8 @@
   "A": {
    "name": "A：0050 核心＋衛星",
    "desc": "0050 65%（11/02 收盤買進抱著）＋衛星每檔 5%（最多 5 檔、共 25%）＋現金 10%",
-   "total_pct": -2.828,
-   "vs_0050_pp": 0.571,
+   "total_pct": -1.289,
+   "vs_0050_pp": 0.626,
    "open": [
     {
      "acct": "A",
@@ -31,8 +31,8 @@
      "entry_rule": "收盤",
      "entry_price": 104.1,
      "weight_pct": 65.0,
-     "last_price": 100.95,
-     "net_pct_if_sold": -3.4
+     "last_price": 102.5,
+     "net_pct_if_sold": -1.92
     },
     {
      "acct": "A",
@@ -44,8 +44,8 @@
      "entry_rule": "收盤",
      "entry_price": 525.0,
      "weight_pct": 4.99,
-     "last_price": 497.0,
-     "net_pct_if_sold": -5.89
+     "last_price": 510.0,
+     "net_pct_if_sold": -3.42
     },
     {
      "acct": "A",
@@ -57,8 +57,8 @@
      "entry_rule": "開盤（跳空 +8.7% ≥5%）",
      "entry_price": 19.95,
      "weight_pct": 5.0,
-     "last_price": 19.1,
-     "net_pct_if_sold": -4.82
+     "last_price": 18.3,
+     "net_pct_if_sold": -8.81
     },
     {
      "acct": "A",
@@ -70,8 +70,8 @@
      "entry_rule": "收盤",
      "entry_price": 51.5,
      "weight_pct": 5.0,
-     "last_price": 49.8,
-     "net_pct_if_sold": -3.87
+     "last_price": 51.6,
+     "net_pct_if_sold": -0.39
     },
     {
      "acct": "A",
@@ -83,8 +83,8 @@
      "entry_rule": "收盤",
      "entry_price": 76.7,
      "weight_pct": 4.99,
-     "last_price": 81.7,
-     "net_pct_if_sold": 5.9
+     "last_price": 85.1,
+     "net_pct_if_sold": 10.3
     },
     {
      "acct": "A",
@@ -96,8 +96,8 @@
      "entry_rule": "收盤",
      "entry_price": 73.5,
      "weight_pct": 5.0,
-     "last_price": 71.2,
-     "net_pct_if_sold": -3.7
+     "last_price": 75.0,
+     "net_pct_if_sold": 1.44
     }
    ],
    "closed": [],
@@ -109,8 +109,8 @@
   "B": {
    "name": "B：只做訊號",
    "desc": "不放 0050；每檔 10%（最多 10 檔），沒用到的現金閒置",
-   "total_pct": -1.236,
-   "vs_0050_pp": 2.163,
+   "total_pct": -0.088,
+   "vs_0050_pp": 1.827,
    "open": [
     {
      "acct": "B",
@@ -122,8 +122,8 @@
      "entry_rule": "收盤",
      "entry_price": 525.0,
      "weight_pct": 9.99,
-     "last_price": 497.0,
-     "net_pct_if_sold": -5.89
+     "last_price": 510.0,
+     "net_pct_if_sold": -3.42
     },
     {
      "acct": "B",
@@ -135,8 +135,8 @@
      "entry_rule": "開盤（跳空 +8.7% ≥5%）",
      "entry_price": 19.95,
      "weight_pct": 10.0,
-     "last_price": 19.1,
-     "net_pct_if_sold": -4.82
+     "last_price": 18.3,
+     "net_pct_if_sold": -8.81
     },
     {
      "acct": "B",
@@ -148,8 +148,8 @@
      "entry_rule": "收盤",
      "entry_price": 51.5,
      "weight_pct": 9.99,
-     "last_price": 49.8,
-     "net_pct_if_sold": -3.87
+     "last_price": 51.6,
+     "net_pct_if_sold": -0.39
     },
     {
      "acct": "B",
@@ -161,8 +161,8 @@
      "entry_rule": "收盤",
      "entry_price": 76.7,
      "weight_pct": 9.99,
-     "last_price": 81.7,
-     "net_pct_if_sold": 5.9
+     "last_price": 85.1,
+     "net_pct_if_sold": 10.3
     },
     {
      "acct": "B",
@@ -174,8 +174,8 @@
      "entry_rule": "收盤",
      "entry_price": 73.5,
      "weight_pct": 10.0,
-     "last_price": 71.2,
-     "net_pct_if_sold": -3.7
+     "last_price": 75.0,
+     "net_pct_if_sold": 1.44
     }
    ],
    "closed": [],
@@ -188,9 +188,9 @@
    "name": "創新高＋營收（換股日進場・每檔 10%）",
    "desc": "FinLab「創新高＋營收」：每月營收公布後（10 日起第一個交易日收盤）選上市股中 20 日新高＋近 3 月營收創 12 個月新高＋YoY>10%＋RSI>50＋均量>300 張，YoY 前 10 檔；隔天開盤買、下個月換股日開盤換；每檔 10%、最多 10 檔、其餘現金；對照 0050 從 11/03 收盤起",
    "start": "2026-11-03",
-   "total_pct": 0.957,
-   "b0050_pct": -0.038,
-   "vs_0050_pp": 0.995,
+   "total_pct": 2.275,
+   "b0050_pct": 1.497,
+   "vs_0050_pp": 0.778,
    "open": [
     {
      "acct": "C",
@@ -204,9 +204,9 @@
      "weight_pct": 9.99,
      "rank": 1,
      "yoy_pct": 340.58,
-     "last_price": 164.0,
-     "net_pct_if_sold": 9.06,
-     "cur_weight_pct": 10.79
+     "last_price": 162.0,
+     "net_pct_if_sold": 7.73,
+     "cur_weight_pct": 10.52
     },
     {
      "acct": "C",
@@ -220,9 +220,9 @@
      "weight_pct": 9.99,
      "rank": 2,
      "yoy_pct": 59.96,
-     "last_price": 279.0,
-     "net_pct_if_sold": -6.29,
-     "cur_weight_pct": 9.27
+     "last_price": 285.0,
+     "net_pct_if_sold": -4.28,
+     "cur_weight_pct": 9.35
     },
     {
      "acct": "C",
@@ -236,9 +236,9 @@
      "weight_pct": 10.0,
      "rank": 3,
      "yoy_pct": 56.49,
-     "last_price": 81.7,
-     "net_pct_if_sold": 14.56,
-     "cur_weight_pct": 11.34
+     "last_price": 85.1,
+     "net_pct_if_sold": 19.33,
+     "cur_weight_pct": 11.66
     },
     {
      "acct": "C",
@@ -252,9 +252,9 @@
      "weight_pct": 10.0,
      "rank": 4,
      "yoy_pct": 45.46,
-     "last_price": 19.1,
-     "net_pct_if_sold": -4.82,
-     "cur_weight_pct": 9.43
+     "last_price": 18.3,
+     "net_pct_if_sold": -8.81,
+     "cur_weight_pct": 8.92
     },
     {
      "acct": "C",
@@ -268,9 +268,9 @@
      "weight_pct": 10.0,
      "rank": 5,
      "yoy_pct": 35.97,
-     "last_price": 8.8,
-     "net_pct_if_sold": -4.6,
-     "cur_weight_pct": 9.45
+     "last_price": 8.95,
+     "net_pct_if_sold": -2.97,
+     "cur_weight_pct": 9.49
     },
     {
      "acct": "C",
@@ -284,16 +284,16 @@
      "weight_pct": 9.99,
      "rank": 6,
      "yoy_pct": 20.0,
-     "last_price": 67.5,
-     "net_pct_if_sold": 1.68,
-     "cur_weight_pct": 10.06
+     "last_price": 74.2,
+     "net_pct_if_sold": 11.77,
+     "cur_weight_pct": 10.92
     }
    ],
    "closed": [],
    "n_closed": 0,
    "win_rate_pct": null,
    "avg_net_pct": null,
-   "cash_pct": 39.66,
+   "cash_pct": 39.15,
    "next_batch": {
     "month": "2026-11",
     "ten": "2026-12-10",
@@ -372,6 +372,14 @@
    "b0050": -3.399,
    "C": 0.957,
    "b0050_C": -0.038
+  },
+  {
+   "date": "2026-11-13",
+   "A": -1.289,
+   "B": -0.088,
+   "b0050": -1.915,
+   "C": 2.275,
+   "b0050_C": 1.497
   }
  ],
  "skipped": [],
