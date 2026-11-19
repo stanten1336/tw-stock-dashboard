@@ -1,61 +1,61 @@
 {
  "name": "股票ＰＫ自主投資紙上帳戶",
  "start": "2026-11-02",
- "updated": "2026-11-18",
+ "updated": "2026-11-19",
  "state": "ok",
  "strategy_version": "v1.1c",
- "total_pct": -10.204,
- "b0050_pct": -8.326,
- "vs_0050_pp": -1.878,
+ "total_pct": -9.747,
+ "b0050_pct": -12.125,
+ "vs_0050_pp": 2.378,
  "max_drawdown_pct": -10.204,
- "cash_pct": 31.23,
- "stock_weight_pct": 68.77,
- "hedge_tmf_short": 1,
+ "cash_pct": 35.02,
+ "stock_weight_pct": 64.98,
+ "hedge_tmf_short": 2,
  "open": [
   {
    "code": "2330",
    "name": "台積電",
    "entry_date": "2026-11-03",
    "entry_price": 2303.28,
-   "weight_pct": 15.5,
-   "last_price": 2175,
-   "net_pct_if_sold": -5.57
+   "weight_pct": 14.89,
+   "last_price": 2100.0,
+   "net_pct_if_sold": -8.83
   },
   {
    "code": "2603",
    "name": "長榮",
    "entry_date": "2026-11-03",
    "entry_price": 272.89,
-   "weight_pct": 7.0,
-   "last_price": 257.5,
-   "net_pct_if_sold": -5.64
+   "weight_pct": 6.68,
+   "last_price": 247.0,
+   "net_pct_if_sold": -9.49
   },
   {
    "code": "1815",
    "name": "富喬",
    "entry_date": "2026-11-03",
    "entry_price": 133.69,
-   "weight_pct": 6.93,
-   "last_price": 122,
-   "net_pct_if_sold": -8.74
+   "weight_pct": 6.22,
+   "last_price": 110.0,
+   "net_pct_if_sold": -17.72
   },
   {
    "code": "2885",
    "name": "元大金",
    "entry_date": "2026-11-03",
    "entry_price": 71.6,
-   "weight_pct": 6.61,
-   "last_price": 64.9,
-   "net_pct_if_sold": -9.36
+   "weight_pct": 6.4,
+   "last_price": 63.2,
+   "net_pct_if_sold": -11.73
   },
   {
    "code": "2412",
    "name": "中華電",
    "entry_date": "2026-11-10",
    "entry_price": 156.72,
-   "weight_pct": 6.08,
-   "last_price": 164.5,
-   "net_pct_if_sold": 4.96
+   "weight_pct": 6.11,
+   "last_price": 166.0,
+   "net_pct_if_sold": 5.92
   },
   {
    "code": "6199",
@@ -63,35 +63,35 @@
    "entry_date": "2026-11-17",
    "entry_price": 169.24,
    "weight_pct": 7.09,
-   "last_price": 171.5,
-   "net_pct_if_sold": 1.34
+   "last_price": 172.5,
+   "net_pct_if_sold": 1.93
   },
   {
    "code": "2465",
    "name": "麗臺",
    "entry_date": "2026-11-17",
    "entry_price": 146.71,
-   "weight_pct": 6.33,
-   "last_price": 136.0,
-   "net_pct_if_sold": -7.3
+   "weight_pct": 5.67,
+   "last_price": 122.5,
+   "net_pct_if_sold": -16.5
   },
   {
    "code": "2355",
    "name": "敬鵬",
    "entry_date": "2026-11-17",
    "entry_price": 58.88,
-   "weight_pct": 6.79,
-   "last_price": 58.6,
-   "net_pct_if_sold": -0.48
+   "weight_pct": 6.14,
+   "last_price": 53.3,
+   "net_pct_if_sold": -9.48
   },
   {
    "code": "1709",
    "name": "和益",
    "entry_date": "2026-11-17",
    "entry_price": 49.17,
-   "weight_pct": 6.45,
-   "last_price": 47.1,
-   "net_pct_if_sold": -4.21
+   "weight_pct": 5.78,
+   "last_price": 42.4,
+   "net_pct_if_sold": -13.77
   }
  ],
  "closed": [
@@ -224,7 +224,12 @@
    "date": "2026-11-18",
    "PK": -10.204,
    "b0050": -8.326
+  },
+  {
+   "date": "2026-11-19",
+   "PK": -9.747,
+   "b0050": -12.125
   }
  ],
- "note": "11/18無成交；收盤加權<20MA且外資5日賣超1,566.95億>1,000億（第5條成立）→11/19開盤再空1口12月微台（合計2口上限）；融資維持率估156.22%<160%，原空單續留；無停損觸發"
+ "note": "11/19開盤成交O011空1口12月微台@40,452（合計2口）；加權−4.40%、0050−4.09%，帳戶+0.51%（微台空單+35.7k抵銷現股−31.1k）；富喬、麗臺收盤跌破−15%停損→11/20開盤全數賣出（pending）；第5條續成立、融資維持率估147.9%<160%，避險2口續留"
 }
