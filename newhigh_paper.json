@@ -2,11 +2,11 @@
  "name": "創新高＋營收（提早進場・平均分配）紙上帳戶",
  "acct_id": "C",
  "start": "2026-11-04",
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "state": "ok",
- "total_pct": -3.935,
- "b0050_pct": -11.518,
- "vs_0050_pp": 7.583,
+ "total_pct": -6.518,
+ "b0050_pct": -17.158,
+ "vs_0050_pp": 10.64,
  "cash_pct": 29.77,
  "open": [
   {
@@ -15,9 +15,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-04",
    "entry_price": 13.65,
-   "weight_pct": 10.22,
-   "last_price": 16.1,
-   "net_pct_if_sold": 17.26
+   "weight_pct": 9.27,
+   "last_price": 14.6,
+   "net_pct_if_sold": 6.33
   },
   {
    "code": "1802",
@@ -25,9 +25,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-04",
    "entry_price": 69.2,
-   "weight_pct": 10.48,
-   "last_price": 58.7,
-   "net_pct_if_sold": -15.67
+   "weight_pct": 9.44,
+   "last_price": 52.9,
+   "net_pct_if_sold": -24.0
   },
   {
    "code": "2465",
@@ -35,9 +35,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-11",
    "entry_price": 149.5,
-   "weight_pct": 10.36,
-   "last_price": 122.5,
-   "net_pct_if_sold": -18.54
+   "weight_pct": 9.35,
+   "last_price": 110.5,
+   "net_pct_if_sold": -26.52
   },
   {
    "code": "6782",
@@ -45,9 +45,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-11",
    "entry_price": 296.0,
-   "weight_pct": 12.4,
-   "last_price": 290.5,
-   "net_pct_if_sold": -2.43
+   "weight_pct": 12.11,
+   "last_price": 283.5,
+   "net_pct_if_sold": -4.78
   },
   {
    "code": "4426",
@@ -55,9 +55,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-11",
    "entry_price": 9.17,
-   "weight_pct": 11.06,
-   "last_price": 8.01,
-   "net_pct_if_sold": -13.16
+   "weight_pct": 10.58,
+   "last_price": 7.66,
+   "net_pct_if_sold": -16.96
   },
   {
    "code": "2468",
@@ -65,9 +65,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-11",
    "entry_price": 66.0,
-   "weight_pct": 12.06,
-   "last_price": 62.9,
-   "net_pct_if_sold": -5.25
+   "weight_pct": 13.25,
+   "last_price": 69.1,
+   "net_pct_if_sold": 4.09
   }
  ],
  "closed": [],
@@ -77,31 +77,10 @@
  "next_decision": "2026-12-10",
  "next_rev_month": "2026-11",
  "preview": {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "rev_month": "2026-10",
-  "n_pool": 4,
-  "picks": [
-   {
-    "code": "2540",
-    "name": "愛山林",
-    "yoy": 360.4
-   },
-   {
-    "code": "6782",
-    "name": "視陽",
-    "yoy": 60.0
-   },
-   {
-    "code": "2597",
-    "name": "潤弘",
-    "yoy": 30.5
-   },
-   {
-    "code": "2412",
-    "name": "中華電",
-    "yoy": 13.4
-   }
-  ]
+  "n_pool": 0,
+  "picks": []
  },
  "rules": {
   "entry": "上市普通股；決策日收盤 ≥ 近 20 日最高收盤、近 3 月平均營收創 12 個月新高、最新月營收 YoY > 10%、RSI14 > 50、20 日均量 > 300 張；依 YoY 取前 10 檔。營收月 M → M+1 月 10 日起第一個交易日收盤決策、隔日開盤買，持有到下次換股日開盤；等權、單檔上限 12%；不設停損",
@@ -170,6 +149,11 @@
    "date": "2026-11-19",
    "C": -3.935,
    "b0050": -11.518
+  },
+  {
+   "date": "2026-11-20",
+   "C": -6.518,
+   "b0050": -17.158
   }
  ],
  "batches": [
