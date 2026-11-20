@@ -1,15 +1,15 @@
 {
  "name": "股票ＰＫ自主投資紙上帳戶",
  "start": "2026-11-02",
- "updated": "2026-11-19",
+ "updated": "2026-11-20",
  "state": "ok",
  "strategy_version": "v1.1c",
- "total_pct": -9.747,
- "b0050_pct": -12.125,
- "vs_0050_pp": 2.378,
+ "total_pct": -7.71,
+ "b0050_pct": -17.727,
+ "vs_0050_pp": 10.016,
  "max_drawdown_pct": -10.204,
- "cash_pct": 35.02,
- "stock_weight_pct": 64.98,
+ "cash_pct": 50.85,
+ "stock_weight_pct": 49.15,
  "hedge_tmf_short": 2,
  "open": [
   {
@@ -17,81 +17,63 @@
    "name": "台積電",
    "entry_date": "2026-11-03",
    "entry_price": 2303.28,
-   "weight_pct": 14.89,
-   "last_price": 2100.0,
-   "net_pct_if_sold": -8.83
+   "weight_pct": 13.87,
+   "last_price": 2000.0,
+   "net_pct_if_sold": -13.17
   },
   {
    "code": "2603",
    "name": "長榮",
    "entry_date": "2026-11-03",
    "entry_price": 272.89,
-   "weight_pct": 6.68,
-   "last_price": 247.0,
-   "net_pct_if_sold": -9.49
-  },
-  {
-   "code": "1815",
-   "name": "富喬",
-   "entry_date": "2026-11-03",
-   "entry_price": 133.69,
-   "weight_pct": 6.22,
-   "last_price": 110.0,
-   "net_pct_if_sold": -17.72
+   "weight_pct": 6.16,
+   "last_price": 233.0,
+   "net_pct_if_sold": -14.62
   },
   {
    "code": "2885",
    "name": "元大金",
    "entry_date": "2026-11-03",
    "entry_price": 71.6,
-   "weight_pct": 6.4,
-   "last_price": 63.2,
-   "net_pct_if_sold": -11.73
+   "weight_pct": 5.87,
+   "last_price": 59.3,
+   "net_pct_if_sold": -17.18
   },
   {
    "code": "2412",
    "name": "中華電",
    "entry_date": "2026-11-10",
    "entry_price": 156.72,
-   "weight_pct": 6.11,
-   "last_price": 166.0,
-   "net_pct_if_sold": 5.92
+   "weight_pct": 5.85,
+   "last_price": 162.5,
+   "net_pct_if_sold": 3.69
   },
   {
    "code": "6199",
    "name": "天品",
    "entry_date": "2026-11-17",
    "entry_price": 169.24,
-   "weight_pct": 7.09,
-   "last_price": 172.5,
-   "net_pct_if_sold": 1.93
-  },
-  {
-   "code": "2465",
-   "name": "麗臺",
-   "entry_date": "2026-11-17",
-   "entry_price": 146.71,
-   "weight_pct": 5.67,
-   "last_price": 122.5,
-   "net_pct_if_sold": -16.5
+   "weight_pct": 6.81,
+   "last_price": 169.5,
+   "net_pct_if_sold": 0.15
   },
   {
    "code": "2355",
    "name": "敬鵬",
    "entry_date": "2026-11-17",
    "entry_price": 58.88,
-   "weight_pct": 6.14,
-   "last_price": 53.3,
-   "net_pct_if_sold": -9.48
+   "weight_pct": 5.49,
+   "last_price": 48.75,
+   "net_pct_if_sold": -17.21
   },
   {
    "code": "1709",
    "name": "和益",
    "entry_date": "2026-11-17",
    "entry_price": 49.17,
-   "weight_pct": 5.78,
-   "last_price": 42.4,
-   "net_pct_if_sold": -13.77
+   "weight_pct": 5.09,
+   "last_price": 38.2,
+   "net_pct_if_sold": -22.31
   }
  ],
  "closed": [
@@ -144,11 +126,31 @@
    "exit_price": 89.6,
    "net_pct": -10.02,
    "reason": "週一選股v1.0第6條：連續兩次週檢未通過F3趨勢濾網(11/09、11/16)→11/17開盤全數賣出"
+  },
+  {
+   "code": "1815",
+   "name": "富喬",
+   "entry_date": "2026-11-03",
+   "exit_date": "2026-11-20",
+   "entry_price": 133.69,
+   "exit_price": 99.0,
+   "net_pct": -26.28,
+   "reason": "固定停損v1.1（11/19收盤較成本-17.72%觸發，11/20開盤全數賣出；開在跌停價）"
+  },
+  {
+   "code": "2465",
+   "name": "麗臺",
+   "entry_date": "2026-11-17",
+   "exit_date": "2026-11-20",
+   "entry_price": 146.71,
+   "exit_price": 112.5,
+   "net_pct": -23.66,
+   "reason": "固定停損v1.1（11/19收盤較成本-16.50%觸發，11/20開盤全數賣出）"
   }
  ],
- "n_closed": 5,
+ "n_closed": 7,
  "win_rate_pct": 0.0,
- "avg_net_pct": -11.5,
+ "avg_net_pct": -15.35,
  "rules": {
   "principle": "用規則找出答案，而不是用答案找出規則",
   "entry": "候選池＝上市+上櫃普通股、20日均成交值前150；F1流動性／F2營收YoY>0且0<PE≤60／F3趨勢；打分動能35%＋籌碼35%＋營收20%＋本益比10%；台積電錨定；其餘前8、同產業最多3、單檔上限12%；每週一重跑",
@@ -229,7 +231,12 @@
    "date": "2026-11-19",
    "PK": -9.747,
    "b0050": -12.125
+  },
+  {
+   "date": "2026-11-20",
+   "PK": -7.71,
+   "b0050": -17.727
   }
  ],
- "note": "11/19開盤成交O011空1口12月微台@40,452（合計2口）；加權−4.40%、0050−4.09%，帳戶+0.51%（微台空單+35.7k抵銷現股−31.1k）；富喬、麗臺收盤跌破−15%停損→11/20開盤全數賣出（pending）；第5條續成立、融資維持率估147.9%<160%，避險2口續留"
+ "note": "11/20開盤停損賣出富喬@99.0、麗臺@112.5；加權−6.23%(36,033)、櫃買−7.72%、0050含息−6.37%，帳戶+2.26%（微台空2口當日+56.1k蓋過現股損失）；收盤和益、元大金、敬鵬跌破−15%停損→11/23開盤賣出；大盤融資維持率估140.4%<145%且融資20日減31%→依規則11/23開盤回補全部2口微台空單並啟用加碼A（約10%淨值買台積電／日月光）"
 }
