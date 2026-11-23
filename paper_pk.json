@@ -1,79 +1,70 @@
 {
  "name": "股票ＰＫ自主投資紙上帳戶",
  "start": "2026-11-02",
- "updated": "2026-11-20",
+ "updated": "2026-11-23",
  "state": "ok",
  "strategy_version": "v1.1c",
- "total_pct": -7.71,
- "b0050_pct": -17.727,
- "vs_0050_pp": 10.016,
+ "total_pct": -5.55,
+ "b0050_pct": -15.242,
+ "vs_0050_pp": 9.69,
  "max_drawdown_pct": -10.204,
- "cash_pct": 50.85,
- "stock_weight_pct": 49.15,
- "hedge_tmf_short": 2,
+ "cash_pct": 57.58,
+ "stock_weight_pct": 42.42,
+ "hedge_tmf_short": 0,
  "open": [
   {
    "code": "2330",
    "name": "台積電",
    "entry_date": "2026-11-03",
    "entry_price": 2303.28,
-   "weight_pct": 13.87,
-   "last_price": 2000.0,
-   "net_pct_if_sold": -13.17
+   "weight_pct": 13.76,
+   "last_price": 2030.0,
+   "net_pct_if_sold": -11.86
   },
   {
    "code": "2603",
    "name": "長榮",
    "entry_date": "2026-11-03",
    "entry_price": 272.89,
-   "weight_pct": 6.16,
-   "last_price": 233.0,
-   "net_pct_if_sold": -14.62
-  },
-  {
-   "code": "2885",
-   "name": "元大金",
-   "entry_date": "2026-11-03",
-   "entry_price": 71.6,
-   "weight_pct": 5.87,
-   "last_price": 59.3,
-   "net_pct_if_sold": -17.18
+   "weight_pct": 6.06,
+   "last_price": 234.5,
+   "net_pct_if_sold": -14.07
   },
   {
    "code": "2412",
    "name": "中華電",
    "entry_date": "2026-11-10",
    "entry_price": 156.72,
-   "weight_pct": 5.85,
-   "last_price": 162.5,
-   "net_pct_if_sold": 3.69
+   "weight_pct": 5.78,
+   "last_price": 164.5,
+   "net_pct_if_sold": 4.96
   },
   {
    "code": "6199",
    "name": "天品",
    "entry_date": "2026-11-17",
    "entry_price": 169.24,
-   "weight_pct": 6.81,
-   "last_price": 169.5,
-   "net_pct_if_sold": 0.15
+   "weight_pct": 6.78,
+   "last_price": 172.5,
+   "net_pct_if_sold": 1.93
   },
   {
-   "code": "2355",
-   "name": "敬鵬",
-   "entry_date": "2026-11-17",
-   "entry_price": 58.88,
-   "weight_pct": 5.49,
-   "last_price": 48.75,
-   "net_pct_if_sold": -17.21
+   "code": "2330",
+   "name": "台積電（加碼A）",
+   "entry_date": "2026-11-23",
+   "entry_price": 1992.83,
+   "weight_pct": 4.94,
+   "last_price": 2030.0,
+   "net_pct_if_sold": 1.87
   },
   {
-   "code": "1709",
-   "name": "和益",
-   "entry_date": "2026-11-17",
-   "entry_price": 49.17,
-   "weight_pct": 5.09,
-   "last_price": 38.2,
-   "net_pct_if_sold": -22.31
+   "code": "3711",
+   "name": "日月光投控（加碼A）",
+   "entry_date": "2026-11-23",
+   "entry_price": 455.65,
+   "weight_pct": 5.1,
+   "last_price": 482.0,
+   "net_pct_if_sold": 5.78
   }
  ],
  "closed": [
@@ -146,11 +137,41 @@
    "exit_price": 112.5,
    "net_pct": -23.66,
    "reason": "固定停損v1.1（11/19收盤較成本-16.50%觸發，11/20開盤全數賣出）"
+  },
+  {
+   "code": "1709",
+   "name": "和益",
+   "entry_date": "2026-11-17",
+   "exit_date": "2026-11-23",
+   "entry_price": 49.17,
+   "exit_price": 34.85,
+   "net_pct": -29.44,
+   "reason": "固定停損v1.1（11/20收盤較成本-22.31%觸發，11/23開盤全數賣出）"
+  },
+  {
+   "code": "2885",
+   "name": "元大金",
+   "entry_date": "2026-11-03",
+   "exit_date": "2026-11-23",
+   "entry_price": 71.6,
+   "exit_price": 59.5,
+   "net_pct": -17.27,
+   "reason": "固定停損v1.1（11/20收盤較成本-17.18%觸發，11/23開盤全數賣出）"
+  },
+  {
+   "code": "2355",
+   "name": "敬鵬",
+   "entry_date": "2026-11-17",
+   "exit_date": "2026-11-23",
+   "entry_price": 58.88,
+   "exit_price": 50.6,
+   "net_pct": -14.45,
+   "reason": "固定停損v1.1（11/20收盤較成本-17.21%觸發，11/23開盤全數賣出）"
   }
  ],
- "n_closed": 7,
+ "n_closed": 10,
  "win_rate_pct": 0.0,
- "avg_net_pct": -15.35,
+ "avg_net_pct": -16.86,
  "rules": {
   "principle": "用規則找出答案，而不是用答案找出規則",
   "entry": "候選池＝上市+上櫃普通股、20日均成交值前150；F1流動性／F2營收YoY>0且0<PE≤60／F3趨勢；打分動能35%＋籌碼35%＋營收20%＋本益比10%；台積電錨定；其餘前8、同產業最多3、單檔上限12%；每週一重跑",
@@ -236,7 +257,12 @@
    "date": "2026-11-20",
    "PK": -7.71,
    "b0050": -17.727
+  },
+  {
+   "date": "2026-11-23",
+   "PK": -5.552,
+   "b0050": -15.242
   }
  ],
- "note": "11/20開盤停損賣出富喬@99.0、麗臺@112.5；加權−6.23%(36,033)、櫃買−7.72%、0050含息−6.37%，帳戶+2.26%（微台空2口當日+56.1k蓋過現股損失）；收盤和益、元大金、敬鵬跌破−15%停損→11/23開盤賣出；大盤融資維持率估140.4%<145%且融資20日減31%→依規則11/23開盤回補全部2口微台空單並啟用加碼A（約10%淨值買台積電／日月光）"
+ "note": "11/23開盤停損賣出和益@34.85、元大金@59.5、敬鵬@50.6；回補全部微台空單@34,962（獲利了結）；加碼A買進台積電@1,990、日月光@455。加權+2.16%(36,812)、0050含息+3.02%，帳戶+2.34%。收盤融資維持率估回升至148.46%；依v1.2避險冷卻規則（去槓桿回補後10個交易日內不重新放空），取消原定重新放空。週一換股買進麗臺、驊宏資、華經、敬鵬、儒鴻、長榮航，總持股目標70%"
 }
