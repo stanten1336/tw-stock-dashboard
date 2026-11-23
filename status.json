@@ -1,40 +1,40 @@
 {
- "built": "2026-11-21T06:09:43.424757+08:00",
+ "built": "2026-11-23T17:24:09.355511+08:00",
  "prediction": {
-  "date": "2026-11-20",
-  "made": "2026-11-21 06:09",
-  "close": 36033.29,
-  "score": -6,
-  "verdict": "偏空",
-  "conf": "高",
+  "date": "2026-11-23",
+  "made": "2026-11-23 17:24",
+  "close": 36811.89,
+  "score": 0,
+  "verdict": "中性",
+  "conf": "低",
   "signals": [
    {
     "name": "台指期夜盤",
-    "val": "-5.25%（11/21 04:59）",
-    "s": -1,
+    "val": "+0.82%（11/23 17:25）",
+    "s": 1,
     "w": 2
    },
    {
     "name": "那斯達克期貨",
-    "val": "-4.92%（11/21 05:55）",
-    "s": -1,
+    "val": "+3.82%（11/23 17:15）",
+    "s": 1,
     "w": 1
    },
    {
     "name": "加權 vs 20 日線",
-    "val": "-15.7%",
+    "val": "-12.9%",
     "s": -1,
     "w": 1
    },
    {
     "name": "市場寬度",
-    "val": "3%",
+    "val": "4%",
     "s": -1,
     "w": 1
    },
    {
     "name": "外資當日",
-    "val": "-94 億",
+    "val": "-289 億",
     "s": -1,
     "w": 1
    }
@@ -42,34 +42,16 @@
  },
  "news": [
   {
-   "title": "全球AI與半導體需求強勁 馬來西亞10月出口暴增61%創歷史新高",
-   "url": "https://news.cnyes.com/news/id/6668953",
+   "title": "5000億美元AI晶片融資陷分歧：輝達擔保比例成焦點",
+   "url": "https://news.cnyes.com/news/id/6669871",
    "src": "鉅亨網",
-   "ts": "2026-11-20T14:50:03+08:00",
-   "cat": "經濟數據",
-   "dir": 1,
-   "key": "61%",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "61%",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "預期不明 → 看市場反應（費半、夜盤）判斷"
-   }
-  },
-  {
-   "title": "SpaceX 砸430億美元買輝達 AI 晶片 銀行貸款設限「不准送上太空」",
-   "url": "https://money.udn.com/money/story/5599/9892345",
-   "src": "經濟日報",
-   "ts": "2026-11-21T02:17:51+08:00",
+   "ts": "2026-11-23T06:00:03+08:00",
    "cat": "產業",
    "dir": 0,
-   "key": "430億美元",
+   "key": "5000億美元",
    "exp": {
     "lab": "預期不明",
-    "actual": "430億美元",
+    "actual": "5000億美元",
     "exp": null,
     "prior": null,
     "held": false,
@@ -78,57 +60,75 @@
    }
   },
   {
-   "title": "南韓出口首破1兆美元晶片出貨有增，價格漲得更快",
-   "url": "https://news.cnyes.com/news/id/6669629",
+   "title": "登豐微電子切入NVIDIA DGX Spark與50系列顯卡 前三季EPS 1.92元毛利率創高",
+   "url": "https://news.cnyes.com/news/id/6670140",
    "src": "鉅亨網",
-   "ts": "2026-11-21T03:30:18+08:00",
-   "cat": "經濟數據",
-   "dir": 1,
-   "key": "1兆",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "1兆",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "預期不明 → 看市場反應（費半、夜盤）判斷"
-   }
-  },
-  {
-   "title": "SpaceX籌措440億美元採購輝達Vera Rubin投資人超額認購",
-   "url": "https://news.cnyes.com/news/id/6669644",
-   "src": "鉅亨網",
-   "ts": "2026-11-21T03:38:04+08:00",
-   "cat": "產業",
-   "dir": 0,
-   "key": "440億美元",
-   "exp": {
-    "lab": "預期不明",
-    "actual": "440億美元",
-    "exp": null,
-    "prior": null,
-    "held": false,
-    "dissent": null,
-    "impact": "對台股影響有限"
-   }
-  },
-  {
-   "title": "AI推論｜範式智能API營收增逾15倍，貢獻四成新增營收",
-   "url": "https://news.cnyes.com/news/id/6669646",
-   "src": "鉅亨網",
-   "ts": "2026-11-21T03:38:05+08:00",
+   "ts": "2026-11-23T14:50:04+08:00",
    "cat": "財報",
-   "dir": 1,
-   "key": "15倍",
+   "dir": 0,
+   "key": "EPS 1.92元",
    "exp": {
     "lab": "預期不明",
-    "actual": "15倍",
+    "actual": "EPS 1.92元",
     "exp": null,
     "prior": null,
     "held": false,
     "dissent": null,
     "impact": "未提到市場預期 → 只看年增／季增方向與隔日股價反應"
+   }
+  },
+  {
+   "title": "新加坡10月核心通膨率降至1.5% 創5個月新低",
+   "url": "https://news.cnyes.com/news/id/6670138",
+   "src": "鉅亨網",
+   "ts": "2026-11-23T17:10:06+08:00",
+   "cat": "經濟數據",
+   "dir": 0,
+   "key": "1.5%",
+   "exp": {
+    "lab": "預期不明",
+    "actual": "1.5%",
+    "exp": "1.6%",
+    "prior": null,
+    "held": false,
+    "dissent": null,
+    "impact": "預期不明 → 看美債殖利率與費半反應"
+   }
+  },
+  {
+   "title": "〈港股盤後〉貴金屬全線飆升 AI概念強勢 恒指微跌0.12%",
+   "url": "https://news.cnyes.com/news/id/6670158",
+   "src": "鉅亨網",
+   "ts": "2026-11-23T16:40:56+08:00",
+   "cat": "產業",
+   "dir": 0,
+   "key": "0.12%",
+   "exp": {
+    "lab": "預期不明",
+    "actual": "0.12%",
+    "exp": null,
+    "prior": null,
+    "held": false,
+    "dissent": null,
+    "impact": "對台股影響有限"
+   }
+  },
+  {
+   "title": "川普：美股市值蒸發超過6兆美元 100%怪民主黨",
+   "url": "https://news.cnyes.com/news/id/6669978",
+   "src": "鉅亨網",
+   "ts": "2026-11-23T09:40:02+08:00",
+   "cat": "政策",
+   "dir": 0,
+   "key": "100%",
+   "exp": {
+    "lab": "預期不明",
+    "actual": "100%",
+    "exp": null,
+    "prior": null,
+    "held": false,
+    "dissent": null,
+    "impact": "對台股影響有限"
    }
   }
  ],
@@ -145,18 +145,18 @@
   {
    "key": "NDX",
    "name": "Nasdaq",
-   "val": 22617.732421875,
-   "chg": -5.282701422770042,
-   "chg_abs": -1261.466796875,
+   "val": 22617.73046875,
+   "chg": -5.282709601959734,
+   "chg_abs": -1261.46875,
    "date": "2026-11-20",
    "src": "Yahoo ^IXIC"
   },
   {
    "key": "SOX",
    "name": "費半",
-   "val": 8408.5908203125,
-   "chg": -10.734171881980048,
-   "chg_abs": -1011.12890625,
+   "val": 8408.58984375,
+   "chg": -10.734182249194024,
+   "chg_abs": -1011.1298828125,
    "date": "2026-11-20",
    "src": "Yahoo ^SOX"
   },
@@ -172,27 +172,27 @@
   {
    "key": "TXN",
    "name": "台指期夜盤",
-   "val": 33919.0,
-   "chg": -5.25,
-   "chg_abs": -1881.0,
-   "date": "11/21 04:59",
+   "val": 36961.0,
+   "chg": 0.82,
+   "chg_abs": 302.0,
+   "date": "11/23 17:25",
    "src": "期交所 MIS（盤後時段）"
   },
   {
    "key": "TWD",
    "name": "美元/台幣",
-   "val": 32.95800018310547,
-   "chg": 0.08532992538785589,
-   "chg_abs": 0.02809906005859375,
-   "date": "2026-11-20",
+   "val": 32.8489990234375,
+   "chg": -0.536843386758945,
+   "chg_abs": -0.17729949951171875,
+   "date": "2026-11-23",
    "src": "Yahoo TWD=X"
   },
   {
    "key": "US10Y",
    "name": "美 10 年債",
-   "val": 4.911999702453613,
-   "chg": -2.7711865014688364,
-   "chg_abs": -0.1400003433227539,
+   "val": 4.9120001792907715,
+   "chg": -2.771177062887009,
+   "chg_abs": -0.1399998664855957,
    "date": "2026-11-20",
    "src": "Yahoo ^TNX"
   },
@@ -208,35 +208,35 @@
  ],
  "regime": "震盪・高波動",
  "five": "震盪",
- "date": "2026-11-20",
+ "date": "2026-11-23",
  "sentiment": {
-  "value": 27.3,
-  "zone": "偏空",
-  "date": "2026-11-20",
+  "value": 51.9,
+  "zone": "中性",
+  "date": "2026-11-23",
   "last5": [
    [
-    "2026-11-13",
-    34.6
-   ],
-   [
     "2026-11-16",
-    29.8
+    18.1
    ],
    [
     "2026-11-17",
-    25.7
+    21.2
    ],
    [
     "2026-11-18",
-    46.0
+    37.7
    ],
    [
     "2026-11-19",
-    35.2
+    26.9
    ],
    [
     "2026-11-20",
-    27.3
+    33.1
+   ],
+   [
+    "2026-11-23",
+    51.9
    ]
   ]
  },
@@ -300,28 +300,28 @@
   },
   {
    "name": "市場寬度（站上 20MA 比例）",
-   "val": "3%",
+   "val": "4%",
    "lv": "red",
    "thr": "≥50% 綠；30～50% 黃；<30% 紅",
-   "date": "2026-11-20",
+   "date": "2026-11-23",
    "note": "上市、20 日均成交 ≥ 5,000 萬、未還原收盤近似",
-   "short": "3%",
+   "short": "4%",
    "expl": "市場寬度：成交量夠大的股票中，站上自己 20 日均線的比例。寬度高於五成代表多數股票健康，適合做波段；低於四成就要小心，選股難度會變高，買錯的機率也比較大。",
-   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#D33439\"></i><i style=\"left:37.5%;width:12.5%;background:#F7DB88\"></i><i style=\"left:50.0%;width:12.5%;background:#F7DB88\"></i><i style=\"left:62.5%;width:37.5%;background:#4BB462\"></i><b style=\"left:4.2%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
+   "bar": "<div class=\"sbar\"><i style=\"left:0.0%;width:37.5%;background:#D33439\"></i><i style=\"left:37.5%;width:12.5%;background:#F7DB88\"></i><i style=\"left:50.0%;width:12.5%;background:#F7DB88\"></i><i style=\"left:62.5%;width:37.5%;background:#4BB462\"></i><b style=\"left:5.0%\"></b><em style=\"left:37.5%\">30</em><em style=\"left:50.0%\">40</em><em style=\"left:62.5%\">50</em></div>"
   },
   {
    "name": "0050 對季線／半年線",
-   "val": "收盤 84.45｜60MA 106.34｜120MA 105.11",
+   "val": "收盤 87.00｜60MA 106.06｜120MA 105.00",
    "lv": "red",
    "thr": "兩條都在上 綠；只站上一條 黃；都跌破 紅",
-   "date": "2026-11-20",
+   "date": "2026-11-23",
    "note": "",
    "short": "季↓ 半年↓"
   }
  ],
  "avoid": {
   "regime": "空頭",
-  "regime_date": "2026-11-20",
+  "regime_date": "2026-11-23",
   "index_rebalance": false,
   "january": false,
   "bear_no_exdiv": true,

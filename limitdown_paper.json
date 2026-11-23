@@ -1,11 +1,11 @@
 {
  "name": "連續跌停開板紙上帳戶",
  "start": "2026-11-06",
- "updated": "2026-11-20",
+ "updated": "2026-11-23",
  "state": "ok",
- "total_pct": -27.04,
- "b0050_pct": -6.475,
- "vs_0050_pp": -20.565,
+ "total_pct": -24.007,
+ "b0050_pct": -3.651,
+ "vs_0050_pp": -20.356,
  "cash_pct": 0.0,
  "open": [
   {
@@ -14,11 +14,11 @@
    "signal_date": "2026-11-09",
    "entry_date": "2026-11-10",
    "entry_price": 27.5,
-   "weight_pct": 7.19,
-   "last_price": 19.8,
-   "net_pct_if_sold": -28.42,
-   "days_held": 9,
-   "days_left": 11
+   "weight_pct": 7.37,
+   "last_price": 20.3,
+   "net_pct_if_sold": -26.61,
+   "days_held": 10,
+   "days_left": 10
   },
   {
    "code": "6213",
@@ -26,11 +26,11 @@
    "signal_date": "2026-11-09",
    "entry_date": "2026-11-10",
    "entry_price": 546.0,
-   "weight_pct": 6.47,
-   "last_price": 355.5,
-   "net_pct_if_sold": -35.27,
-   "days_held": 9,
-   "days_left": 11
+   "weight_pct": 7.12,
+   "last_price": 391.0,
+   "net_pct_if_sold": -28.81,
+   "days_held": 10,
+   "days_left": 10
   },
   {
    "code": "8046",
@@ -38,11 +38,11 @@
    "signal_date": "2026-11-09",
    "entry_date": "2026-11-10",
    "entry_price": 985.0,
-   "weight_pct": 6.35,
-   "last_price": 629.0,
-   "net_pct_if_sold": -36.52,
-   "days_held": 9,
-   "days_left": 11
+   "weight_pct": 6.77,
+   "last_price": 670.0,
+   "net_pct_if_sold": -32.38,
+   "days_held": 10,
+   "days_left": 10
   },
   {
    "code": "2328",
@@ -50,11 +50,11 @@
    "signal_date": "2026-11-09",
    "entry_date": "2026-11-10",
    "entry_price": 48.2,
-   "weight_pct": 6.87,
-   "last_price": 33.15,
-   "net_pct_if_sold": -31.63,
-   "days_held": 9,
-   "days_left": 11
+   "weight_pct": 7.55,
+   "last_price": 36.45,
+   "net_pct_if_sold": -24.82,
+   "days_held": 10,
+   "days_left": 10
   },
   {
    "code": "3450",
@@ -62,11 +62,11 @@
    "signal_date": "2026-11-09",
    "entry_date": "2026-11-10",
    "entry_price": 364.5,
-   "weight_pct": 7.02,
-   "last_price": 257.0,
-   "net_pct_if_sold": -29.9,
-   "days_held": 9,
-   "days_left": 11
+   "weight_pct": 7.06,
+   "last_price": 258.5,
+   "net_pct_if_sold": -29.5,
+   "days_held": 10,
+   "days_left": 10
   },
   {
    "code": "3605",
@@ -74,11 +74,11 @@
    "signal_date": "2026-11-10",
    "entry_date": "2026-11-11",
    "entry_price": 133.0,
-   "weight_pct": 6.24,
-   "last_price": 83.7,
-   "net_pct_if_sold": -37.44,
-   "days_held": 8,
-   "days_left": 12
+   "weight_pct": 6.49,
+   "last_price": 87.0,
+   "net_pct_if_sold": -34.97,
+   "days_held": 9,
+   "days_left": 11
   },
   {
    "code": "1802",
@@ -86,11 +86,11 @@
    "signal_date": "2026-11-18",
    "entry_date": "2026-11-19",
    "entry_price": 64.7,
-   "weight_pct": 7.27,
-   "last_price": 52.9,
-   "net_pct_if_sold": -18.72,
-   "days_held": 2,
-   "days_left": 18
+   "weight_pct": 7.99,
+   "last_price": 58.1,
+   "net_pct_if_sold": -10.73,
+   "days_held": 3,
+   "days_left": 17
   },
   {
    "code": "4526",
@@ -98,11 +98,11 @@
    "signal_date": "2026-11-18",
    "entry_date": "2026-11-19",
    "entry_price": 43.05,
-   "weight_pct": 7.33,
-   "last_price": 35.45,
-   "net_pct_if_sold": -18.13,
-   "days_held": 2,
-   "days_left": 18
+   "weight_pct": 6.97,
+   "last_price": 33.7,
+   "net_pct_if_sold": -22.18,
+   "days_held": 3,
+   "days_left": 17
   },
   {
    "code": "2492",
@@ -110,11 +110,11 @@
    "signal_date": "2026-11-18",
    "entry_date": "2026-11-19",
    "entry_price": 226.5,
-   "weight_pct": 7.35,
-   "last_price": 187.5,
-   "net_pct_if_sold": -17.7,
-   "days_held": 2,
-   "days_left": 18
+   "weight_pct": 7.57,
+   "last_price": 193.0,
+   "net_pct_if_sold": -15.29,
+   "days_held": 3,
+   "days_left": 17
   },
   {
    "code": "3037",
@@ -122,11 +122,11 @@
    "signal_date": "2026-11-18",
    "entry_date": "2026-11-19",
    "entry_price": 651.0,
-   "weight_pct": 7.3,
-   "last_price": 537.0,
-   "net_pct_if_sold": -17.99,
-   "days_held": 2,
-   "days_left": 18
+   "weight_pct": 7.59,
+   "last_price": 558.0,
+   "net_pct_if_sold": -14.79,
+   "days_held": 3,
+   "days_left": 17
   },
   {
    "code": "3189",
@@ -134,11 +134,11 @@
    "signal_date": "2026-11-18",
    "entry_date": "2026-11-19",
    "entry_price": 556.0,
-   "weight_pct": 3.85,
-   "last_price": 470.0,
-   "net_pct_if_sold": -15.96,
-   "days_held": 2,
-   "days_left": 18
+   "weight_pct": 3.83,
+   "last_price": 467.5,
+   "net_pct_if_sold": -16.41,
+   "days_held": 3,
+   "days_left": 17
   },
   {
    "code": "4927",
@@ -147,10 +147,22 @@
    "entry_date": "2026-11-19",
    "entry_price": 45.6,
    "weight_pct": 0.03,
-   "last_price": 36.95,
-   "net_pct_if_sold": -19.44,
-   "days_held": 2,
-   "days_left": 18
+   "last_price": 37.05,
+   "net_pct_if_sold": -19.22,
+   "days_held": 3,
+   "days_left": 17
+  },
+  {
+   "code": "6112",
+   "name": "邁達特",
+   "signal_date": "2026-11-20",
+   "entry_date": "2026-11-23",
+   "entry_price": 40.0,
+   "weight_pct": 0.0,
+   "last_price": 39.05,
+   "net_pct_if_sold": -2.95,
+   "days_held": 1,
+   "days_left": 19
   }
  ],
  "closed": [],
@@ -158,27 +170,187 @@
  "win_rate_pct": null,
  "avg_net_pct": null,
  "watch": {
-  "date": "2026-11-20",
+  "date": "2026-11-23",
   "list": [
    {
-    "code": "6112",
-    "name": "邁達特",
+    "code": "1303",
+    "name": "南亞",
     "n_ld": 2
    },
    {
-    "code": "2471",
-    "name": "資通",
-    "n_ld": 3
+    "code": "2408",
+    "name": "南亞科",
+    "n_ld": 2
+   },
+   {
+    "code": "6456",
+    "name": "GIS-KY",
+    "n_ld": 2
+   },
+   {
+    "code": "6269",
+    "name": "台郡",
+    "n_ld": 2
+   },
+   {
+    "code": "4960",
+    "name": "誠美材",
+    "n_ld": 2
+   },
+   {
+    "code": "2313",
+    "name": "華通",
+    "n_ld": 2
+   },
+   {
+    "code": "4958",
+    "name": "臻鼎-KY",
+    "n_ld": 2
+   },
+   {
+    "code": "2449",
+    "name": "京元電子",
+    "n_ld": 2
+   },
+   {
+    "code": "6443",
+    "name": "元晶",
+    "n_ld": 2
+   },
+   {
+    "code": "1709",
+    "name": "和益",
+    "n_ld": 2
+   },
+   {
+    "code": "1528",
+    "name": "恩德",
+    "n_ld": 2
+   },
+   {
+    "code": "8039",
+    "name": "台虹",
+    "n_ld": 2
+   },
+   {
+    "code": "6209",
+    "name": "今國光",
+    "n_ld": 2
+   },
+   {
+    "code": "2465",
+    "name": "麗臺",
+    "n_ld": 2
+   },
+   {
+    "code": "6278",
+    "name": "台表科",
+    "n_ld": 2
+   },
+   {
+    "code": "3715",
+    "name": "定穎投控",
+    "n_ld": 2
+   },
+   {
+    "code": "2426",
+    "name": "鼎元",
+    "n_ld": 2
+   },
+   {
+    "code": "4977",
+    "name": "眾達-KY",
+    "n_ld": 2
+   },
+   {
+    "code": "2489",
+    "name": "瑞軒",
+    "n_ld": 2
+   },
+   {
+    "code": "3701",
+    "name": "大眾控",
+    "n_ld": 2
+   },
+   {
+    "code": "2406",
+    "name": "國碩",
+    "n_ld": 2
+   },
+   {
+    "code": "4916",
+    "name": "事欣科",
+    "n_ld": 2
+   },
+   {
+    "code": "2340",
+    "name": "台亞",
+    "n_ld": 2
+   },
+   {
+    "code": "2481",
+    "name": "強茂",
+    "n_ld": 2
+   },
+   {
+    "code": "6226",
+    "name": "光鼎",
+    "n_ld": 2
+   },
+   {
+    "code": "2367",
+    "name": "燿華",
+    "n_ld": 2
+   },
+   {
+    "code": "4989",
+    "name": "榮科",
+    "n_ld": 2
+   },
+   {
+    "code": "6257",
+    "name": "矽格",
+    "n_ld": 2
+   },
+   {
+    "code": "2455",
+    "name": "全新",
+    "n_ld": 2
+   },
+   {
+    "code": "4919",
+    "name": "新唐",
+    "n_ld": 2
+   },
+   {
+    "code": "3016",
+    "name": "嘉晶",
+    "n_ld": 2
+   },
+   {
+    "code": "6152",
+    "name": "百一",
+    "n_ld": 2
+   },
+   {
+    "code": "1809",
+    "name": "中釉",
+    "n_ld": 2
+   },
+   {
+    "code": "6949",
+    "name": "沛爾生醫*-創",
+    "n_ld": 2
    }
   ],
   "mkt": {
-   "r20_pct": -21.91,
-   "close": 84.45,
-   "ma60": 106.3408,
+   "r20_pct": -18.62,
+   "close": 87.0,
+   "ma60": 106.0608,
    "and_ok": true,
    "ok": true,
    "why": null,
-   "data_asof": "2026-11-20"
+   "data_asof": "2026-11-23"
   },
   "base_n": null
  },
@@ -244,6 +416,11 @@
    "date": "2026-11-20",
    "pct": -27.04,
    "b0050": -6.475
+  },
+  {
+   "date": "2026-11-23",
+   "pct": -24.007,
+   "b0050": -3.651
   }
  ],
  "skipped": [
@@ -282,17 +459,23 @@
    "code": "2468",
    "name": "華經",
    "reason": "現金不足"
+  },
+  {
+   "date": "2026-11-23",
+   "code": "2471",
+   "name": "資通",
+   "reason": "現金不足"
   }
  ],
  "note": "只顯示百分比；假想本金與股數不公開。小助手自己照規則紙上操作，不是使用者的交易。",
  "crash_and": {
   "name": "大盤急跌＋跌停開板紙上帳戶",
   "start": "2026-11-06",
-  "updated": "2026-11-20",
+  "updated": "2026-11-23",
   "state": "ok",
-  "total_pct": -27.04,
-  "b0050_pct": -12.048,
-  "vs_0050_pp": -14.992,
+  "total_pct": -24.007,
+  "b0050_pct": -9.392,
+  "vs_0050_pp": -14.615,
   "cash_pct": 0.0,
   "open": [
    {
@@ -301,11 +484,11 @@
     "signal_date": "2026-11-09",
     "entry_date": "2026-11-10",
     "entry_price": 27.5,
-    "weight_pct": 7.19,
-    "last_price": 19.8,
-    "net_pct_if_sold": -28.42,
-    "days_held": 9,
-    "days_left": 11
+    "weight_pct": 7.37,
+    "last_price": 20.3,
+    "net_pct_if_sold": -26.61,
+    "days_held": 10,
+    "days_left": 10
    },
    {
     "code": "6213",
@@ -313,11 +496,11 @@
     "signal_date": "2026-11-09",
     "entry_date": "2026-11-10",
     "entry_price": 546.0,
-    "weight_pct": 6.47,
-    "last_price": 355.5,
-    "net_pct_if_sold": -35.27,
-    "days_held": 9,
-    "days_left": 11
+    "weight_pct": 7.12,
+    "last_price": 391.0,
+    "net_pct_if_sold": -28.81,
+    "days_held": 10,
+    "days_left": 10
    },
    {
     "code": "8046",
@@ -325,11 +508,11 @@
     "signal_date": "2026-11-09",
     "entry_date": "2026-11-10",
     "entry_price": 985.0,
-    "weight_pct": 6.35,
-    "last_price": 629.0,
-    "net_pct_if_sold": -36.52,
-    "days_held": 9,
-    "days_left": 11
+    "weight_pct": 6.77,
+    "last_price": 670.0,
+    "net_pct_if_sold": -32.38,
+    "days_held": 10,
+    "days_left": 10
    },
    {
     "code": "2328",
@@ -337,11 +520,11 @@
     "signal_date": "2026-11-09",
     "entry_date": "2026-11-10",
     "entry_price": 48.2,
-    "weight_pct": 6.87,
-    "last_price": 33.15,
-    "net_pct_if_sold": -31.63,
-    "days_held": 9,
-    "days_left": 11
+    "weight_pct": 7.55,
+    "last_price": 36.45,
+    "net_pct_if_sold": -24.82,
+    "days_held": 10,
+    "days_left": 10
    },
    {
     "code": "3450",
@@ -349,11 +532,11 @@
     "signal_date": "2026-11-09",
     "entry_date": "2026-11-10",
     "entry_price": 364.5,
-    "weight_pct": 7.02,
-    "last_price": 257.0,
-    "net_pct_if_sold": -29.9,
-    "days_held": 9,
-    "days_left": 11
+    "weight_pct": 7.06,
+    "last_price": 258.5,
+    "net_pct_if_sold": -29.5,
+    "days_held": 10,
+    "days_left": 10
    },
    {
     "code": "3605",
@@ -361,11 +544,11 @@
     "signal_date": "2026-11-10",
     "entry_date": "2026-11-11",
     "entry_price": 133.0,
-    "weight_pct": 6.24,
-    "last_price": 83.7,
-    "net_pct_if_sold": -37.44,
-    "days_held": 8,
-    "days_left": 12
+    "weight_pct": 6.49,
+    "last_price": 87.0,
+    "net_pct_if_sold": -34.97,
+    "days_held": 9,
+    "days_left": 11
    },
    {
     "code": "1802",
@@ -373,11 +556,11 @@
     "signal_date": "2026-11-18",
     "entry_date": "2026-11-19",
     "entry_price": 64.7,
-    "weight_pct": 7.27,
-    "last_price": 52.9,
-    "net_pct_if_sold": -18.72,
-    "days_held": 2,
-    "days_left": 18
+    "weight_pct": 7.99,
+    "last_price": 58.1,
+    "net_pct_if_sold": -10.73,
+    "days_held": 3,
+    "days_left": 17
    },
    {
     "code": "4526",
@@ -385,11 +568,11 @@
     "signal_date": "2026-11-18",
     "entry_date": "2026-11-19",
     "entry_price": 43.05,
-    "weight_pct": 7.33,
-    "last_price": 35.45,
-    "net_pct_if_sold": -18.13,
-    "days_held": 2,
-    "days_left": 18
+    "weight_pct": 6.97,
+    "last_price": 33.7,
+    "net_pct_if_sold": -22.18,
+    "days_held": 3,
+    "days_left": 17
    },
    {
     "code": "2492",
@@ -397,11 +580,11 @@
     "signal_date": "2026-11-18",
     "entry_date": "2026-11-19",
     "entry_price": 226.5,
-    "weight_pct": 7.35,
-    "last_price": 187.5,
-    "net_pct_if_sold": -17.7,
-    "days_held": 2,
-    "days_left": 18
+    "weight_pct": 7.57,
+    "last_price": 193.0,
+    "net_pct_if_sold": -15.29,
+    "days_held": 3,
+    "days_left": 17
    },
    {
     "code": "3037",
@@ -409,11 +592,11 @@
     "signal_date": "2026-11-18",
     "entry_date": "2026-11-19",
     "entry_price": 651.0,
-    "weight_pct": 7.3,
-    "last_price": 537.0,
-    "net_pct_if_sold": -17.99,
-    "days_held": 2,
-    "days_left": 18
+    "weight_pct": 7.59,
+    "last_price": 558.0,
+    "net_pct_if_sold": -14.79,
+    "days_held": 3,
+    "days_left": 17
    },
    {
     "code": "3189",
@@ -421,11 +604,11 @@
     "signal_date": "2026-11-18",
     "entry_date": "2026-11-19",
     "entry_price": 556.0,
-    "weight_pct": 3.85,
-    "last_price": 470.0,
-    "net_pct_if_sold": -15.96,
-    "days_held": 2,
-    "days_left": 18
+    "weight_pct": 3.83,
+    "last_price": 467.5,
+    "net_pct_if_sold": -16.41,
+    "days_held": 3,
+    "days_left": 17
    },
    {
     "code": "4927",
@@ -434,10 +617,22 @@
     "entry_date": "2026-11-19",
     "entry_price": 45.6,
     "weight_pct": 0.03,
-    "last_price": 36.95,
-    "net_pct_if_sold": -19.44,
-    "days_held": 2,
-    "days_left": 18
+    "last_price": 37.05,
+    "net_pct_if_sold": -19.22,
+    "days_held": 3,
+    "days_left": 17
+   },
+   {
+    "code": "6112",
+    "name": "邁達特",
+    "signal_date": "2026-11-20",
+    "entry_date": "2026-11-23",
+    "entry_price": 40.0,
+    "weight_pct": 0.0,
+    "last_price": 39.05,
+    "net_pct_if_sold": -2.95,
+    "days_held": 1,
+    "days_left": 19
    }
   ],
   "closed": [],
@@ -445,29 +640,189 @@
   "win_rate_pct": null,
   "avg_net_pct": null,
   "watch": {
-   "date": "2026-11-20",
+   "date": "2026-11-23",
    "list": [
     {
-     "code": "6112",
-     "name": "邁達特",
+     "code": "1303",
+     "name": "南亞",
      "n_ld": 2
     },
     {
-     "code": "2471",
-     "name": "資通",
-     "n_ld": 3
+     "code": "2408",
+     "name": "南亞科",
+     "n_ld": 2
+    },
+    {
+     "code": "6456",
+     "name": "GIS-KY",
+     "n_ld": 2
+    },
+    {
+     "code": "6269",
+     "name": "台郡",
+     "n_ld": 2
+    },
+    {
+     "code": "4960",
+     "name": "誠美材",
+     "n_ld": 2
+    },
+    {
+     "code": "2313",
+     "name": "華通",
+     "n_ld": 2
+    },
+    {
+     "code": "4958",
+     "name": "臻鼎-KY",
+     "n_ld": 2
+    },
+    {
+     "code": "2449",
+     "name": "京元電子",
+     "n_ld": 2
+    },
+    {
+     "code": "6443",
+     "name": "元晶",
+     "n_ld": 2
+    },
+    {
+     "code": "1709",
+     "name": "和益",
+     "n_ld": 2
+    },
+    {
+     "code": "1528",
+     "name": "恩德",
+     "n_ld": 2
+    },
+    {
+     "code": "8039",
+     "name": "台虹",
+     "n_ld": 2
+    },
+    {
+     "code": "6209",
+     "name": "今國光",
+     "n_ld": 2
+    },
+    {
+     "code": "2465",
+     "name": "麗臺",
+     "n_ld": 2
+    },
+    {
+     "code": "6278",
+     "name": "台表科",
+     "n_ld": 2
+    },
+    {
+     "code": "3715",
+     "name": "定穎投控",
+     "n_ld": 2
+    },
+    {
+     "code": "2426",
+     "name": "鼎元",
+     "n_ld": 2
+    },
+    {
+     "code": "4977",
+     "name": "眾達-KY",
+     "n_ld": 2
+    },
+    {
+     "code": "2489",
+     "name": "瑞軒",
+     "n_ld": 2
+    },
+    {
+     "code": "3701",
+     "name": "大眾控",
+     "n_ld": 2
+    },
+    {
+     "code": "2406",
+     "name": "國碩",
+     "n_ld": 2
+    },
+    {
+     "code": "4916",
+     "name": "事欣科",
+     "n_ld": 2
+    },
+    {
+     "code": "2340",
+     "name": "台亞",
+     "n_ld": 2
+    },
+    {
+     "code": "2481",
+     "name": "強茂",
+     "n_ld": 2
+    },
+    {
+     "code": "6226",
+     "name": "光鼎",
+     "n_ld": 2
+    },
+    {
+     "code": "2367",
+     "name": "燿華",
+     "n_ld": 2
+    },
+    {
+     "code": "4989",
+     "name": "榮科",
+     "n_ld": 2
+    },
+    {
+     "code": "6257",
+     "name": "矽格",
+     "n_ld": 2
+    },
+    {
+     "code": "2455",
+     "name": "全新",
+     "n_ld": 2
+    },
+    {
+     "code": "4919",
+     "name": "新唐",
+     "n_ld": 2
+    },
+    {
+     "code": "3016",
+     "name": "嘉晶",
+     "n_ld": 2
+    },
+    {
+     "code": "6152",
+     "name": "百一",
+     "n_ld": 2
+    },
+    {
+     "code": "1809",
+     "name": "中釉",
+     "n_ld": 2
+    },
+    {
+     "code": "6949",
+     "name": "沛爾生醫*-創",
+     "n_ld": 2
     }
    ],
    "mkt": {
-    "r20_pct": -21.91,
-    "close": 84.45,
-    "ma60": 106.3408,
+    "r20_pct": -18.62,
+    "close": 87.0,
+    "ma60": 106.0608,
     "and_ok": true,
     "ok": true,
     "why": null,
-    "data_asof": "2026-11-20"
+    "data_asof": "2026-11-23"
    },
-   "base_n": 2
+   "base_n": 34
   },
   "rules": {
    "entry": "⑧ 優先 AND＝開板 ×（0050 近 20 交易日報酬 ≤−5% 且收盤 <60MA）；其餘進出場／部位／成本同「連續跌停開板」。2026-11-06 盤後建立，最早 2026-11-09 開盤可執行；只用 ≥2026-11-06 訊號，不回填更早。",
@@ -526,6 +881,11 @@
     "date": "2026-11-20",
     "pct": -27.04,
     "b0050": -12.048
+   },
+   {
+    "date": "2026-11-23",
+    "pct": -24.007,
+    "b0050": -9.392
    }
   ],
   "skipped": [
@@ -563,6 +923,12 @@
     "date": "2026-11-20",
     "code": "2468",
     "name": "華經",
+    "reason": "現金不足"
+   },
+   {
+    "date": "2026-11-23",
+    "code": "2471",
+    "name": "資通",
     "reason": "現金不足"
    }
   ],
