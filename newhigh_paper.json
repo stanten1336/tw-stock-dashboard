@@ -2,11 +2,11 @@
  "name": "創新高＋營收（提早進場・平均分配）紙上帳戶",
  "acct_id": "C",
  "start": "2026-11-04",
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "state": "ok",
- "total_pct": -5.938,
- "b0050_pct": -11.42,
- "vs_0050_pp": 5.482,
+ "total_pct": -5.165,
+ "b0050_pct": -8.918,
+ "vs_0050_pp": 3.753,
  "cash_pct": 29.77,
  "open": [
   {
@@ -15,9 +15,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-04",
    "entry_price": 13.65,
-   "weight_pct": 9.23,
-   "last_price": 14.55,
-   "net_pct_if_sold": 5.97
+   "weight_pct": 9.17,
+   "last_price": 14.45,
+   "net_pct_if_sold": 5.24
   },
   {
    "code": "1802",
@@ -25,9 +25,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-04",
    "entry_price": 69.2,
-   "weight_pct": 10.69,
-   "last_price": 59.9,
-   "net_pct_if_sold": -13.94
+   "weight_pct": 10.66,
+   "last_price": 59.7,
+   "net_pct_if_sold": -14.23
   },
   {
    "code": "2465",
@@ -35,9 +35,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-11",
    "entry_price": 149.5,
-   "weight_pct": 9.52,
-   "last_price": 112.5,
-   "net_pct_if_sold": -25.19
+   "weight_pct": 9.98,
+   "last_price": 118.0,
+   "net_pct_if_sold": -21.53
   },
   {
    "code": "6782",
@@ -45,9 +45,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-11",
    "entry_price": 296.0,
-   "weight_pct": 12.47,
-   "last_price": 292.0,
-   "net_pct_if_sold": -1.93
+   "weight_pct": 13.26,
+   "last_price": 310.5,
+   "net_pct_if_sold": 4.29
   },
   {
    "code": "4426",
@@ -55,9 +55,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-11",
    "entry_price": 9.17,
-   "weight_pct": 10.62,
-   "last_price": 7.69,
-   "net_pct_if_sold": -16.63
+   "weight_pct": 10.41,
+   "last_price": 7.54,
+   "net_pct_if_sold": -18.26
   },
   {
    "code": "2468",
@@ -65,9 +65,9 @@
    "batch": "2026-10營收",
    "entry_date": "2026-11-11",
    "entry_price": 66.0,
-   "weight_pct": 12.05,
-   "last_price": 62.8,
-   "net_pct_if_sold": -5.4
+   "weight_pct": 11.87,
+   "last_price": 61.9,
+   "net_pct_if_sold": -6.76
   }
  ],
  "closed": [],
@@ -77,14 +77,44 @@
  "next_decision": "2026-12-10",
  "next_rev_month": "2026-11",
  "preview": {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "rev_month": "2026-10",
-  "n_pool": 1,
+  "n_pool": 7,
   "picks": [
+   {
+    "code": "3715",
+    "name": "定穎投控",
+    "yoy": 121.5
+   },
+   {
+    "code": "2345",
+    "name": "智邦",
+    "yoy": 91.2
+   },
+   {
+    "code": "3665",
+    "name": "貿聯-KY",
+    "yoy": 80.0
+   },
+   {
+    "code": "6782",
+    "name": "視陽",
+    "yoy": 60.0
+   },
    {
     "code": "2597",
     "name": "潤弘",
     "yoy": 30.5
+   },
+   {
+    "code": "1210",
+    "name": "大成",
+    "yoy": 14.6
+   },
+   {
+    "code": "2412",
+    "name": "中華電",
+    "yoy": 13.4
    }
   ]
  },
@@ -175,6 +205,11 @@
    "date": "2026-11-25",
    "C": -5.938,
    "b0050": -11.42
+  },
+  {
+   "date": "2026-11-26",
+   "C": -5.165,
+   "b0050": -8.918
   }
  ],
  "batches": [
