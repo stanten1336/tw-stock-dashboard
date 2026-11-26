@@ -1,15 +1,15 @@
 {
  "name": "股票ＰＫ自主投資紙上帳戶",
  "start": "2026-11-02",
- "updated": "2026-11-25",
+ "updated": "2026-11-26",
  "state": "ok",
  "strategy_version": "v1.2",
- "total_pct": -5.87,
- "b0050_pct": -12.028,
- "vs_0050_pp": 6.162,
+ "total_pct": -5.15,
+ "b0050_pct": -9.543,
+ "vs_0050_pp": 4.393,
  "max_drawdown_pct": -10.204,
- "cash_pct": 28.0,
- "stock_weight_pct": 72.0,
+ "cash_pct": 27.79,
+ "stock_weight_pct": 72.21,
  "hedge_tmf_short": 0,
  "open": [
   {
@@ -17,97 +17,97 @@
    "name": "台積電",
    "entry_date": "2026-11-03",
    "entry_price": 2303.28,
-   "weight_pct": 14.62,
-   "last_price": 2150.0,
-   "net_pct_if_sold": -6.65
+   "weight_pct": 14.47,
+   "last_price": 2145.0,
+   "net_pct_if_sold": -6.87
   },
   {
    "code": "2603",
    "name": "長榮",
    "entry_date": "2026-11-03",
    "entry_price": 272.89,
-   "weight_pct": 6.54,
-   "last_price": 252.5,
-   "net_pct_if_sold": -7.47
+   "weight_pct": 6.53,
+   "last_price": 254.0,
+   "net_pct_if_sold": -6.92
   },
   {
    "code": "2412",
    "name": "中華電",
    "entry_date": "2026-11-10",
    "entry_price": 156.72,
-   "weight_pct": 5.77,
-   "last_price": 163.5,
-   "net_pct_if_sold": 4.32
+   "weight_pct": 5.83,
+   "last_price": 166.5,
+   "net_pct_if_sold": 6.24
   },
   {
    "code": "6199",
    "name": "天品",
    "entry_date": "2026-11-17",
    "entry_price": 169.24,
-   "weight_pct": 6.8,
-   "last_price": 172.5,
-   "net_pct_if_sold": 1.93
+   "weight_pct": 6.77,
+   "last_price": 173.0,
+   "net_pct_if_sold": 2.22
   },
   {
    "code": "2330",
    "name": "台積電（加碼A）",
    "entry_date": "2026-11-23",
    "entry_price": 1992.83,
-   "weight_pct": 5.25,
-   "last_price": 2150.0,
-   "net_pct_if_sold": 7.89
+   "weight_pct": 5.2,
+   "last_price": 2145.0,
+   "net_pct_if_sold": 7.64
   },
   {
    "code": "3711",
    "name": "日月光投控（加碼A）",
    "entry_date": "2026-11-23",
    "entry_price": 455.65,
-   "weight_pct": 5.18,
-   "last_price": 488.0,
-   "net_pct_if_sold": 7.1
+   "weight_pct": 5.39,
+   "last_price": 511.0,
+   "net_pct_if_sold": 12.15
   },
   {
    "code": "2465",
    "name": "麗臺",
    "entry_date": "2026-11-24",
    "entry_price": 124.68,
-   "weight_pct": 4.57,
-   "last_price": 112.5,
-   "net_pct_if_sold": -9.77
+   "weight_pct": 4.75,
+   "last_price": 118.0,
+   "net_pct_if_sold": -5.36
   },
   {
    "code": "6148",
    "name": "驊宏資",
    "entry_date": "2026-11-24",
    "entry_price": 52.57,
-   "weight_pct": 4.64,
-   "last_price": 49.25,
-   "net_pct_if_sold": -6.32
+   "weight_pct": 4.34,
+   "last_price": 46.45,
+   "net_pct_if_sold": -11.65
   },
   {
    "code": "2468",
    "name": "華經",
    "entry_date": "2026-11-24",
    "entry_price": 70.6,
-   "weight_pct": 4.46,
-   "last_price": 62.8,
-   "net_pct_if_sold": -11.05
+   "weight_pct": 4.36,
+   "last_price": 61.9,
+   "net_pct_if_sold": -12.32
   },
   {
    "code": "2355",
    "name": "敬鵬",
    "entry_date": "2026-11-24",
    "entry_price": 58.98,
-   "weight_pct": 4.72,
-   "last_price": 54.8,
-   "net_pct_if_sold": -7.09
+   "weight_pct": 5.14,
+   "last_price": 60.2,
+   "net_pct_if_sold": 2.06
   },
   {
    "code": "1476",
    "name": "儒鴻",
    "entry_date": "2026-11-24",
    "entry_price": 380.04,
-   "weight_pct": 4.7,
+   "weight_pct": 4.66,
    "last_price": 368.5,
    "net_pct_if_sold": -3.04
   },
@@ -117,8 +117,8 @@
    "entry_date": "2026-11-24",
    "entry_price": 46.37,
    "weight_pct": 4.77,
-   "last_price": 45.7,
-   "net_pct_if_sold": -1.44
+   "last_price": 46.05,
+   "net_pct_if_sold": -0.68
   }
  ],
  "closed": [
@@ -326,7 +326,12 @@
    "date": "2026-11-25",
    "PK": -5.866,
    "b0050": -12.028
+  },
+  {
+   "date": "2026-11-26",
+   "PK": -5.151,
+   "b0050": -9.543
   }
  ],
- "note": "11/25 無成交。費半前一晚−7.88%，亞洲AI／晶片股同步殺盤，加權−4.80%(38,195)、櫃買−5.89%、0050含息−5.64%；帳戶−2.85%，中華電、天品、儒鴻、長榮等非AI部位抗跌，超額擴大到+6.16個百分點。收盤融資維持率估151.61%，無停損/移動停利觸發，避險冷卻中，無新單。"
+ "note": "11/26 無成交。301關稅對台15%封頂被解讀為相對利多、新台幣升1.79角，加權+2.50%(39,152)、櫃買+5.03%、0050含息+2.82%；帳戶+0.76%，敬鵬漲停、日月光與麗臺漲近5%，但台積電平盤、驊宏資−5.69%，超額收斂到+4.39個百分點。融資維持率估159.67%，華經盤中逼近停損但收盤61.9未觸發，無停損/移動停利觸發，避險冷卻中，無新單。"
 }
