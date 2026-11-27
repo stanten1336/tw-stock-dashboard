@@ -1,15 +1,15 @@
 {
  "name": "股票ＰＫ自主投資紙上帳戶",
  "start": "2026-11-02",
- "updated": "2026-11-26",
+ "updated": "2026-11-27",
  "state": "ok",
  "strategy_version": "v1.2",
- "total_pct": -5.15,
- "b0050_pct": -9.543,
- "vs_0050_pp": 4.393,
+ "total_pct": -5.55,
+ "b0050_pct": -9.982,
+ "vs_0050_pp": 4.429,
  "max_drawdown_pct": -10.204,
- "cash_pct": 27.79,
- "stock_weight_pct": 72.21,
+ "cash_pct": 27.91,
+ "stock_weight_pct": 72.09,
  "hedge_tmf_short": 0,
  "open": [
   {
@@ -17,34 +17,34 @@
    "name": "台積電",
    "entry_date": "2026-11-03",
    "entry_price": 2303.28,
-   "weight_pct": 14.47,
-   "last_price": 2145.0,
-   "net_pct_if_sold": -6.87
+   "weight_pct": 14.77,
+   "last_price": 2180.0,
+   "net_pct_if_sold": -5.35
   },
   {
    "code": "2603",
    "name": "長榮",
    "entry_date": "2026-11-03",
    "entry_price": 272.89,
-   "weight_pct": 6.53,
-   "last_price": 254.0,
-   "net_pct_if_sold": -6.92
+   "weight_pct": 6.43,
+   "last_price": 249.0,
+   "net_pct_if_sold": -8.75
   },
   {
    "code": "2412",
    "name": "中華電",
    "entry_date": "2026-11-10",
    "entry_price": 156.72,
-   "weight_pct": 5.83,
-   "last_price": 166.5,
-   "net_pct_if_sold": 6.24
+   "weight_pct": 5.82,
+   "last_price": 165.5,
+   "net_pct_if_sold": 5.6
   },
   {
    "code": "6199",
    "name": "天品",
    "entry_date": "2026-11-17",
    "entry_price": 169.24,
-   "weight_pct": 6.77,
+   "weight_pct": 6.8,
    "last_price": 173.0,
    "net_pct_if_sold": 2.22
   },
@@ -53,43 +53,43 @@
    "name": "台積電（加碼A）",
    "entry_date": "2026-11-23",
    "entry_price": 1992.83,
-   "weight_pct": 5.2,
-   "last_price": 2145.0,
-   "net_pct_if_sold": 7.64
+   "weight_pct": 5.31,
+   "last_price": 2180.0,
+   "net_pct_if_sold": 9.39
   },
   {
    "code": "3711",
    "name": "日月光投控（加碼A）",
    "entry_date": "2026-11-23",
    "entry_price": 455.65,
-   "weight_pct": 5.39,
-   "last_price": 511.0,
-   "net_pct_if_sold": 12.15
+   "weight_pct": 5.44,
+   "last_price": 514.0,
+   "net_pct_if_sold": 12.81
   },
   {
    "code": "2465",
    "name": "麗臺",
    "entry_date": "2026-11-24",
    "entry_price": 124.68,
-   "weight_pct": 4.75,
-   "last_price": 118.0,
-   "net_pct_if_sold": -5.36
+   "weight_pct": 4.45,
+   "last_price": 110.0,
+   "net_pct_if_sold": -11.77
   },
   {
    "code": "6148",
    "name": "驊宏資",
    "entry_date": "2026-11-24",
    "entry_price": 52.57,
-   "weight_pct": 4.34,
-   "last_price": 46.45,
-   "net_pct_if_sold": -11.65
+   "weight_pct": 4.21,
+   "last_price": 44.85,
+   "net_pct_if_sold": -14.69
   },
   {
    "code": "2468",
    "name": "華經",
    "entry_date": "2026-11-24",
    "entry_price": 70.6,
-   "weight_pct": 4.36,
+   "weight_pct": 4.38,
    "last_price": 61.9,
    "net_pct_if_sold": -12.32
   },
@@ -98,27 +98,27 @@
    "name": "敬鵬",
    "entry_date": "2026-11-24",
    "entry_price": 58.98,
-   "weight_pct": 5.14,
-   "last_price": 60.2,
-   "net_pct_if_sold": 2.06
+   "weight_pct": 5.08,
+   "last_price": 59.2,
+   "net_pct_if_sold": 0.37
   },
   {
    "code": "1476",
    "name": "儒鴻",
    "entry_date": "2026-11-24",
    "entry_price": 380.04,
-   "weight_pct": 4.66,
-   "last_price": 368.5,
-   "net_pct_if_sold": -3.04
+   "weight_pct": 4.69,
+   "last_price": 369.0,
+   "net_pct_if_sold": -2.91
   },
   {
    "code": "2618",
    "name": "長榮航",
    "entry_date": "2026-11-24",
    "entry_price": 46.37,
-   "weight_pct": 4.77,
-   "last_price": 46.05,
-   "net_pct_if_sold": -0.68
+   "weight_pct": 4.73,
+   "last_price": 45.45,
+   "net_pct_if_sold": -1.98
   }
  ],
  "closed": [
@@ -331,7 +331,12 @@
    "date": "2026-11-26",
    "PK": -5.151,
    "b0050": -9.543
+  },
+  {
+   "date": "2026-11-27",
+   "PK": -5.553,
+   "b0050": -9.982
   }
  ],
- "note": "11/26 無成交。301關稅對台15%封頂被解讀為相對利多、新台幣升1.79角，加權+2.50%(39,152)、櫃買+5.03%、0050含息+2.82%；帳戶+0.76%，敬鵬漲停、日月光與麗臺漲近5%，但台積電平盤、驊宏資−5.69%，超額收斂到+4.39個百分點。融資維持率估159.67%，華經盤中逼近停損但收盤61.9未觸發，無停損/移動停利觸發，避險冷卻中，無新單。"
+ "note": "11/27 無成交。九合一選前最後交易日、美股感恩節後半日，加權+0.40%(39,308，台積電尾盤拉升+1.63%)、櫃買−1.40%、0050含息−0.48%；帳戶−0.42%，麗臺−6.78%、驊宏資−3.44%拖累。驊宏資與華經盤中跌破停損但收盤44.85／61.9守住(看收盤規則)，無停損/移動停利觸發。外資連10賣(−296億)，融資維持率估158.41%(<160%)，避險冷卻中，無新單；11/30週一盤後跑換股。"
 }
